@@ -1,0 +1,1001 @@
+timestamp,time_elapsed,host_name,event_name,cpu_id,process_details,kernel_details
+06:13:02.242957703,(++0.000004875),synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,(++0.000000542),mendax,syscall_entry_connect,1,"procname = curl, pid = 14348, tid = 14348","fd = 3, uservaddr = 281473988939624, addrlen = 110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,(++0.000004875),synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,(++0.000000542),mendax,syscall_entry_connect,1,"procname = curl, pid = 14348, tid = 14348","fd = 3, uservaddr = 281473988939624, addrlen = 110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,(++0.000004875),synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,++0.000000542,mendax,syscall_entry_connect,1,"procname = curl, pid = 14348, tid = 14348","fd = 3, uservaddr = 281473988939624, addrlen = 110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,++0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,++0.000000542,mendax,syscall_entry_connect,1,"procname = curl, pid = 14348, tid = 14348","fd = 3, uservaddr = 281473988939624, addrlen = 110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,++0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname = curl, pid = 14348, tid = 14348","fd = 3, uservaddr = 281473988939624, addrlen = 110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,++0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname = curl, pid = 14348, tid = 14348","fd = 3, uservaddr = 281473988939624, addrlen = 110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,++0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname = curl, pid = 14348, tid = 14348","fd = 3, uservaddr = 281473988939624, addrlen = 110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,++0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname = curl, pid = 14348, tid = 14348","fd = 3, uservaddr = 281473988939624, addrlen = 110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,++0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname = curl, pid = 14348, tid = 14348","fd = 3, uservaddr = 281473988939624, addrlen = 110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname = curl, pid = 14348, tid = 14348","fd = 3, uservaddr = 281473988939624, addrlen = 110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname = curl, pid = 14348, tid = 14348","fd = 3, uservaddr = 281473988939624, addrlen = 110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname = curl, pid = 14348, tid = 14348","fd = 3, uservaddr = 281473988939624, addrlen = 110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname = curl, pid = 14348, tid = 14348","fd = 3, uservaddr = 281473988939624, addrlen = 110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname = curl, pid = 14348, tid = 14348","fd = 3, uservaddr = 281473988939624, addrlen = 110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname = curl, pid = 14348, tid = 14348","fd = 3, uservaddr = 281473988939624, addrlen = 110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname = curl, pid = 14348, tid = 14348","fd = 3, uservaddr = 281473988939624, addrlen = 110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname = curl, pid = 14348, tid = 14348","fd = 3, uservaddr = 281473988939624, addrlen = 110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname = curl, pid = 14348, tid = 14348",ret = 3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,(++0.000002083),mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname = curl, pid = 14348, tid = 14348","count = 0, flags = 526336"
+06:13:02.243024326,++0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,(++0.000004666),mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,++0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,++0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,(++0.000000042),mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,++0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,++0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,++0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,++0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,++0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,++0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,++0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,++0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,++0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,++0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,++0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,++0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,++0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,++0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,++0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,++0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,++0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,++0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,++0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,++0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,++0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,++0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,++0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,++0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,mendax,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,synthetic-host,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,synthetic-host,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,synthetic-host,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,synthetic-host,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,synthetic-host,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,synthetic-host,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,synthetic-host,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,synthetic-host,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,synthetic-host,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,synthetic-host,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,synthetic-host,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,synthetic-host,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,synthetic-host,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,synthetic-host,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,synthetic-host,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,synthetic-host,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242957703,+0.000004875,synthetic-host,syscall_entry_socket,1,"procname=curl,pid=14348,tid=14348","family=1,type=526337,protocol=0"
+06:13:02.242962369,+0.000004666,mendax,syscall_exit_socket,1,"procname=curl,pid=14348,tid=14348",ret=3
+06:13:02.242962911,+0.000000542,synthetic-host,syscall_entry_connect,1,"procname=curl,pid=14348,tid=14348","fd=3,uservaddr=281473988939624,addrlen=110"
+06:13:02.243022243,+0.000000042,mendax,syscall_entry_eventfd2,1,"procname=curl,pid=14348,tid=14348","count=0,flags=526336"
+06:13:02.243024326,+0.000002083,mendax,syscall_exit_eventfd2,1,"procname=curl,pid=14348,tid=14348",ret=3
