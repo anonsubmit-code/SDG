@@ -1,0 +1,1036 @@
+timestamp,time_elapsed,host_name,event_name,cpu_id,procname,process_details,kernel_details
+'06:13:02.232233698,1.25e-07,mendax,syscall_exit_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656760"
+'06:13:02.232233823,1.25e-07,mendax,syscall_entry_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070925, arg = 275115444656768"
+'06:13:02.232233948,1.25e-07,mendax,syscall_exit_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656768"
+'06:13:02.232234114,1.66e-07,mendax,syscall_entry_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070923, arg = 275115444656688"
+'06:13:02.232234239,1.25e-07,mendax,syscall_exit_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656688"
+'06:13:02.232234489,2.5e-07,mendax,syscall_entry_write,0.0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, buf = 275115481837568, count = 4096"
+'06:13:02.232236239,1.75e-06,mendax,syscall_exit_write,0.0,lttng-consumerd,"pid = 14323, tid = 14330",ret = 4096
+'06:13:02.232236447,2.08e-07,mendax,syscall_entry_sync_file_range,0.0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 143360, nbytes = 4096, flags = 2"
+'06:13:02.232244864,8.417e-06,mendax,syscall_exit_sync_file_range,0.0,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0
+'06:13:02.232245322,4.58e-07,mendax,syscall_entry_sync_file_range,0.0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 139264, nbytes = 4096, flags = 7"
+'06:13:02.232245572,2.5e-07,mendax,syscall_exit_sync_file_range,0.0,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0
+'06:13:02.232245822,2.5e-07,mendax,syscall_entry_fadvise64_64,0.0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 139264, len = 4096, advice = 4"
+'06:13:02.232246697,8.75e-07,mendax,syscall_exit_fadvise64_64,0.0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 139264, len = 4096, advice = 4"
+'06:13:02.232247031,3.34e-07,mendax,syscall_entry_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 62982, arg = 275115481893672"
+'06:13:02.232247281,2.5e-07,mendax,syscall_exit_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672"
+'06:13:02.232247655,3.74e-07,mendax,syscall_entry_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 62981, arg = 275115481893672"
+'06:13:02.232273030,2.5375e-05,mendax,syscall_exit_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672"
+'06:13:02.232273321,2.91e-07,mendax,syscall_entry_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070919, arg = 275115444656752"
+'06:13:02.232273488,1.67e-07,mendax,syscall_exit_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656752"
+'06:13:02.232273655,1.67e-07,mendax,syscall_entry_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070920, arg = 275115444656760"
+'06:13:02.232273821,1.66e-07,mendax,syscall_exit_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656760"
+'06:13:02.232273988,1.67e-07,mendax,syscall_entry_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070925, arg = 275115444656768"
+'06:13:02.232274155,1.67e-07,mendax,syscall_exit_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656768"
+'06:13:02.232274321,1.66e-07,mendax,syscall_entry_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070923, arg = 275115444656688"
+'06:13:02.232274446,1.25e-07,mendax,syscall_exit_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656688"
+'06:13:02.232274738,2.92e-07,mendax,syscall_entry_write,0.0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, buf = 275115481833472, count = 4096"
+'06:13:02.232276238,1.5e-06,mendax,syscall_exit_write,0.0,lttng-consumerd,"pid = 14323, tid = 14330",ret = 4096
+'06:13:02.232276488,2.5e-07,mendax,syscall_entry_sync_file_range,0.0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 147456, nbytes = 4096, flags = 2"
+'06:13:02.232284738,8.25e-06,mendax,syscall_exit_sync_file_range,0.0,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0
+'06:13:02.232285154,4.16e-07,mendax,syscall_entry_sync_file_range,0.0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 143360, nbytes = 4096, flags = 7"
+'06:13:02.232285404,2.5e-07,mendax,syscall_exit_sync_file_range,0.0,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0
+'06:13:02.232285613,2.09e-07,mendax,syscall_entry_fadvise64_64,0.0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 143360, len = 4096, advice = 4"
+'06:13:02.232286446,8.33e-07,mendax,syscall_exit_fadvise64_64,0.0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 143360, len = 4096, advice = 4"
+'06:13:02.232286779,3.33e-07,mendax,syscall_entry_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 62982, arg = 275115481893672"
+'06:13:02.232286988,2.09e-07,mendax,syscall_exit_ioctl,0.0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672"
+'06:13:02.232273321,0.08214045315980911,mendax,syscall_entry_munmap,0.20983128249645233,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232247655,0.13483262062072754,mendax,syscall_exit_ioctl,0.224460169672966,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656752"
+'06:13:02.232273321,0.08263636380434036,mendax,syscall_entry_munmap,0.20725016295909882,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, buf = 275115481837568, count = 4096"
+'06:13:02.232247281,0.133148193359375,mendax,syscall_exit_ioctl,0.22396712005138397,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656752"
+'06:13:02.232273321,0.08204055577516556,mendax,syscall_entry_munmap,0.20565514266490936,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, buf = 275115481837568, count = 4096"
+'06:13:02.232247031,0.1305983066558838,mendax,syscall_exit_ioctl,0.22352032363414764,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656760"
+'06:13:02.232273321,0.08338762074708939,mendax,syscall_entry_munmap,0.20493893325328827,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, buf = 275115481837568, count = 4096"
+'06:13:02.232273988,0.1445174217224121,mendax,syscall_exit_ioctl,0.22409920394420624,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 248272618772584"
+'06:13:02.232273988,0.08678842335939407,mendax,syscall_entry_munmap,0.2157178372144699,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232273988,0.1437692642211914,mendax,syscall_exit_ioctl,0.22393183410167694,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 248272618772584"
+'06:13:02.232273988,0.08626032620668411,mendax,syscall_entry_munmap,0.2155623883008957,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232273988,0.1434187889099121,mendax,syscall_exit_ioctl,0.22385983169078827,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 248272618772584"
+'06:13:02.232273988,0.08631230145692825,mendax,syscall_entry_munmap,0.21554236114025116,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232273988,0.14368224143981934,mendax,syscall_exit_ioctl,0.2239098995923996,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 248272618772584"
+'06:13:02.232273988,0.08603263646364212,mendax,syscall_entry_munmap,0.21563200652599335,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232273988,0.14315247535705566,mendax,syscall_exit_ioctl,0.223849818110466,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 248272618772584"
+'06:13:02.232273988,0.08557868748903275,mendax,syscall_entry_munmap,0.21530775725841522,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232273821,0.14244794845581055,mendax,syscall_exit_ioctl,0.2237740010023117,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656688"
+'06:13:02.232273821,0.08493519574403763,mendax,syscall_entry_munmap,0.21476320922374725,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232273821,0.14137578010559082,mendax,syscall_exit_ioctl,0.22364716231822968,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656688"
+'06:13:02.232273821,0.0842909887433052,mendax,syscall_entry_munmap,0.2138233631849289,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232273655,0.13999176025390625,mendax,syscall_exit_ioctl,0.22338061034679413,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656688"
+'06:13:02.232273821,0.08347583562135696,mendax,syscall_entry_munmap,0.2123899906873703,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232273488,0.13812804222106934,mendax,syscall_exit_ioctl,0.2228250950574875,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656688"
+'06:13:02.232273655,0.08253002911806107,mendax,syscall_entry_munmap,0.21083788573741913,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232273321,0.1356220245361328,mendax,syscall_exit_ioctl,0.22239689528942108,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656752"
+'06:13:02.232273821,0.08294273167848587,mendax,syscall_entry_munmap,0.2128639668226242,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232284738,0.15329337120056152,mendax,syscall_exit_getsockopt,0.23463062942028046,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 0"
+'06:13:02.232274738,0.08622575551271439,mendax,syscall_entry_ppoll,0.2352190464735031,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232284738,0.1529521942138672,mendax,syscall_exit_getsockopt,0.2348208874464035,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 0"
+'06:13:02.232274738,0.08559203892946243,mendax,syscall_entry_ppoll,0.23591236770153046,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232284738,0.15304303169250488,mendax,syscall_exit_getsockopt,0.23606590926647186,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 0"
+'06:13:02.232274738,0.08562923222780228,mendax,syscall_entry_ppoll,0.23699001967906952,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285154,0.15383529663085938,mendax,syscall_exit_getsockopt,0.23724417388439178,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0
+'06:13:02.232274738,0.0856931284070015,mendax,syscall_entry_ppoll,0.23768429458141327,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285154,0.1539597511291504,mendax,syscall_exit_getsockopt,0.23792700469493866,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0
+'06:13:02.232274738,0.08558536320924759,mendax,syscall_entry_ppoll,0.238284632563591,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285154,0.1541435718536377,mendax,syscall_exit_getsockopt,0.23874621093273163,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0
+'06:13:02.232274738,0.08547426015138626,mendax,syscall_entry_ppoll,0.23895363509655,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285154,0.15436100959777832,mendax,syscall_exit_getsockopt,0.2396116703748703,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0
+'06:13:02.232274738,0.08542943745851517,mendax,syscall_entry_ppoll,0.23961548507213593,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285154,0.15453648567199707,mendax,syscall_exit_getsockopt,0.24014858901500702,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0
+'06:13:02.232274738,0.08533383160829544,mendax,syscall_entry_ppoll,0.23994116485118866,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285404,0.15459823608398438,mendax,syscall_exit_getsockopt,0.24066929519176483,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0
+'06:13:02.232276238,0.08522916585206985,mendax,syscall_entry_ppoll,0.24030213057994843,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285404,0.1546649932861328,mendax,syscall_exit_getsockopt,0.24119047820568085,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0
+'06:13:02.232276238,0.08512450009584427,mendax,syscall_entry_ppoll,0.24067740142345428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285404,0.15474462509155273,mendax,syscall_exit_getsockopt,0.2417159527540207,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0
+'06:13:02.232276238,0.08502913266420364,mendax,syscall_entry_ppoll,0.24101833999156952,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285404,0.15481996536254883,mendax,syscall_exit_getsockopt,0.24224333465099335,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0
+'06:13:02.232276238,0.08493853360414505,mendax,syscall_entry_ppoll,0.24138741195201874,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285404,0.15491867065429688,mendax,syscall_exit_getsockopt,0.24278788268566132,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0
+'06:13:02.232276238,0.08486104756593704,mendax,syscall_entry_ppoll,0.2417793720960617,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285404,0.15503668785095215,mendax,syscall_exit_getsockopt,0.24338917434215546,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0
+'06:13:02.232276238,0.08480215817689896,mendax,syscall_entry_ppoll,0.24221281707286835,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285404,0.155181884765625,mendax,syscall_exit_getsockopt,0.24402765929698944,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0
+'06:13:02.232276238,0.08474469929933548,mendax,syscall_entry_ppoll,0.24269871413707733,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1553635597229004,mendax,syscall_exit_getsockopt,0.24473528563976288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.0847179964184761,mendax,syscall_entry_ppoll,0.2432442158460617,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15558218955993652,mendax,syscall_exit_getsockopt,0.2453799694776535,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.0847942903637886,mendax,syscall_entry_ppoll,0.24369005858898163,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1557626724243164,mendax,syscall_exit_getsockopt,0.24539045989513397,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08490348607301712,mendax,syscall_entry_ppoll,0.24364237487316132,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15578722953796387,mendax,syscall_exit_getsockopt,0.2454996556043625,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08489442616701126,mendax,syscall_entry_ppoll,0.2437148541212082,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1558208465576172,mendax,syscall_exit_getsockopt,0.2455945461988449,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08488918095827103,mendax,syscall_entry_ppoll,0.2437754124403,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15584516525268555,mendax,syscall_exit_getsockopt,0.24566559493541718,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08490372449159622,mendax,syscall_entry_ppoll,0.24382595717906952,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15587091445922852,mendax,syscall_exit_getsockopt,0.24573616683483124,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08490634709596634,mendax,syscall_entry_ppoll,0.24387650191783905,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1558847427368164,mendax,syscall_exit_getsockopt,0.24579958617687225,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08490658551454544,mendax,syscall_entry_ppoll,0.24391703307628632,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15589570999145508,mendax,syscall_exit_getsockopt,0.24584440886974335,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08490873128175735,mendax,syscall_entry_ppoll,0.24394898116588593,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15591883659362793,mendax,syscall_exit_getsockopt,0.24589590728282928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08490944653749466,mendax,syscall_entry_ppoll,0.24398092925548553,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15593242645263672,mendax,syscall_exit_getsockopt,0.2459459751844406,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08490944653749466,mendax,syscall_entry_ppoll,0.24400953948497772,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15594887733459473,mendax,syscall_exit_getsockopt,0.2459745854139328,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08490992337465286,mendax,syscall_entry_ppoll,0.24403958022594452,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1559581756591797,mendax,syscall_exit_getsockopt,0.24601702392101288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08491278439760208,mendax,syscall_entry_ppoll,0.2440658062696457,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1559755802154541,mendax,syscall_exit_getsockopt,0.2460375279188156,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08492255955934525,mendax,syscall_entry_ppoll,0.24408583343029022,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15598583221435547,mendax,syscall_exit_getsockopt,0.24606995284557343,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08491779118776321,mendax,syscall_entry_ppoll,0.24410109221935272,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15599608421325684,mendax,syscall_exit_getsockopt,0.24608425796031952,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08493281155824661,mendax,syscall_entry_ppoll,0.24411682784557343,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15600872039794922,mendax,syscall_exit_getsockopt,0.2460985630750656,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08494210988283157,mendax,syscall_entry_ppoll,0.2441268414258957,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15601253509521484,mendax,syscall_exit_getsockopt,0.24610047042369843,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.0849471166729927,mendax,syscall_entry_ppoll,0.24413113296031952,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1560192108154297,mendax,syscall_exit_getsockopt,0.24610619246959686,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.0849616602063179,mendax,syscall_entry_ppoll,0.2441287487745285,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15601634979248047,mendax,syscall_exit_getsockopt,0.24610714614391327,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08495879918336868,mendax,syscall_entry_ppoll,0.24413542449474335,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1560220718383789,mendax,syscall_exit_getsockopt,0.24611859023571014,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.0849604681134224,mendax,syscall_entry_ppoll,0.2441430538892746,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602397918701172,mendax,syscall_exit_getsockopt,0.246125265955925,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08496380597352982,mendax,syscall_entry_ppoll,0.24413923919200897,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602517127990723,mendax,syscall_exit_getsockopt,0.2461286038160324,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08496428281068802,mendax,syscall_entry_ppoll,0.2441425770521164,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1560213565826416,mendax,syscall_exit_getsockopt,0.2461266964673996,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08496809750795364,mendax,syscall_entry_ppoll,0.24414591491222382,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602874755859375,mendax,syscall_exit_getsockopt,0.24613480269908905,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08496428281068802,mendax,syscall_entry_ppoll,0.24414829909801483,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1560211181640625,mendax,syscall_exit_getsockopt,0.2461290806531906,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08496452122926712,mendax,syscall_entry_ppoll,0.24414972960948944,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602564811706543,mendax,syscall_exit_getsockopt,0.24613051116466522,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08496642857789993,mendax,syscall_entry_ppoll,0.24415068328380585,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602803230285645,mendax,syscall_exit_getsockopt,0.24613051116466522,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497048169374466,mendax,syscall_entry_ppoll,0.24415020644664764,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603232383728027,mendax,syscall_exit_getsockopt,0.2461266964673996,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08496452122926712,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1560347080230713,mendax,syscall_exit_getsockopt,0.24613384902477264,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08496738225221634,mendax,syscall_entry_ppoll,0.24414829909801483,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1560351848602295,mendax,syscall_exit_getsockopt,0.24613194167613983,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08496928960084915,mendax,syscall_entry_ppoll,0.24415259063243866,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603184700012207,mendax,syscall_exit_getsockopt,0.24613337218761444,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08496738225221634,mendax,syscall_entry_ppoll,0.24415211379528046,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613432586193085,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497072011232376,mendax,syscall_entry_ppoll,0.24415020644664764,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1560344696044922,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08496809750795364,mendax,syscall_entry_ppoll,0.24415402114391327,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.156036376953125,mendax,syscall_exit_getsockopt,0.24613861739635468,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497262746095657,mendax,syscall_entry_ppoll,0.24415020644664764,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1560373306274414,mendax,syscall_exit_getsockopt,0.2461405247449875,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497215062379837,mendax,syscall_entry_ppoll,0.24415116012096405,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1560366153717041,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497262746095657,mendax,syscall_entry_ppoll,0.24415116012096405,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1560368537902832,mendax,syscall_exit_getsockopt,0.24613575637340546,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497000485658646,mendax,syscall_entry_ppoll,0.24414877593517303,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1560378074645996,mendax,syscall_exit_getsockopt,0.24613527953624725,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497286587953568,mendax,syscall_entry_ppoll,0.24415116012096405,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603876113891602,mendax,syscall_exit_getsockopt,0.24613861739635468,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497191220521927,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1560380458831787,mendax,syscall_exit_getsockopt,0.24613957107067108,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497095853090286,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603280067443848,mendax,syscall_exit_getsockopt,0.24613480269908905,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497072011232376,mendax,syscall_entry_ppoll,0.24415402114391327,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1560380458831787,mendax,syscall_exit_getsockopt,0.2461414784193039,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497072011232376,mendax,syscall_entry_ppoll,0.24415402114391327,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1560347080230713,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497310429811478,mendax,syscall_entry_ppoll,0.24415354430675507,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1560347080230713,mendax,syscall_exit_getsockopt,0.24613861739635468,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497167378664017,mendax,syscall_entry_ppoll,0.24415497481822968,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1560351848602295,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415545165538788,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603137016296387,mendax,syscall_exit_getsockopt,0.24613766372203827,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497191220521927,mendax,syscall_entry_ppoll,0.24415545165538788,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603137016296387,mendax,syscall_exit_getsockopt,0.24613814055919647,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497215062379837,mendax,syscall_entry_ppoll,0.24415354430675507,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603160858154297,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415259063243866,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603160858154297,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497119694948196,mendax,syscall_entry_ppoll,0.24415354430675507,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603113174438477,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.0849757269024849,mendax,syscall_entry_ppoll,0.24415259063243866,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603303909301758,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415259063243866,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603065490722656,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497119694948196,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603137016296387,mendax,syscall_exit_getsockopt,0.2461405247449875,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603137016296387,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415497481822968,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497310429811478,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415306746959686,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613861739635468,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.1560347080230713,mendax,syscall_exit_getsockopt,0.24613766372203827,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603232383728027,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415354430675507,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613814055919647,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461438626050949,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415306746959686,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415306746959686,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461438626050949,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415306746959686,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613814055919647,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497119694948196,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461438626050949,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613527953624725,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497119694948196,mendax,syscall_entry_ppoll,0.2441583126783371,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.0849769189953804,mendax,syscall_entry_ppoll,0.24415545165538788,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415306746959686,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415306746959686,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415306746959686,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497119694948196,mendax,syscall_entry_ppoll,0.2441583126783371,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603232383728027,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461438626050949,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415306746959686,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497119694948196,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415497481822968,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613814055919647,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461438626050949,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415306746959686,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613814055919647,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613814055919647,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461438626050949,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613671004772186,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415497481822968,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613527953624725,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415497481822968,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603232383728027,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613527953624725,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497095853090286,mendax,syscall_entry_ppoll,0.2441583126783371,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415306746959686,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497215062379837,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415306746959686,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415306746959686,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613861739635468,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415306746959686,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497095853090286,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497119694948196,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415306746959686,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613623321056366,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415354430675507,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613527953624725,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613527953624725,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415354430675507,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415497481822968,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613814055919647,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415497481822968,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415497481822968,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497119694948196,mendax,syscall_entry_ppoll,0.2441583126783371,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497310429811478,mendax,syscall_entry_ppoll,0.24415545165538788,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461438626050949,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613623321056366,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415306746959686,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497095853090286,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415497481822968,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613814055919647,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497119694948196,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415354430675507,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415306746959686,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461438626050949,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603375434875488,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613814055919647,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461438626050949,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613527953624725,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613814055919647,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461429089307785,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24613909423351288,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.2461419552564621,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497405797243118,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.24613718688488007,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415640532970428,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15602993965148926,mendax,syscall_exit_getsockopt,0.2461410015821457,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.084975965321064,mendax,syscall_entry_ppoll,0.24415306746959686,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603041648864746,mendax,syscall_exit_getsockopt,0.24614004790782928,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115
+'06:13:02.232276238,0.08497501164674759,mendax,syscall_entry_ppoll,0.24415449798107147,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 0, len = 4096, advice = 4"
+'06:13:02.232285613,0.15603423118591309,mendax,syscall_exit_getsockopt,0.2461438626050949,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115

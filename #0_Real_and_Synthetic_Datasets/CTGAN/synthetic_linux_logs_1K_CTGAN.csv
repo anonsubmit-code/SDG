@@ -1,0 +1,1001 @@
+timestamp,time_elapsed,host_name,event_name,cpu_id,procname,process_details,kernel_details,unique_id
+''06:13:02.231127808,0.000000167,synthetic_host,syscall_entry_sync_file_range,3,gnome-shell,"pid = 14323, tid = 14330","ret = 0, uaddr = 194557001040348, uaddr2 = 0",5348437
+''06:13:02.232285952,0.000000667,synthetic_host,syscall_entry_sync_file_range,0,curl,"pid = 14345, tid = 14345","ret = 0, arg = 275115444656760",7340150
+''06:13:02.229402112,0.000000583,synthetic_host,syscall_exit_futex,1,lttng-consumerd,"pid = 14324, tid = 14324","ret = 0, arg = 275115444656688",13782587
+''06:13:02.230876160,0.000000083,synthetic_host,syscall_exit_read,3,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070919, arg = 275115444656752",11806978
+''06:13:02.231434496,0.000001875,synthetic_host,syscall_exit_ioctl,3,lttng-consumerd,"pid = 14345, tid = 14345","ret = 2, arg = 50",12505154
+''06:13:02.231899648,0.000002208,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0,3432311
+''06:13:02.231712,0.000000292,synthetic_host,syscall_exit_ioctl,1,curl,"pid = 14323, tid = 14330","fd = 35, offset = 126976, nbytes = 4096, flags = 2",4720545
+''06:13:02.229103872,0.000000209,synthetic_host,syscall_entry_getpid,0,lttng-consumerd,"pid = 11822, tid = 11841","ret = 0, uaddr = 194557001039528, uaddr2 = 0",14071712
+''06:13:02.231936768,0.000001750,synthetic_host,syscall_exit_getpid,0,lttng-consumerd,"pid = 14345, tid = 14345","fd = 35, offset = 24576, nbytes = 4096, flags = 2",9220758
+''06:13:02.230907648,0.000000333,synthetic_host,syscall_exit_futex,0,elasticsearchm,"pid = 14323, tid = 14330","uaddr = 267960194247448, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 0",2827457
+''06:13:02.232285952,0.000000208,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 194557001039528, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336",8746432
+''06:13:02.230810880,0.000002375,synthetic_host,syscall_exit_getpid,2,curl,"pid = 14323, tid = 14330","fd = 35, buf = 275115481833472, count = 4096",9366551
+''06:13:02.229370368,0.000000250,synthetic_host,syscall_entry_futex,3,lttng-consumerd,"pid = 12061, tid = 12061",fd = 4,14839785
+''06:13:02.231246080,0.000006833,synthetic_host,syscall_exit_futex,2,data-loop.0,"pid = 14345, tid = 14345","ret = 0, usockaddr = 281474913772424, usockaddr_len = 281474913772420",12885876
+''06:13:02.231739136,0.000011583,synthetic_host,syscall_exit_futex,3,llvmpipe-2,"pid = 3154, tid = 3154","ret = 0, uaddr = 194557001051044, uaddr2 = 0",6136531
+''06:13:02.231789312,0.000000791,synthetic_host,syscall_exit_futex,3,lttng-consumerd,"pid = 11822, tid = 11859",ret = 0,14751436
+''06:13:02.232285952,0.000000167,synthetic_host,syscall_entry_ioctl,3,curl,"pid = 14323, tid = 14330","POLLIN = 0, POLLPRI = 1, POLLOUT = 1, POLLERR = 0, POLLHUP = 0, padding = 0",2687235
+''06:13:02.228321536,0.000000791,synthetic_host,syscall_exit_futex,0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 2, arg = 50",6528068
+''06:13:02.228361216,0.000000458,synthetic_host,syscall_exit_rt_sigaction,0,curl,"pid = 3154, tid = 3214","ret = 8, buf = 281458146600240",9956542
+''06:13:02.229198336,0.000021207,synthetic_host,syscall_exit_getpid,3,lttng-consumerd,"pid = 11822, tid = 11859",ret = 0,11963538
+''06:13:02.228963072,0.000000375,synthetic_host,syscall_entry_ioctl,0,curl,"pid = 14323, tid = 14330","ret = 0, uaddr = 194557001039612, uaddr2 = 0",7093856
+''06:13:02.231058688,0.000003416,synthetic_host,syscall_entry_ioctl,3,elasticsearchm,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070923, arg = 275115444656688",11557734
+''06:13:02.228405760,0.000010458,synthetic_host,syscall_entry_getsockname,3,lttng-consumerd,"pid = 14323, tid = 14330","epfd = 13, maxevents = 1024, timeout = 0, sigmask = 0x0, sigsetsize = 8",1649738
+''06:13:02.231862016,0.000000125,synthetic_host,syscall_exit_fcntl,0,elasticsearchm,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 8192, len = 4096, advice = 4",5323295
+''06:13:02.229562368,0.000000417,synthetic_host,syscall_entry_ioctl,3,elasticsearchm,"pid = 3154, tid = 3154","fd = 576, count = 65536",11166370
+''06:13:02.232174080,0.000006666,synthetic_host,syscall_exit_write,3,elasticsearchm,"pid = 14344, tid = 14344","POLLIN = 1, POLLPRI = 0, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",887361
+''06:13:02.231533824,0.000026416,synthetic_host,syscall_entry_ppoll,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 4, size = 5, flags = 0, addr_len = 0",11361872
+''06:13:02.230797824,0.000000125,synthetic_host,syscall_entry_sendto,3,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656688",939481
+''06:13:02.231193344,0.000000416,synthetic_host,syscall_entry_write,0,gnome-shell,"pid = 14323, tid = 14330","fd = 35, offset = 77824, nbytes = 4096, flags = 2",6465975
+''06:13:02.230949376,0.000000583,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 14345, tid = 14345","fd = 34, cmd = 2148070923, arg = 275115444656688",5441763
+''06:13:02.228270592,0.000000125,synthetic_host,syscall_exit_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 122880, len = 4096, advice = 4",5184379
+''06:13:02.228599552,0.000002833,synthetic_host,syscall_exit_getpid,3,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656760",15350328
+''06:13:02.232285952,0.000012291,synthetic_host,syscall_entry_futex,3,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 20480, nbytes = 4096, flags = 7",2577541
+''06:13:02.232285952,0.000003125,synthetic_host,syscall_entry_fcntl,2,curl,"pid = 14323, tid = 14330","uaddr = 194557001039896, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465704",2294386
+''06:13:02.230784256,0.000000208,synthetic_host,syscall_exit_sync_file_range,1,lttng-consumerd,"pid = 3154, tid = 3216","ret = -11, ubuf = 222501009492467, addr = 0, addr_len = 0",1998529
+''06:13:02.231136,0.000000292,synthetic_host,syscall_exit_brk,0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",2342476
+''06:13:02.231596288,0.000004291,synthetic_host,syscall_entry_getrandom,0,elasticsearchm,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 90112, len = 4096, advice = 4",3296818
+''06:13:02.228720384,0.000000958,synthetic_host,syscall_entry_fadvise64_64,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 14344,9248261
+''06:13:02.231588096,0.000005958,synthetic_host,syscall_exit_fadvise64_64,3,curl,"pid = 14323, tid = 14330","fd = 35, offset = 118784, nbytes = 4096, flags = 2",14540443
+''06:13:02.232019968,0.000000292,synthetic_host,syscall_exit_futex,0,lttng-consumerd,"pid = 14345, tid = 14345","fd = 34, cmd = 2148070923, arg = 275115444656688",4831904
+''06:13:02.231596544,0.000000208,synthetic_host,syscall_entry_getpid,2,gnome-shell,"pid = 14324, tid = 14324","ret = 0, fd = 35, offset = 36864, len = 4096, advice = 4",1507060
+''06:13:02.231691776,0.000000167,synthetic_host,syscall_exit_brk,0,curl,"pid = 14345, tid = 14345","fd = 35, offset = 0, len = 4096, advice = 4",11766985
+''06:13:02.228325376,0.000003292,synthetic_host,syscall_exit_read,2,curl,"pid = 14324, tid = 14324","buf = 222501009261744, count = 48, flags = 0",2894140
+''06:13:02.231512832,0.000000958,synthetic_host,syscall_entry_epoll_ctl,2,elasticsearchm,"pid = 14345, tid = 14345","ret = 1, fds_length = 0, overflow = 0, fds = [ ]",16061469
+''06:13:02.228341248,0.000000334,synthetic_host,syscall_entry_epoll_pwait,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 517,7597660
+''06:13:02.231314432,0.000000209,synthetic_host,syscall_entry_write,0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 517, buf = 246915522452080",2687579
+''06:13:02.231580672,0.000001041,synthetic_host,syscall_entry_futex,2,data-loop.0,"pid = 11822, tid = 11841","ret = 0, fd = 35, offset = 40960, len = 4096, advice = 4",2456705
+''06:13:02.229506048,0.000000792,synthetic_host,syscall_exit_futex,3,lttng-consumerd,"pid = 14345, tid = 14345","fd = 4, usockaddr_len = 281474913772420",8721626
+''06:13:02.231335680,0.000000625,synthetic_host,syscall_entry_epoll_pwait,3,elasticsearchm,"pid = 3154, tid = 3154","fd = 34, cmd = 2148070923, arg = 275115444656688",12275640
+''06:13:02.230734848,0.000002041,synthetic_host,syscall_entry_sync_file_range,0,lttng-consumerd,"pid = 14323, tid = 14330","POLLIN = 0, POLLPRI = 0, POLLOUT = 1, POLLERR = 0, POLLHUP = 0, padding = 0",9522085
+''06:13:02.231186944,0.000000334,synthetic_host,syscall_exit_sync_file_range,3,curl,"pid = 14323, tid = 14330",ret = 0,3983177
+''06:13:02.229586432,0.000022500,synthetic_host,syscall_exit_ioctl,3,llvmpipe-0,"pid = 3154, tid = 3215",ret = 0,15256562
+''06:13:02.228366592,0.000000125,synthetic_host,syscall_exit_read,2,lttng-consumerd,"pid = 12061, tid = 12061","procname = ""curl"", pid = 14344, tid = 14344",13737036
+''06:13:02.231516928,0.000541902,synthetic_host,syscall_entry_sync_file_range,3,elasticsearchm,"pid = 11822, tid = 11859","fd = 35, offset = 131072, len = 4096, advice = 4",455060
+''06:13:02.229898496,0.000000542,synthetic_host,syscall_exit_ioctl,3,curl,"pid = 14323, tid = 14330","epfd = 13, maxevents = 1024, timeout = 10, sigmask = 0x0, sigsetsize = 8",2235522
+''06:13:02.231070976,0.000000375,synthetic_host,syscall_entry_epoll_pwait,3,curl,"pid = 14323, tid = 14330","fd = 576, count = 65536",13022455
+''06:13:02.229492224,0.000000375,synthetic_host,syscall_entry_getsockopt,0,lttng-consumerd,"pid = 11822, tid = 11859","fd = 35, offset = 114688, nbytes = 4096, flags = 2",6298406
+''06:13:02.231425536,0.000000291,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","POLLIN = 1, POLLPRI = 1, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",15382329
+''06:13:02.228802816,0.000001334,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 11822, tid = 11859","fd = 34, cmd = 62981, arg = 275115481893672",10225746
+''06:13:02.231485952,0.000000208,synthetic_host,syscall_entry_ioctl,0,node,"pid = 3154, tid = 3216",ret = 14344,1290155
+''06:13:02.229974784,0.000000791,synthetic_host,syscall_exit_futex,0,elasticsearchm,"pid = 14344, tid = 14344","ret = 0, fds_length = 0, overflow = 0, fds = [ ]",5315050
+''06:13:02.231526912,0.000019583,synthetic_host,syscall_exit_ppoll,0,lttng-consumerd,"pid = 2932, tid = 2972","ret = 1, fds_length = 0, overflow = 0, fds = [ ]",15132326
+''06:13:02.231383040,0.000000625,synthetic_host,syscall_exit_futex,2,lttng-consumerd,"pid = 11822, tid = 11868","ret = 8, buf = 281458146600240",6050642
+''06:13:02.231281152,0.000000458,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0,9414094
+''06:13:02.231948800,0.000020499,synthetic_host,syscall_entry_close,0,data-loop.0,"pid = 11822, tid = 11867","ret = 1, uaddr = 194557001039528, uaddr2 = 0",7199379
+''06:13:02.232135424,0.000000333,synthetic_host,syscall_exit_setsockopt,0,gnome-shell,"pid = 14323, tid = 14330","fd = 35, offset = 57344, nbytes = 4096, flags = 7",10711641
+''06:13:02.231550208,0.000000375,synthetic_host,syscall_exit_ppoll,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 62981, arg = 275115481893672",11286297
+''06:13:02.231428608,0.000013416,synthetic_host,syscall_entry_write,3,curl,"pid = 14323, tid = 14330","fd = 35, offset = 16384, nbytes = 4096, flags = 2",5812877
+''06:13:02.231742464,0.000000167,synthetic_host,syscall_entry_read,0,lttng-consumerd,"pid = 3154, tid = 3216","ret = 0, arg = 275115444656688",13016184
+''06:13:02.230836992,0.000042499,synthetic_host,syscall_exit_epoll_pwait,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070919, arg = 275115444656752",12415752
+''06:13:02.230738176,0.000006333,synthetic_host,syscall_entry_close,3,lttng-consumerd,"pid = 2932, tid = 2972","ret = 0, arg = 275115444656752",14841966
+''06:13:02.229167616,0.000000416,synthetic_host,syscall_exit_ioctl,0,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656768",5212134
+''06:13:02.231223040,0.000000166,synthetic_host,syscall_entry_epoll_pwait,3,lttng-consumerd,"pid = 14323, tid = 14332","epfd = 13, maxevents = 1024, timeout = 10, sigmask = 0x0, sigsetsize = 8",1480719
+''06:13:02.231014656,0.000058165,synthetic_host,syscall_exit_epoll_pwait,1,lttng-consumerd,"pid = 11822, tid = 11867","uaddr = 194557001039896, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465704",11521950
+''06:13:02.228586496,0.000007250,synthetic_host,syscall_exit_setsockopt,3,elasticsearchm,"pid = 2932, tid = 2972","ret = 1, uaddr = 246917844007516, uaddr2 = 16932",14655961
+''06:13:02.230750464,0.000000375,synthetic_host,syscall_exit_epoll_pwait,3,curl,"pid = 14323, tid = 14330",ret = 8,9188925
+''06:13:02.232212224,0.000000208,synthetic_host,syscall_entry_epoll_pwait,3,elasticsearchm,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 32768, len = 4096, advice = 4",2187498
+''06:13:02.228206592,0.000000125,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 12061, tid = 12061","fd = 34, cmd = 2148070919, arg = 275115444656752",8652139
+''06:13:02.231801344,0.000002709,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 3154, tid = 3213","ret = 0, fd = 35, offset = 36864, len = 4096, advice = 4",1345895
+''06:13:02.231045888,0.000000166,synthetic_host,syscall_entry_timerfd_settime,1,lttng-consumerd,"pid = 2932, tid = 2972","fd = 66, cmd = 3230155043, arg = 219392954314048",4228688
+''06:13:02.231931904,0.000002667,synthetic_host,syscall_entry_futex,0,curl,"pid = 14323, tid = 14330","ret = 3, uaddr = 194557001051044, uaddr2 = 0",9429581
+''06:13:02.231635968,0.000001000,synthetic_host,syscall_entry_sync_file_range,3,gnome-shell,"pid = 14344, tid = 14344","ret = 0, arg = 275115444656752",4302018
+''06:13:02.231691520,0.000000208,synthetic_host,syscall_exit_futex,0,llvmpipe-0,"pid = 12061, tid = 12061",ret = 4096,2947832
+''06:13:02.231612928,0.000000583,synthetic_host,syscall_entry_futex,2,llvmpipe-3,"pid = 14344, tid = 14344","addr = 248270898528256, len = 7602176",2901490
+''06:13:02.230777856,0.000000208,synthetic_host,syscall_exit_fcntl,0,llvmpipe-0,"pid = 3154, tid = 3213","ret = 0, uaddr = 246917844007516, uaddr2 = 0",3938583
+''06:13:02.231783680,0.000000167,synthetic_host,syscall_exit_futex,0,lttng-consumerd,"pid = 14323, tid = 14330",ret = 4096,5684205
+''06:13:02.229568768,0.000009041,synthetic_host,syscall_entry_getsockname,3,C1 CompilerThre,"pid = 3154, tid = 3154","fd = 60, count = 32",7612873
+''06:13:02.231587584,0.000000459,synthetic_host,syscall_entry_epoll_ctl,3,curl,"pid = 12061, tid = 12061","POLLIN = 1, POLLPRI = 0, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",3953559
+''06:13:02.230953728,0.000001833,synthetic_host,syscall_entry_recvmsg,3,lttng-consumerd,"pid = 3154, tid = 3154","fd = 35, buf = 275115481833472, count = 4096",14996590
+''06:13:02.228771328,0.000035499,synthetic_host,syscall_exit_getsockname,2,gnome-shell,"pid = 12061, tid = 12061","fd = 35, offset = 114688, nbytes = 4096, flags = 7",9993026
+''06:13:02.231253504,0.000001750,synthetic_host,syscall_exit_futex,2,C1 CompilerThre,"pid = 14323, tid = 14330","fd = 549, count = 16",8671536
+''06:13:02.230900480,0.000000167,synthetic_host,syscall_entry_fadvise64_64,0,lttng-consumerd,"pid = 11822, tid = 11868","procname = ""curl"", pid = 14345, tid = 14345",2545035
+''06:13:02.232285952,0.000000417,synthetic_host,syscall_exit_recvfrom,1,curl,"pid = 2932, tid = 2972",ret = 0,7118952
+''06:13:02.229478400,0.000002917,synthetic_host,syscall_exit_futex,3,C1 CompilerThre,"pid = 3154, tid = 3216","uaddr = 267960195430336, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 0",8906128
+''06:13:02.228264960,0.000002750,synthetic_host,syscall_entry_sync_file_range,0,curl,"pid = 14345, tid = 14345","fd = 34, cmd = 2148070923, arg = 275115444656688",2471419
+''06:13:02.231694080,0.000000458,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 11822, tid = 11859","uaddr = 194557001039528, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336",6479841
+''06:13:02.231278848,0.000001292,synthetic_host,syscall_entry_futex,3,llvmpipe-0,"pid = 11822, tid = 11841","uaddr = 260299015465996, op = 129, val = 2147483647, utime = 0, uaddr2 = 222501009395736, val3 = 228626440",4004592
+''06:13:02.231546624,0.000000250,synthetic_host,syscall_exit_futex,3,lttng-runas,"pid = 14323, tid = 14330","sig = 13, act = 281474642530040, sigsetsize = 8",15845694
+''06:13:02.230808832,0.000000083,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, uaddr = 194557001039160, uaddr2 = 0",5161262
+''06:13:02.231149312,0.000008250,synthetic_host,syscall_entry_write,0,lttng-consumerd,"pid = 14344, tid = 14344",ret = 14344,109711
+''06:13:02.231387904,0.000000292,synthetic_host,syscall_exit_fcntl,1,llvmpipe-0,"pid = 14324, tid = 14324","fd = 13, cmd = 3222299827, arg = 248272618772584",6035253
+''06:13:02.230620416,0.000000208,synthetic_host,syscall_exit_futex,0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 219392954314048",6259443
+''06:13:02.231238912,0.000002500,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 14345, tid = 14345","fd = 35, offset = 40960, nbytes = 4096, flags = 2",999910
+''06:13:02.231420672,0.000000208,synthetic_host,syscall_exit_ioctl,3,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656768",13248427
+''06:13:02.230980608,0.000003125,synthetic_host,syscall_entry_futex,0,llvmpipe-1,"pid = 14323, tid = 14330",ret = 14344,16516266
+''06:13:02.228242432,0.000191495,synthetic_host,syscall_exit_read,0,lttng-consumerd,"pid = 14345, tid = 14345",ret = 14345,14610016
+''06:13:02.230829312,0.000000125,synthetic_host,syscall_entry_futex,0,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070923, arg = 275115444656688",16637210
+''06:13:02.231050240,0.000000167,synthetic_host,syscall_exit_timerfd_settime,3,gnome-shell,"pid = 14323, tid = 14330","fd = 34, cmd = 62981, arg = 275115481893672",6164676
+''06:13:02.229442048,0.000000208,synthetic_host,syscall_exit_futex,0,curl,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 73728, len = 4096, advice = 4",15795338
+''06:13:02.231388416,0.000002583,synthetic_host,syscall_entry_read,2,lttng-consumerd,"pid = 3154, tid = 3154","fd = 576, usockaddr_len = 246916502706368",10252017
+''06:13:02.228925696,0.000022124,synthetic_host,syscall_entry_recvfrom,1,node,"pid = 14323, tid = 14330","uaddr = 194557001040348, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465704",3857779
+''06:13:02.231281152,0.000000167,synthetic_host,syscall_entry_futex,2,lttng-consumerd,"pid = 14323, tid = 14330","POLLIN = 1, POLLPRI = 0, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",26723
+''06:13:02.231563520,0.000000541,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 194557001039528, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336",14806715
+''06:13:02.231256064,0.000004791,synthetic_host,syscall_entry_futex,1,llvmpipe-1,"pid = 3154, tid = 3213","ret = 32, buf = 246916493258680",4817743
+''06:13:02.230888704,0.000000500,synthetic_host,syscall_entry_fcntl,2,elasticsearchm,"pid = 14323, tid = 14330","fd = 35, offset = 61440, len = 4096, advice = 4",500632
+''06:13:02.228768768,0.000010833,synthetic_host,syscall_entry_getrandom,0,curl,"pid = 14323, tid = 14330","addr = 248270898528256, len = 7602176",169202
+''06:13:02.230839296,0.000021333,synthetic_host,syscall_exit_ioctl,0,gnome-shell,"pid = 14323, tid = 14330","ret = 0, uaddr = 267960194247448, uaddr2 = 0",5201031
+''06:13:02.232116224,0.000009083,synthetic_host,syscall_exit_futex,3,lttng-consumerd,"pid = 3154, tid = 3215","ret = 0, arg = 275115481893672",16248643
+''06:13:02.230709248,0.000002500,synthetic_host,syscall_exit_ioctl,3,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656752",10433165
+''06:13:02.228764160,0.000000291,synthetic_host,syscall_exit_fadvise64_64,3,lttng-consumerd,"pid = 14323, tid = 14330","EPOLLIN = 1, EPOLLPRI = 0, EPOLLOUT = 0, EPOLLERR = 0, padding = 0",9722887
+''06:13:02.231443712,0.000000792,synthetic_host,syscall_entry_sync_file_range,0,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 62982, arg = 275115481893672",14335217
+''06:13:02.228139264,0.000001333,synthetic_host,syscall_entry_getpid,0,curl,"pid = 14323, tid = 14330","fd = 35, buf = 275115481837568, count = 4096",12502165
+''06:13:02.231484416,0.000012666,synthetic_host,syscall_entry_read,2,llvmpipe-3,"pid = 14345, tid = 14345","ret = 0, arg = 0",15109565
+''06:13:02.231126784,0.000004958,synthetic_host,syscall_entry_futex,0,elasticsearchm,"pid = 11822, tid = 11867","procname = ""curl"", pid = 14345, tid = 14345",7343519
+''06:13:02.230801664,0.000000917,synthetic_host,syscall_entry_ioctl,3,gnome-shell,"pid = 3154, tid = 3216","procname = ""curl"", pid = 14344, tid = 14344",4905206
+''06:13:02.231374336,0.000000167,synthetic_host,syscall_exit_futex,2,curl,"pid = 14345, tid = 14345","fd = 35, offset = 65536, nbytes = 4096, flags = 7",10434683
+''06:13:02.227911936,0.000000208,synthetic_host,syscall_exit_fadvise64_64,1,lttng-consumerd,"pid = 14345, tid = 14345","fd = 576, level = 6, optname = 1, optval = 246916502705964, optlen = 4",11467798
+''06:13:02.231083776,0.000005000,synthetic_host,syscall_exit_munmap,0,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 194557001040264, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572466072",6778333
+''06:13:02.229219840,0.000000084,synthetic_host,syscall_entry_close,3,elasticsearchm,"pid = 14345, tid = 14345",ret = 4096,4480227
+''06:13:02.232118528,0.000001125,synthetic_host,syscall_entry_sync_file_range,3,elasticsearchm,"pid = 14345, tid = 14345","fd = 34, cmd = 2148070919, arg = 275115444656752",8035282
+''06:13:02.229640448,0.000035499,synthetic_host,syscall_entry_read,0,curl,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14345, tid = 14345",5802024
+''06:13:02.228523008,0.000000208,synthetic_host,syscall_exit_rt_sigaction,3,lttng-consumerd,"pid = 14324, tid = 14324","ret = 0, fd = 35, offset = 0, len = 4096, advice = 4",15760938
+''06:13:02.232166144,0.000001750,synthetic_host,syscall_exit_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 4096,11069622
+''06:13:02.231936512,0.000000417,synthetic_host,syscall_exit_futex,3,elasticsearchm,"pid = 11822, tid = 11859","POLLIN = 1, POLLPRI = 0, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",12049352
+''06:13:02.232135680,0.000000083,synthetic_host,syscall_entry_fadvise64_64,3,elasticsearchm,"pid = 14323, tid = 14330","fd = 576, cmd = 4, arg = 2050",13149144
+''06:13:02.232069376,0.000000083,synthetic_host,syscall_exit_epoll_pwait,0,data-loop.0,"pid = 14323, tid = 14330","ret = 0, otmr = 0",7123289
+''06:13:02.229159680,0.000005000,synthetic_host,syscall_entry_ioctl,2,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0,14368998
+''06:13:02.231259648,0.000000375,synthetic_host,syscall_entry_sync_file_range,3,data-loop.0,"pid = 12061, tid = 12061","ret = 0, fd = 35, offset = 53248, len = 4096, advice = 4",4951269
+''06:13:02.231620608,0.000001166,synthetic_host,syscall_exit_connect,0,curl,"pid = 14323, tid = 14330","ret = 0, uaddr = 194557001040264, uaddr2 = 0",4416000
+''06:13:02.229218816,0.000000167,synthetic_host,syscall_entry_write,0,elasticsearchm,"pid = 14323, tid = 14330","uaddr = 194557001039612, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572464968",13234780
+''06:13:02.232120576,0.000023000,synthetic_host,syscall_entry_timerfd_settime,1,llvmpipe-1,"pid = 12061, tid = 12061",ret = 517,566265
+''06:13:02.228649216,0.000000292,synthetic_host,syscall_exit_setsockopt,1,curl,"pid = 11822, tid = 11867",ret = 14344,4172123
+''06:13:02.228459264,0.000000250,synthetic_host,syscall_exit_recvfrom,0,elasticsearchm,"pid = 11822, tid = 11867","ret = 0, arg = 275115444656760",1698534
+''06:13:02.231598336,0.000000583,synthetic_host,syscall_entry_sync_file_range,3,lttng-consumerd,"pid = 3154, tid = 3216","procname = ""curl"", pid = 14344, tid = 14344",5084935
+''06:13:02.229096704,0.000060374,synthetic_host,syscall_entry_recvmsg,1,node,"pid = 11822, tid = 11859","fd = 35, offset = 61440, nbytes = 4096, flags = 7",12469564
+''06:13:02.231865600,0.000000084,synthetic_host,syscall_entry_close,3,llvmpipe-1,"pid = 3154, tid = 3154","ret = 0, uaddr = 260299015465752, uaddr2 = 0",3896467
+''06:13:02.228391168,0.000001542,synthetic_host,syscall_entry_futex,0,elasticsearchm,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070920, arg = 275115444656760",12214927
+''06:13:02.231040512,0.000001333,synthetic_host,syscall_exit_futex,3,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14345, tid = 14345",2983146
+''06:13:02.231584768,0.000000417,synthetic_host,syscall_entry_futex,2,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 194556998095648, op = 393, val = 0, utime = 0, uaddr2 = 0, val3 = 4294967295",850391
+''06:13:02.227911936,0.000035499,synthetic_host,syscall_exit_sync_file_range,3,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, uaddr = 194557001040264, uaddr2 = 0",3603486
+''06:13:02.231080448,0.000000208,synthetic_host,syscall_exit_getpid,0,gnome-shell,"pid = 3154, tid = 3213","fd = 35, offset = 32768, nbytes = 4096, flags = 2",13071910
+''06:13:02.227911936,0.000000167,synthetic_host,syscall_exit_ioctl,3,C1 CompilerThre,"pid = 11822, tid = 11868","ret = 1, uaddr = 194557001039528, uaddr2 = 0",13929819
+''06:13:02.227912192,0.000020249,synthetic_host,syscall_exit_fcntl,3,llvmpipe-0,"pid = 14323, tid = 14330","fd = 34, cmd = 62981, arg = 275115481893672",44602
+''06:13:02.228731136,0.000000417,synthetic_host,syscall_exit_futex,0,elasticsearchm,"pid = 2932, tid = 2972","uaddr = 260299015465752, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 0",6304833
+''06:13:02.230993152,0.000000125,synthetic_host,syscall_entry_ioctl,3,curl,"pid = 14344, tid = 14344","fd = 60, count = 32",15778936
+''06:13:02.231824128,0.000000334,synthetic_host,syscall_entry_fadvise64_64,2,llvmpipe-0,"pid = 14323, tid = 14330","fd = 35, buf = 275115481837568, count = 4096",9860687
+''06:13:02.231282944,0.000001083,synthetic_host,syscall_exit_futex,3,llvmpipe-0,"pid = 11822, tid = 11868","fd = 35, offset = 24576, nbytes = 4096, flags = 7",320279
+''06:13:02.231190784,0.000000375,synthetic_host,syscall_exit_sync_file_range,3,C1 CompilerThre,"pid = 14323, tid = 14330","uaddr = 194557001039896, op = 128, val = 2, utime = 0, uaddr2 = 0, val3 = 1946146984",12499621
+''06:13:02.230459136,0.000001584,synthetic_host,syscall_entry_ioctl,0,curl,"pid = 11822, tid = 11859","ret = 0, arg = 275115444656760",15714572
+''06:13:02.231900416,0.000000375,synthetic_host,syscall_exit_sync_file_range,0,curl,"pid = 11822, tid = 11841",ret = -115,779676
+''06:13:02.229196288,0.000000167,synthetic_host,syscall_entry_epoll_ctl,0,gnome-shell,"pid = 14323, tid = 14330","uaddr = 194557001039896, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465704",11210136
+''06:13:02.231353344,0.000003208,synthetic_host,syscall_entry_futex,3,elasticsearchm,"pid = 14344, tid = 14344","fd = 35, buf = 275115481837568, count = 4096",6431384
+''06:13:02.231496192,0.000000250,synthetic_host,syscall_entry_futex,0,elasticsearchm,"pid = 14345, tid = 14345","ret = 1, fds_length = 0, overflow = 0, fds = [ ]",9555101
+''06:13:02.231098112,0.000000167,synthetic_host,syscall_exit_sync_file_range,0,lttng-consumerd,"pid = 11822, tid = 11841","fd = 34, cmd = 2148070919, arg = 275115444656752",5768078
+''06:13:02.229633280,0.000000916,synthetic_host,syscall_exit_futex,3,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 62981, arg = 275115481893672",3634026
+''06:13:02.231791360,0.000000208,synthetic_host,syscall_exit_sync_file_range,2,lttng-consumerd,"pid = 11822, tid = 11868","ret = 0, otmr = 0",3171717
+''06:13:02.231964416,0.000000292,synthetic_host,syscall_exit_ioctl,2,lttng-consumerd,"pid = 3154, tid = 3216","ret = 0, fd = 35, offset = 106496, len = 4096, advice = 4",5319182
+''06:13:02.228756736,0.000000208,synthetic_host,syscall_exit_futex,0,curl,"pid = 14323, tid = 14330","uaddr = 267960194247760, op = 129, val = 2147483647, utime = 0, uaddr2 = 203053665022808, val3 = 496169800",1461310
+''06:13:02.231671040,0.000000708,synthetic_host,syscall_entry_sync_file_range,0,lttng-consumerd,"pid = 14345, tid = 14345","fd = 35, offset = 102400, nbytes = 4096, flags = 2",934826
+''06:13:02.232285952,0.000001042,synthetic_host,syscall_entry_epoll_pwait,3,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, uaddr = 194557001051044, uaddr2 = 0",15081502
+''06:13:02.229738496,0.000006666,synthetic_host,syscall_exit_ioctl,3,lttng-runas,"pid = 3154, tid = 3214","fd = 35, offset = 36864, nbytes = 4096, flags = 2",7794540
+''06:13:02.231477760,0.000000667,synthetic_host,syscall_entry_sync_file_range,2,elasticsearchm,"pid = 2932, tid = 2972","ret = 0, uaddr = 194557001051044, uaddr2 = 0",14338134
+''06:13:02.229087232,0.000000333,synthetic_host,syscall_exit_futex,1,curl,"pid = 3154, tid = 3215","fd = 576, cmd = 4, arg = 2050",7243327
+''06:13:02.231898624,0.000000292,synthetic_host,syscall_entry_read,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 118784, nbytes = 4096, flags = 7",8660619
+''06:13:02.228387072,0.000003125,synthetic_host,syscall_exit_write,0,curl,"pid = 11822, tid = 11841","fd = 66, cmd = 3230155043, arg = 219392954314048",15519530
+''06:13:02.228969472,0.000000292,synthetic_host,syscall_entry_read,2,data-loop.0,"pid = 14344, tid = 14344","fd = 34, cmd = 2148070919, arg = 275115444656752",13613501
+''06:13:02.227911936,0.000005833,synthetic_host,syscall_exit_futex,2,llvmpipe-0,"pid = 3154, tid = 3154","fd = 34, cmd = 2148070920, arg = 275115444656760",7854831
+''06:13:02.231309312,0.000000583,synthetic_host,syscall_entry_fadvise64_64,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, buf = 275115481837568, count = 4096",6929700
+''06:13:02.231774208,0.000005000,synthetic_host,syscall_exit_futex,2,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0,2309489
+''06:13:02.230949376,0.000000500,synthetic_host,syscall_exit_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 222501009338368,10621338
+''06:13:02.232227328,0.000000334,synthetic_host,syscall_entry_futex,0,curl,"pid = 14323, tid = 14330",brk = 203053665202176,5907544
+''06:13:02.231122432,0.000003584,synthetic_host,syscall_entry_fcntl,3,lttng-consumerd,"pid = 3154, tid = 3215","fd = 35, offset = 24576, nbytes = 4096, flags = 7",16505383
+''06:13:02.232285952,0.000000417,synthetic_host,syscall_entry_ioctl,1,gnome-shell,"pid = 11822, tid = 11841","ret = 0, arg = 248272618772584",12099236
+''06:13:02.227911936,0.000000583,synthetic_host,syscall_entry_sync_file_range,0,gnome-shell,"pid = 14345, tid = 14345","fd = 13, cmd = 3222299827, arg = 248272618772584",14653854
+''06:13:02.231471360,0.000000208,synthetic_host,syscall_entry_epoll_pwait,1,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 12288, len = 4096, advice = 4",1999847
+''06:13:02.230869248,0.000000292,synthetic_host,syscall_entry_sync_file_range,2,curl,"pid = 11822, tid = 11841","ret = 0, fd = 35, offset = 28672, len = 4096, advice = 4",6107545
+''06:13:02.231400960,0.000012083,synthetic_host,syscall_exit_ioctl,2,lttng-consumerd,"pid = 11822, tid = 11841","fd = 35, offset = 49152, nbytes = 4096, flags = 2",14733102
+''06:13:02.231343872,0.000007041,synthetic_host,syscall_entry_futex,0,curl,"pid = 3154, tid = 3214","ret = 1, fds_length = 0, overflow = 0, fds = [ ]",9764159
+''06:13:02.229252608,0.000000292,synthetic_host,syscall_exit_futex,2,lttng-consumerd,"pid = 14323, tid = 14330","fd = 60, count = 32",16089436
+''06:13:02.231134464,0.000003333,synthetic_host,syscall_exit_fcntl,3,lttng-consumerd,"pid = 14345, tid = 14345","ret = 0, arg = 275115444656760",12493754
+''06:13:02.229351680,0.000006875,synthetic_host,syscall_entry_sendto,3,node,"pid = 11822, tid = 11859","fd = 35, offset = 36864, nbytes = 4096, flags = 7",11653575
+''06:13:02.227911936,0.000000209,synthetic_host,syscall_entry_ioctl,3,llvmpipe-1,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070920, arg = 275115444656760",14353766
+''06:13:02.229396480,0.000000333,synthetic_host,syscall_entry_write,3,lttng-consumerd,"pid = 14345, tid = 14345","fd = 34, cmd = 2148070919, arg = 275115444656752",9564159
+''06:13:02.231544064,0.000000250,synthetic_host,syscall_entry_getsockname,0,elasticsearchm,"pid = 14323, tid = 14330",ret = 0,4976489
+''06:13:02.228529664,0.000000334,synthetic_host,syscall_entry_sync_file_range,0,curl,"pid = 11822, tid = 11859","fd = 35, buf = 275115481837568, count = 4096",1986868
+''06:13:02.229418240,0.000008166,synthetic_host,syscall_exit_close,0,gnome-shell,"pid = 2932, tid = 2972","uaddr = 194557001051044, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 3572466072",13337062
+''06:13:02.229306880,0.000049957,synthetic_host,syscall_entry_futex,1,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, buf = 275115481837568, count = 4096",4625861
+''06:13:02.232285952,0.000000292,synthetic_host,syscall_exit_sync_file_range,3,curl,"pid = 14323, tid = 14330",ret = 4096,10308982
+''06:13:02.229451264,0.000000250,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656688",14357814
+''06:13:02.229062912,0.000000292,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14345, tid = 14345",5055047
+''06:13:02.231640832,0.000001000,synthetic_host,syscall_entry_futex,2,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656768",11596910
+''06:13:02.229017088,0.000010458,synthetic_host,syscall_exit_epoll_pwait,0,curl,"pid = 14323, tid = 14330","fd = 35, offset = 4096, nbytes = 4096, flags = 7",6188611
+''06:13:02.230809600,0.000046832,synthetic_host,syscall_exit_fcntl,3,curl,"pid = 14323, tid = 14330","fd = 60, count = 32",1473309
+''06:13:02.230045696,0.000000792,synthetic_host,syscall_entry_epoll_ctl,0,curl,"pid = 14323, tid = 14330",ret = 14345,16427911
+''06:13:02.228651008,0.000000417,synthetic_host,syscall_exit_write,2,gnome-shell,"pid = 14344, tid = 14344","POLLIN = 1, POLLPRI = 1, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",4042291
+''06:13:02.230835968,0.000021999,synthetic_host,syscall_entry_write,3,lttng-consumerd,"pid = 3154, tid = 3214","ret = 32, buf = 246916494305784",11309854
+''06:13:02.231229696,0.000003667,synthetic_host,syscall_exit_futex,1,lttng-consumerd,"pid = 14345, tid = 14345","fd = 13, cmd = 3222299827, arg = 248272618772584",15700304
+''06:13:02.231526400,0.000000791,synthetic_host,syscall_entry_sync_file_range,2,elasticsearchm,"pid = 11822, tid = 11841","ret = 32, buf = 246916494307048",15151719
+''06:13:02.231509760,0.000000333,synthetic_host,syscall_entry_ioctl,0,curl,"pid = 14323, tid = 14330","ret = 0, arg = 248272618772584",6692965
+''06:13:02.231166208,0.000017249,synthetic_host,syscall_entry_getpid,2,lttng-consumerd,"pid = 11822, tid = 11868",ret = 0,3072533
+''06:13:02.230928128,0.000000208,synthetic_host,syscall_exit_write,2,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656688",118907
+''06:13:02.230853632,0.000000167,synthetic_host,syscall_exit_ioctl,2,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14345, tid = 14345",13212118
+''06:13:02.231030784,0.000000083,synthetic_host,syscall_entry_epoll_pwait,3,elasticsearchm,"pid = 11822, tid = 11867","ret = 0, uaddr = 246917844007516, uaddr2 = 0",6268968
+''06:13:02.231545600,0.000000416,synthetic_host,syscall_exit_recvfrom,3,lttng-consumerd,"pid = 14345, tid = 14345","ret = 32, buf = 246916493258152",9602484
+''06:13:02.231558144,0.000000417,synthetic_host,syscall_exit_epoll_pwait,0,C1 CompilerThre,"pid = 14345, tid = 14345","fd = 34, cmd = 2148070923, arg = 275115444656688",6488172
+''06:13:02.230674944,0.000001166,synthetic_host,syscall_exit_ppoll,3,llvmpipe-3,"pid = 11822, tid = 11859",ret = 0,14978637
+''06:13:02.228608256,0.000000708,synthetic_host,syscall_entry_futex,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070919, arg = 275115444656752",11367574
+''06:13:02.229916416,0.000004791,synthetic_host,syscall_entry_sync_file_range,0,lttng-consumerd,"pid = 2932, tid = 2972",ret = 14344,3381299
+''06:13:02.230030848,0.000002875,synthetic_host,syscall_entry_read,1,lttng-consumerd,"pid = 14323, tid = 14330",ret = -115,10609881
+''06:13:02.231144448,0.000000292,synthetic_host,syscall_exit_fadvise64_64,2,lttng-runas,"pid = 14344, tid = 14344",ret = 14344,4858167
+''06:13:02.228480512,0.000000542,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14344, tid = 14344","fd = 35, offset = 53248, len = 4096, advice = 4",7048916
+''06:13:02.229082112,0.000000209,synthetic_host,syscall_exit_futex,0,llvmpipe-1,"pid = 14345, tid = 14345","ret = 0, arg = 275115444656760",18176
+''06:13:02.228709632,0.000000125,synthetic_host,syscall_exit_sync_file_range,2,llvmpipe-3,"pid = 3154, tid = 3154","procname = ""curl"", pid = 14344, tid = 14344",9763579
+''06:13:02.229053184,0.000000500,synthetic_host,syscall_entry_futex,0,lttng-consumerd,"pid = 12061, tid = 12061","fd = 35, offset = 122880, nbytes = 4096, flags = 7",2647534
+''06:13:02.231516416,0.000004500,synthetic_host,syscall_entry_futex,3,lttng-runas,"pid = 14324, tid = 14324","fd = 35, offset = 69632, nbytes = 4096, flags = 2",2722552
+''06:13:02.229085184,0.000000416,synthetic_host,syscall_entry_futex,3,lttng-consumerd,"pid = 11822, tid = 11859",ret = 0,13409927
+''06:13:02.231383040,0.000028207,synthetic_host,syscall_exit_write,2,lttng-consumerd,"pid = 11822, tid = 11859","ret = 0, arg = 275115481893672",12433764
+''06:13:02.231577856,0.000001750,synthetic_host,syscall_entry_write,0,elasticsearchm,"pid = 14323, tid = 14330",ret = 0,14958739
+''06:13:02.227972608,0.000001291,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 14345, tid = 14345","ret = 0, usockaddr = 281474913772424, usockaddr_len = 281474913772420",2817681
+''06:13:02.229418496,0.000001041,synthetic_host,syscall_entry_sync_file_range,1,lttng-consumerd,"pid = 11822, tid = 11841","fd = 34, cmd = 62981, arg = 275115481893672",8235437
+''06:13:02.231188224,0.000000792,synthetic_host,syscall_exit_futex,2,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070925, arg = 275115444656768",85397
+''06:13:02.231992064,0.000000208,synthetic_host,syscall_entry_futex,1,lttng-consumerd,"pid = 14297, tid = 14307","ret = 0, arg = 275115481893672",13264161
+''06:13:02.232166912,0.000000459,synthetic_host,syscall_exit_ioctl,1,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 246917844007516, op = 129, val = 2147483647, utime = 0, uaddr2 = 16932, val3 = 3183418432",16635832
+''06:13:02.231747840,0.000000167,synthetic_host,syscall_entry_futex,2,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 194557001039896, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465704",11726729
+''06:13:02.231165184,0.000001333,synthetic_host,syscall_exit_sync_file_range,3,lttng-consumerd,"pid = 11822, tid = 11868","procname = ""curl"", pid = 14344, tid = 14344",7845357
+''06:13:02.230948608,0.000018291,synthetic_host,syscall_entry_sync_file_range,0,curl,"pid = 14323, tid = 14330","ret = 0, uaddr = 194557001039896, uaddr2 = 0",7962918
+''06:13:02.231025408,0.000021958,synthetic_host,syscall_entry_sync_file_range,2,curl,"pid = 14344, tid = 14344","ret = 0, arg = 275115481893672",15669821
+''06:13:02.229100544,0.000001125,synthetic_host,syscall_exit_getpid,0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",10171043
+''06:13:02.232139520,0.000000375,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 62981, arg = 275115481893672",9841038
+''06:13:02.232285952,0.000000791,synthetic_host,syscall_exit_sync_file_range,3,lttng-consumerd,"pid = 3154, tid = 3154","uaddr = 194557001040264, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572466072",11411197
+''06:13:02.231671040,0.000003499,synthetic_host,syscall_exit_futex,3,llvmpipe-2,"pid = 11822, tid = 11841",ret = 4096,14486860
+''06:13:02.231196672,0.000000750,synthetic_host,syscall_exit_futex,0,lttng-consumerd,"pid = 14297, tid = 14307","fd = 35, offset = 32768, len = 4096, advice = 4",61024
+''06:13:02.228113408,0.000000167,synthetic_host,syscall_entry_ioctl,3,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656760",14639947
+''06:13:02.231207168,0.000000708,synthetic_host,syscall_exit_epoll_pwait,0,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",4864707
+''06:13:02.231096576,0.000000084,synthetic_host,syscall_entry_sync_file_range,0,curl,"pid = 14323, tid = 14330","fd = 21, cmd = 63048, arg = 221342671110144",14201445
+''06:13:02.231627776,0.000002084,synthetic_host,syscall_exit_write,0,curl,"pid = 11822, tid = 11867","fd = 576, level = 1, optname = 7, optlen = 246916502706412",6226329
+''06:13:02.227941120,0.000002875,synthetic_host,syscall_entry_setsockopt,2,curl,"pid = 14323, tid = 14330","ret = 0, arg = 219392954314048",4411781
+''06:13:02.230903552,0.000000416,synthetic_host,syscall_exit_ioctl,2,elasticsearchm,"pid = 14323, tid = 14330","uaddr = 194557001040264, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572466072",1182231
+''06:13:02.230820352,0.000000583,synthetic_host,syscall_exit_sync_file_range,0,elasticsearchm,"pid = 14323, tid = 14330",ret = 0,14044847
+''06:13:02.227975168,0.000010833,synthetic_host,syscall_exit_futex,3,curl,"pid = 3154, tid = 3154","fd = 6, msg = 281474329849072, flags = 16384",457713
+''06:13:02.230732032,0.000000292,synthetic_host,syscall_entry_rt_sigaction,3,elasticsearchm,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070920, arg = 275115444656760",12152017
+''06:13:02.231484416,0.000000167,synthetic_host,syscall_entry_getpid,1,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 45056, len = 4096, advice = 4",1875405
+''06:13:02.230950144,0.000000416,synthetic_host,syscall_entry_fadvise64_64,0,C1 CompilerThre,"pid = 14344, tid = 14344",fd = 4,4641177
+''06:13:02.231105536,0.000003875,synthetic_host,syscall_exit_fcntl,2,lttng-consumerd,"pid = 14323, tid = 14330","POLLIN = 0, POLLPRI = 1, POLLOUT = 1, POLLERR = 0, POLLHUP = 0, padding = 0",11372305
+''06:13:02.231717376,0.000000792,synthetic_host,syscall_entry_futex,3,curl,"pid = 14323, tid = 14330","ret = 0, fds_length = 0, overflow = 0, fds = [ ]",3477290
+''06:13:02.227911936,0.000000459,synthetic_host,syscall_exit_rt_sigaction,0,llvmpipe-2,"pid = 3154, tid = 3154","ret = 0, arg = 275115444656752",16352706
+''06:13:02.231406080,0.000001125,synthetic_host,syscall_exit_brk,3,curl,"pid = 3154, tid = 3154","ret = 0, arg = 275115444656752",5714294
+''06:13:02.228321536,0.000000375,synthetic_host,syscall_entry_futex,2,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656752",8114734
+''06:13:02.231688448,0.000001333,synthetic_host,syscall_exit_epoll_pwait,3,elasticsearchm,"pid = 14323, tid = 14330",ret = 203053665202176,6748977
+''06:13:02.228011776,0.000002709,synthetic_host,syscall_entry_write,1,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 62981, arg = 275115481893672",11036796
+''06:13:02.229400832,0.000000458,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330",ret = 14344,2513299
+''06:13:02.229519616,0.000001291,synthetic_host,syscall_exit_getpid,0,elasticsearchm,"pid = 12061, tid = 12061","ret = 0, oact = 0",15651009
+''06:13:02.232151808,0.000000167,synthetic_host,syscall_exit_getpid,2,llvmpipe-3,"pid = 2932, tid = 2972","ret = 32, buf = 246916493258472",3990595
+''06:13:02.229755648,0.000000125,synthetic_host,syscall_entry_write,2,curl,"pid = 14323, tid = 14330","uaddr = 194557001039976, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336",4165680
+''06:13:02.227911936,0.000000708,synthetic_host,syscall_entry_futex,2,lttng-consumerd,"pid = 3154, tid = 3216",ret = 14344,9125647
+''06:13:02.231071488,0.000000125,synthetic_host,syscall_entry_futex,3,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 69632, len = 4096, advice = 4",14915205
+''06:13:02.231425792,0.000002500,synthetic_host,syscall_exit_brk,2,curl,"pid = 11822, tid = 11867","ret = 0, arg = 275115444656688",10639453
+''06:13:02.231372032,0.000000208,synthetic_host,syscall_exit_read,1,lttng-consumerd,"pid = 14324, tid = 14324","fd = 60, count = 32",1624513
+''06:13:02.231680512,0.000000084,synthetic_host,syscall_exit_setsockopt,3,lttng-consumerd,"pid = 3154, tid = 3154","uaddr = 194557001051044, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 3572466072",11199579
+''06:13:02.231509504,0.000000834,synthetic_host,syscall_entry_timerfd_settime,3,lttng-consumerd,"pid = 11822, tid = 11867","fd = 576, cmd = 3, arg = 50",518539
+''06:13:02.229074944,0.000003416,synthetic_host,syscall_entry_fadvise64_64,1,llvmpipe-1,"pid = 14323, tid = 14330",ret = 0,13696588
+''06:13:02.231010304,0.000000125,synthetic_host,syscall_exit_read,1,lttng-consumerd,"pid = 2932, tid = 2972","uaddr = 267960195430336, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 0",2949437
+''06:13:02.231810048,0.000000834,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 14344, tid = 14344",ret = 0,8159618
+''06:13:02.227911936,0.000001125,synthetic_host,syscall_entry_fadvise64_64,0,lttng-consumerd,"pid = 11822, tid = 11859","fd = 576, cmd = 3, arg = 50",7512240
+''06:13:02.232106496,0.000000084,synthetic_host,syscall_exit_fcntl,3,curl,"pid = 11822, tid = 11859","ret = 0, fd = 35, offset = 36864, len = 4096, advice = 4",8024716
+''06:13:02.231118080,0.000000125,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 3154, tid = 3154","fd = 34, cmd = 2148070919, arg = 275115444656752",14249708
+''06:13:02.230999552,0.000000833,synthetic_host,syscall_exit_fadvise64_64,2,curl,"pid = 3154, tid = 3215","uaddr = 194557001039528, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336",3479112
+''06:13:02.231303168,0.000000375,synthetic_host,syscall_entry_ioctl,2,lttng-consumerd,"pid = 14344, tid = 14344","fd = 4, usockaddr_len = 281474913772420",11510858
+''06:13:02.231615744,0.000000417,synthetic_host,syscall_entry_getsockopt,2,lttng-consumerd,"pid = 14323, tid = 14330","ret = 1, fds_length = 0, overflow = 0, fds = [ ]",11081801
+''06:13:02.228655360,0.000000167,synthetic_host,syscall_exit_fadvise64_64,1,lttng-runas,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",12019229
+''06:13:02.230682880,0.000000083,synthetic_host,syscall_exit_ppoll,0,lttng-consumerd,"pid = 14344, tid = 14344","ret = 0, fd = 35, offset = 81920, len = 4096, advice = 4",16060451
+''06:13:02.230364928,0.000001000,synthetic_host,syscall_entry_ioctl,0,elasticsearchm,"pid = 11822, tid = 11859","ret = 0, uaddr = 246917844007516, uaddr2 = 0",1992431
+''06:13:02.230847232,0.000000167,synthetic_host,syscall_exit_futex,0,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070920, arg = 275115444656760",15405985
+''06:13:02.231289344,0.000000167,synthetic_host,syscall_entry_read,0,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 62981, arg = 275115481893672",6705566
+''06:13:02.231823872,0.000000166,synthetic_host,syscall_entry_fadvise64_64,2,lttng-consumerd,"pid = 14323, tid = 14330","ret = 517, buf = 246915522452080",12755860
+''06:13:02.229485056,0.000000250,synthetic_host,syscall_entry_sendto,3,lttng-consumerd,"pid = 14344, tid = 14344","fd = 35, offset = 81920, nbytes = 4096, flags = 2",6065786
+''06:13:02.231754496,0.000003750,synthetic_host,syscall_exit_read,0,curl,"pid = 11822, tid = 11868","ret = 0, fd = 35, offset = 143360, len = 4096, advice = 4",10274728
+''06:13:02.231990528,0.000023624,synthetic_host,syscall_exit_fadvise64_64,0,elasticsearchm,"pid = 14323, tid = 14330","fd = 35, offset = 131072, nbytes = 4096, flags = 2",5174359
+''06:13:02.231191552,0.000000208,synthetic_host,syscall_exit_ioctl,3,elasticsearchm,"pid = 14323, tid = 14330",ret = 0,3313212
+''06:13:02.231598080,0.000011583,synthetic_host,syscall_exit_sendto,2,C1 CompilerThre,"pid = 3154, tid = 3154","ret = 0, uaddr = 194557001039240, uaddr2 = 0",7586111
+''06:13:02.231291648,0.000001542,synthetic_host,syscall_exit_epoll_pwait,2,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 36864, len = 4096, advice = 4",690238
+''06:13:02.231192064,0.000002459,synthetic_host,syscall_exit_getpid,2,elasticsearchm,"pid = 14345, tid = 14345","ret = 0, fd = 35, offset = 61440, len = 4096, advice = 4",11041253
+''06:13:02.228220672,0.000000292,synthetic_host,syscall_entry_getpid,3,llvmpipe-1,"pid = 11822, tid = 11867","ret = 0, arg = 275115444656688",13362387
+''06:13:02.231085824,0.000000250,synthetic_host,syscall_entry_getpid,3,curl,"pid = 14323, tid = 14330","ret = 0, optval = 246916502706496, optlen = 246916502706412",2435804
+''06:13:02.231206400,0.000000250,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 14344,3926885
+''06:13:02.231363840,0.000000292,synthetic_host,syscall_entry_futex,1,lttng-consumerd,"pid = 14345, tid = 14345","fd = 34, cmd = 62982, arg = 275115481893672",6500530
+''06:13:02.228596224,0.000000166,synthetic_host,syscall_entry_futex,0,lttng-consumerd,"pid = 11822, tid = 11868","fd = 34, cmd = 2148070920, arg = 275115444656760",15492102
+''06:13:02.230813440,0.000000666,synthetic_host,syscall_entry_fadvise64_64,0,lttng-consumerd,"pid = 3154, tid = 3216",ret = 3154,406629
+''06:13:02.227911936,0.000003875,synthetic_host,syscall_entry_setsockopt,0,curl,"pid = 14323, tid = 14330","fd = 35, offset = 143360, nbytes = 4096, flags = 2",837361
+''06:13:02.227911936,0.000000125,synthetic_host,syscall_exit_getpid,0,elasticsearchm,"pid = 14344, tid = 14344",ret = 14344,2929086
+''06:13:02.231911424,0.000000208,synthetic_host,syscall_exit_futex,2,curl,"pid = 2932, tid = 2972","ret = 0, fd = 35, offset = 131072, len = 4096, advice = 4",6773874
+''06:13:02.230811648,0.000000792,synthetic_host,syscall_entry_epoll_pwait,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 3154,10688883
+''06:13:02.231043072,0.000002833,synthetic_host,syscall_exit_ioctl,3,data-loop.0,"pid = 3154, tid = 3214","fd = 35, offset = 135168, nbytes = 4096, flags = 2",10513794
+''06:13:02.231352832,0.000002375,synthetic_host,syscall_exit_futex,3,curl,"pid = 14344, tid = 14344",ret = 517,4105421
+''06:13:02.231151616,0.000000292,synthetic_host,syscall_exit_futex,0,curl,"pid = 14345, tid = 14345","ret = 0, fd = 35, offset = 61440, len = 4096, advice = 4",13647839
+''06:13:02.231292160,0.000058165,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14344, tid = 14344",14643484
+''06:13:02.231469568,0.000001208,synthetic_host,syscall_entry_ioctl,3,curl,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 8192, len = 4096, advice = 4",2781911
+''06:13:02.231487232,0.000000167,synthetic_host,syscall_exit_futex,2,curl,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 8192, len = 4096, advice = 4",4890690
+''06:13:02.231325952,0.000000583,synthetic_host,syscall_entry_read,0,elasticsearchm,"pid = 14344, tid = 14344","ret = 0, arg = 275115444656752",1424388
+''06:13:02.228642560,0.000000791,synthetic_host,syscall_entry_sync_file_range,3,node,"pid = 14323, tid = 14330",ret = 517,8622963
+''06:13:02.231168768,0.000000375,synthetic_host,syscall_entry_futex,2,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, uaddr = 194557001039976, uaddr2 = 0",9203959
+''06:13:02.229558272,0.000000333,synthetic_host,syscall_entry_epoll_pwait,3,curl,"pid = 14323, tid = 14330","uaddr = 194557001039528, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336",10773118
+''06:13:02.231758336,0.000001416,synthetic_host,syscall_exit_write,0,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 194557001051044, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 3572466072",15269618
+''06:13:02.229778688,0.000000166,synthetic_host,syscall_entry_recvmsg,2,llvmpipe-3,"pid = 11822, tid = 11868","ret = 0, arg = 275115444656768",16537117
+''06:13:02.231130880,0.000004500,synthetic_host,syscall_exit_epoll_pwait,3,lttng-consumerd,"pid = 11822, tid = 11868","fd = 4, usockaddr_len = 281474913772420",13282099
+''06:13:02.230955008,0.000005000,synthetic_host,syscall_exit_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",12616218
+''06:13:02.231411712,0.000032958,synthetic_host,syscall_exit_fcntl,2,lttng-consumerd,"pid = 14323, tid = 14330",ret = 517,2185717
+''06:13:02.231995136,0.000002625,synthetic_host,syscall_exit_getpid,3,curl,"pid = 3154, tid = 3214","ret = 8, buf = 246916493270424",10867597
+''06:13:02.229387264,0.000006833,synthetic_host,syscall_exit_getpid,0,Client manageme,"pid = 2932, tid = 2972","uaddr = 194557001039528, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336",1234674
+''06:13:02.232004608,0.000000666,synthetic_host,syscall_exit_ppoll,0,gnome-shell,"pid = 3154, tid = 3215",brk = 203053665472512,10439904
+''06:13:02.231083264,0.000060374,synthetic_host,syscall_entry_getsockname,2,curl,"pid = 14323, tid = 14330","fd = 35, offset = 126976, len = 4096, advice = 4",14353275
+''06:13:02.231284736,0.000099706,synthetic_host,syscall_entry_getpid,0,llvmpipe-1,"pid = 11822, tid = 11859","uaddr = 267960194247692, op = 129, val = 2147483647, utime = 0, uaddr2 = 203053665394872, val3 = 496541864",393461
+''06:13:02.231186432,0.000000375,synthetic_host,syscall_entry_setsockopt,2,lttng-consumerd,"pid = 3154, tid = 3216","ret = 0, fd = 35, offset = 131072, len = 4096, advice = 4",1851097
+''06:13:02.230629376,0.000000791,synthetic_host,syscall_exit_read,0,node,"pid = 14323, tid = 14330","ret = 0, arg = 0",167110
+''06:13:02.231207168,0.000000125,synthetic_host,syscall_entry_futex,3,lttng-consumerd,"pid = 11822, tid = 11859","ret = 0, arg = 275115444656688",5202482
+''06:13:02.230573312,0.000000208,synthetic_host,syscall_entry_ioctl,3,curl,"pid = 14323, tid = 14330","fd = 4, size = 5, flags = 0, addr_len = 0",4090651
+''06:13:02.230041600,0.000002625,synthetic_host,syscall_entry_ioctl,2,curl,"pid = 14345, tid = 14345",ret = 0,3312975
+''06:13:02.231204608,0.000000125,synthetic_host,syscall_exit_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 62982, arg = 275115481893672",5043603
+''06:13:02.231311616,0.000000374,synthetic_host,syscall_exit_futex,3,elasticsearchm,"pid = 14344, tid = 14344","uaddr = 194557001039160, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572464968",6644615
+''06:13:02.227911936,0.000000333,synthetic_host,syscall_entry_getsockname,3,llvmpipe-3,"pid = 14324, tid = 14324",ret = 14344,983177
+''06:13:02.228204032,0.000001500,synthetic_host,syscall_entry_epoll_pwait,3,elasticsearchm,"pid = 11822, tid = 11859","fd = 35, offset = 8192, nbytes = 4096, flags = 2",9294919
+''06:13:02.231698688,0.000000584,synthetic_host,syscall_exit_getsockname,2,lttng-consumerd,"pid = 14323, tid = 14330",ret = 4096,5635758
+''06:13:02.227911936,0.000018291,synthetic_host,syscall_exit_getsockopt,1,lttng-consumerd,"pid = 2932, tid = 2972","fd = 35, buf = 275115481837568, count = 4096",15447788
+''06:13:02.231459584,0.000001458,synthetic_host,syscall_exit_accept,0,curl,"pid = 14297, tid = 14307","fd = 13, cmd = 3222299827, arg = 248272618772584",7175783
+''06:13:02.231096576,0.000008334,synthetic_host,syscall_exit_write,2,lttng-consumerd,"pid = 3154, tid = 3216","fd = 35, offset = 90112, nbytes = 4096, flags = 2",16770394
+''06:13:02.231257600,0.000000958,synthetic_host,syscall_entry_ioctl,0,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656752",1630358
+''06:13:02.230647296,0.000000292,synthetic_host,syscall_exit_write,3,Client manageme,"pid = 11822, tid = 11859","fd = 21, cmd = 63048, arg = 221342671110144",3207002
+''06:13:02.231372032,0.000060374,synthetic_host,syscall_exit_ioctl,3,gnome-shell,"pid = 14345, tid = 14345","ret = 0, arg = 275115444656768",10675659
+''06:13:02.228765440,0.000000958,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 246917844007512, op = 137, val = 16930, utime = 246917138863456, uaddr2 = 0, val3 = 4294967295",10880588
+''06:13:02.231588608,0.000001542,synthetic_host,syscall_entry_read,0,lttng-consumerd,"pid = 14344, tid = 14344",ret = 4096,10112904
+''06:13:02.229002752,0.000000292,synthetic_host,syscall_exit_ioctl,2,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 90112, nbytes = 4096, flags = 2",1488252
+''06:13:02.231067136,0.000002542,synthetic_host,syscall_exit_sync_file_range,0,llvmpipe-0,"pid = 14323, tid = 14330","EPOLLIN = 1, EPOLLPRI = 0, EPOLLOUT = 0, EPOLLERR = 0, padding = 0",2192070
+''06:13:02.228957696,0.000000375,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 11822, tid = 11859",ret = 0,1072252
+''06:13:02.229817600,0.000011708,synthetic_host,syscall_entry_epoll_pwait,0,curl,"pid = 14323, tid = 14330","fd = 21, cmd = 63048, arg = 221342671110144",16291211
+''06:13:02.227911936,0.000000209,synthetic_host,syscall_exit_sync_file_range,2,curl,"pid = 14323, tid = 14330","uaddr = 194557001040264, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572466072",12178217
+''06:13:02.231844096,0.000000125,synthetic_host,syscall_entry_ioctl,0,gnome-shell,"pid = 14323, tid = 14330","ret = 0, uaddr = 260299015465752, uaddr2 = 0",11354719
+''06:13:02.231872256,0.000001291,synthetic_host,syscall_exit_ioctl,2,lttng-consumerd,"pid = 14323, tid = 14330","POLLIN = 1, POLLPRI = 1, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",10460724
+''06:13:02.231232512,0.000000375,synthetic_host,syscall_exit_write,3,lttng-consumerd,"pid = 11822, tid = 11859","fd = 34, cmd = 2148070920, arg = 275115444656760",308338
+''06:13:02.231236352,0.000000167,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14344, tid = 14344",11687420
+''06:13:02.228330240,0.000000208,synthetic_host,syscall_exit_ioctl,3,llvmpipe-3,"pid = 14345, tid = 14345",brk = 203053665472512,733537
+''06:13:02.231474432,0.000000042,synthetic_host,syscall_entry_futex,0,C1 CompilerThre,"pid = 14323, tid = 14330",ret = 0,4952255
+''06:13:02.231810560,0.000004250,synthetic_host,syscall_entry_sync_file_range,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 62981, arg = 275115481893672",11800394
+''06:13:02.231375616,0.000001292,synthetic_host,syscall_entry_rt_sigaction,1,llvmpipe-1,"pid = 12061, tid = 12061","fd = 21, cmd = 63048, arg = 221342671110144",15556011
+''06:13:02.230257408,0.000001750,synthetic_host,syscall_entry_futex,3,lttng-consumerd,"pid = 14344, tid = 14344","uaddr = 246917844007512, op = 137, val = 16930, utime = 246917138863456, uaddr2 = 0, val3 = 4294967295",4875177
+''06:13:02.231365376,0.000001000,synthetic_host,syscall_entry_fcntl,0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",2659142
+''06:13:02.231042816,0.000000458,synthetic_host,syscall_exit_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 246917844007512, op = 137, val = 16930, utime = 246917138863456, uaddr2 = 0, val3 = 4294967295",5895366
+''06:13:02.229213696,0.000001542,synthetic_host,syscall_exit_fcntl,3,curl,"pid = 14323, tid = 14330",ret = 14345,1841042
+''06:13:02.229885952,0.000001375,synthetic_host,syscall_exit_write,0,llvmpipe-1,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",7287810
+''06:13:02.231177472,0.000000458,synthetic_host,syscall_entry_ioctl,3,elasticsearchm,"pid = 14345, tid = 14345","uaddr = 194557001051044, op = 128, val = 166992, utime = 0, uaddr2 = 7376000, val3 = 7376",9099689
+''06:13:02.231000576,0.000001750,synthetic_host,syscall_entry_futex,3,lttng-consumerd,"pid = 3154, tid = 3214","ret = 2, arg = 50",1032876
+''06:13:02.229399296,0.000000292,synthetic_host,syscall_exit_ioctl,2,node,"pid = 11822, tid = 11868","epfd = 13, maxevents = 1024, timeout = 10, sigmask = 0x0, sigsetsize = 8",3773342
+''06:13:02.230694144,0.000000166,synthetic_host,syscall_exit_futex,2,lttng-consumerd,"pid = 3154, tid = 3216","ret = 32, buf = 246916493257208",10414221
+''06:13:02.231161600,0.000000209,synthetic_host,syscall_entry_sync_file_range,0,data-loop.0,"pid = 11822, tid = 11867","buf = 222501009261744, count = 48, flags = 0",5887002
+''06:13:02.231487744,0.000000083,synthetic_host,syscall_entry_ioctl,2,node,"pid = 14345, tid = 14345","uaddr = 194557001040264, op = 128, val = 2, utime = 0, uaddr2 = 0, val3 = 1937692840",4947012
+''06:13:02.231033088,0.000002875,synthetic_host,syscall_exit_getrandom,1,Client manageme,"pid = 14345, tid = 14345","fd = 576, level = 6, optname = 1, optval = 246916502705964, optlen = 4",4278177
+''06:13:02.231691264,0.000000167,synthetic_host,syscall_exit_futex,2,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0,16172824
+''06:13:02.231921664,0.000011708,synthetic_host,syscall_exit_getpid,3,curl,"pid = 14323, tid = 14330","ret = 0, arg = 219392954314048",6448092
+''06:13:02.232279808,0.000000667,synthetic_host,syscall_exit_write,3,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14345, tid = 14345",5841355
+''06:13:02.230572032,0.000000334,synthetic_host,syscall_entry_read,0,C1 CompilerThre,"pid = 11822, tid = 11841","ret = 0, arg = 275115444656752",11632873
+''06:13:02.229482496,0.000000292,synthetic_host,syscall_exit_timerfd_settime,2,lttng-consumerd,"pid = 3154, tid = 3154","fd = 4, buff = 222501009470064, len = 517, flags = 16384, addr = 0, addr_len = 0",11537275
+''06:13:02.229047040,0.000000083,synthetic_host,syscall_exit_fadvise64_64,3,llvmpipe-2,"pid = 14324, tid = 14324","addr = 248270898528256, len = 7602176",15850651
+''06:13:02.232219904,0.000000209,synthetic_host,syscall_entry_getsockname,2,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",1729964
+''06:13:02.231250176,0.000011542,synthetic_host,syscall_entry_fadvise64_64,2,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 248272618772584",1074285
+''06:13:02.229122560,0.000009041,synthetic_host,syscall_exit_write,3,curl,"pid = 11822, tid = 11841","fd = 35, offset = 61440, nbytes = 4096, flags = 7",15479828
+''06:13:02.228314880,0.000000417,synthetic_host,syscall_entry_fadvise64_64,2,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 62982, arg = 275115481893672",12297492
+''06:13:02.231205376,0.000001042,synthetic_host,syscall_exit_ioctl,3,elasticsearchm,"pid = 11822, tid = 11859","ret = 517, buf = 246915522452080",3232241
+''06:13:02.228935168,0.000000416,synthetic_host,syscall_entry_getpid,3,gnome-shell,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",13001995
+''06:13:02.231625984,0.000012666,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14345, tid = 14345",5046145
+''06:13:02.231559424,0.000000500,synthetic_host,syscall_entry_setsockopt,3,elasticsearchm,"pid = 14323, tid = 14330","fd = 60, count = 32",12119673
+''06:13:02.228063744,0.000001208,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14345, tid = 14345","ret = 0, fd = 35, offset = 131072, len = 4096, advice = 4",10189348
+''06:13:02.229043200,0.000000500,synthetic_host,syscall_entry_recvmsg,3,curl,"pid = 14344, tid = 14344","ret = 2, arg = 50",12054874
+''06:13:02.228184832,0.000009042,synthetic_host,syscall_exit_futex,0,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14344, tid = 14344",10851510
+''06:13:02.231199744,0.000000125,synthetic_host,syscall_entry_ppoll,3,elasticsearchm,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14344, tid = 14344",3316638
+''06:13:02.232084224,0.000001083,synthetic_host,syscall_entry_futex,3,lttng-consumerd,"pid = 14345, tid = 14345","epfd = 13, maxevents = 1024, timeout = 10, sigmask = 0x0, sigsetsize = 8",9144501
+''06:13:02.230966272,0.000000334,synthetic_host,syscall_entry_write,2,data-loop.0,"pid = 14297, tid = 14307","ret = 0, usockaddr = 281474913772424, usockaddr_len = 281474913772420",2899385
+''06:13:02.231238912,0.000001083,synthetic_host,syscall_exit_getsockname,3,curl,"pid = 11822, tid = 11859","buf = 222501009261744, count = 48, flags = 0",6920704
+''06:13:02.232285952,0.000000792,synthetic_host,syscall_entry_close,1,lttng-consumerd,"pid = 14344, tid = 14344","fd = 34, cmd = 62982, arg = 275115481893672",11842799
+''06:13:02.231301888,0.000000208,synthetic_host,syscall_exit_read,2,lttng-consumerd,"pid = 14345, tid = 14345","fd = 35, offset = 106496, nbytes = 4096, flags = 2",7884517
+''06:13:02.232285952,0.000000792,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 4096,8584479
+''06:13:02.230800896,0.000000166,synthetic_host,syscall_entry_sync_file_range,0,elasticsearchm,"pid = 14323, tid = 14330","fd = 34, cmd = 62982, arg = 275115481893672",11189670
+''06:13:02.228837888,0.000000125,synthetic_host,syscall_exit_setsockopt,0,curl,"pid = 14323, tid = 14330","ret = 0, uaddr = 194557001040264, uaddr2 = 0",3707399
+''06:13:02.231424768,0.000002084,synthetic_host,syscall_exit_getpid,2,data-loop.0,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14344, tid = 14344",1708636
+''06:13:02.230888448,0.000005958,synthetic_host,syscall_exit_accept,2,elasticsearchm,"pid = 14344, tid = 14344","uaddr = 194557001039528, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336",14288931
+''06:13:02.231953920,0.000000792,synthetic_host,syscall_entry_epoll_pwait,0,lttng-consumerd,"pid = 14323, tid = 14330","epfd = 542, maxevents = 1024, timeout = -1, sigmask = 0x0, sigsetsize = 8",879040
+''06:13:02.232285952,0.000000208,synthetic_host,syscall_exit_sync_file_range,3,lttng-consumerd,"pid = 14323, tid = 14330","fd = 66, cmd = 3230155043, arg = 219392954314048",10219103
+''06:13:02.227911936,0.000001833,synthetic_host,syscall_exit_getpid,3,lttng-consumerd,"pid = 3154, tid = 3216","ret = 0, uaddr = 194557001039896, uaddr2 = 0",3313554
+''06:13:02.231107328,0.000009333,synthetic_host,syscall_entry_fcntl,0,curl,"pid = 11822, tid = 11868","fd = 35, offset = 147456, nbytes = 4096, flags = 2",1078710
+''06:13:02.228500736,0.000000458,synthetic_host,syscall_entry_getpid,2,curl,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 53248, len = 4096, advice = 4",12841914
+''06:13:02.231182592,0.000000291,synthetic_host,syscall_exit_fadvise64_64,0,curl,"pid = 14344, tid = 14344",brk = 203053665472512,3557431
+''06:13:02.232219648,0.000002791,synthetic_host,syscall_exit_rt_sigaction,3,elasticsearchm,"pid = 14323, tid = 14330","sig = 13, act = 281474913773464, sigsetsize = 8",10592763
+''06:13:02.231459072,0.000000416,synthetic_host,syscall_exit_fadvise64_64,3,lttng-consumerd,"pid = 14345, tid = 14345","ret = 0, otmr = 0",6898422
+''06:13:02.231448576,0.000000292,synthetic_host,syscall_exit_sync_file_range,3,curl,"pid = 14345, tid = 14345","ret = 0, arg = 275115444656752",12350648
+''06:13:02.230873088,0.000000542,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 14345, tid = 14345","procname = ""curl"", pid = 14344, tid = 14344",669740
+''06:13:02.229300992,0.000000167,synthetic_host,syscall_exit_write,0,lttng-consumerd,"pid = 11822, tid = 11867","uaddr = 260299015465752, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 0",1062267
+''06:13:02.227911936,0.000000458,synthetic_host,syscall_entry_ioctl,3,data-loop.0,"pid = 11822, tid = 11867","fd = 34, cmd = 2148070919, arg = 275115444656752",9820875
+''06:13:02.231590656,0.000000167,synthetic_host,syscall_exit_futex,0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",3117030
+''06:13:02.231976448,0.000000374,synthetic_host,syscall_exit_write,3,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 62981, arg = 275115481893672",11504021
+''06:13:02.231524864,0.000000250,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 14345, tid = 14345","fd = 21, cmd = 63048, arg = 221342671110144",4613906
+''06:13:02.231671296,0.000008417,synthetic_host,syscall_entry_munmap,2,curl,"pid = 14345, tid = 14345",fd = 4,13356347
+''06:13:02.231692288,0.000002250,synthetic_host,syscall_exit_ioctl,0,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070920, arg = 275115444656760",9400731
+''06:13:02.231996160,0.000000208,synthetic_host,syscall_exit_epoll_pwait,3,llvmpipe-2,"pid = 11822, tid = 11859","fd = 35, offset = 122880, nbytes = 4096, flags = 2",9065120
+''06:13:02.231070464,0.000000500,synthetic_host,syscall_exit_futex,3,lttng-runas,"pid = 3154, tid = 3215","procname = ""curl"", pid = 14345, tid = 14345",3496126
+''06:13:02.231290368,0.000000375,synthetic_host,syscall_entry_sendto,3,llvmpipe-0,"pid = 11822, tid = 11867","fd = 34, cmd = 2148070923, arg = 275115444656688",5488439
+''06:13:02.228306944,0.000000417,synthetic_host,syscall_exit_sync_file_range,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 65536, len = 4096, advice = 4",421638
+''06:13:02.231087360,0.000000166,synthetic_host,syscall_exit_sendto,0,curl,"pid = 14323, tid = 14330","ret = 0, uaddr = 267960194247692, uaddr2 = 203053665394872",12878502
+''06:13:02.228243456,0.000003499,synthetic_host,syscall_entry_getpid,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070920, arg = 275115444656760",5820206
+''06:13:02.230654976,0.000002208,synthetic_host,syscall_entry_write,0,C1 CompilerThre,"pid = 14345, tid = 14345","EPOLLIN = 1, EPOLLPRI = 0, EPOLLOUT = 0, EPOLLERR = 0, padding = 0",10680371
+''06:13:02.231944704,0.000072498,synthetic_host,syscall_exit_getpid,0,data-loop.0,"pid = 14345, tid = 14345","uaddr = 194557001039896, op = 128, val = 2, utime = 0, uaddr2 = 0, val3 = 1946146984",7611243
+''06:13:02.231169792,0.000000584,synthetic_host,syscall_entry_recvfrom,3,elasticsearchm,"pid = 14323, tid = 14330","ret = 0, otmr = 0",6513677
+''06:13:02.231267328,0.000000583,synthetic_host,syscall_entry_fcntl,3,lttng-consumerd,"pid = 14323, tid = 14330","ret = 1, fds_length = 0, overflow = 0, fds = [ ]",9856338
+''06:13:02.230717696,0.000000209,synthetic_host,syscall_exit_timerfd_settime,3,lttng-consumerd,"pid = 14345, tid = 14345","fd = 34, cmd = 62981, arg = 275115481893672",2048966
+''06:13:02.232072960,0.000000208,synthetic_host,syscall_entry_getpid,2,node,"pid = 2932, tid = 2972","fd = 34, cmd = 2148070919, arg = 275115444656752",71544
+''06:13:02.231329536,0.000000125,synthetic_host,syscall_entry_futex,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 66, cmd = 3230155043, arg = 219392954314048",9892598
+''06:13:02.231975936,0.000000292,synthetic_host,syscall_entry_futex,1,curl,"pid = 14323, tid = 14330",ret = 0,8019687
+''06:13:02.232285952,0.000020249,synthetic_host,syscall_entry_futex,3,llvmpipe-1,"pid = 3154, tid = 3214","ret = 0, uaddr = 194557001039240, uaddr2 = 0",12315560
+''06:13:02.229505280,0.000024708,synthetic_host,syscall_entry_epoll_pwait,2,lttng-consumerd,"pid = 2932, tid = 2972",brk = 203053665472512,8136331
+''06:13:02.229948928,0.000001208,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656752",3561046
+''06:13:02.231643904,0.000001750,synthetic_host,syscall_exit_futex,3,curl,"pid = 3154, tid = 3214","fd = 34, cmd = 62981, arg = 275115481893672",465908
+''06:13:02.230761984,0.000008417,synthetic_host,syscall_exit_rt_sigaction,3,lttng-consumerd,"pid = 14323, tid = 14330","ret = 8, buf = 246916493270424",14551666
+''06:13:02.230217472,0.000001750,synthetic_host,syscall_exit_getpid,1,elasticsearchm,"pid = 14345, tid = 14345",ret = 0,4458102
+''06:13:02.231397120,0.000000209,synthetic_host,syscall_exit_futex,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 576, level = 1, optname = 9, optval = 246916502705836, optlen = 4",15637914
+''06:13:02.231474944,0.000000375,synthetic_host,syscall_entry_recvmsg,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 61440, nbytes = 4096, flags = 7",10960655
+''06:13:02.231489536,0.000000084,synthetic_host,syscall_exit_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 194557001039528, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336",1660774
+''06:13:02.231176448,0.000541902,synthetic_host,syscall_entry_epoll_ctl,0,curl,"pid = 3154, tid = 3215","ret = 0, optval = 246916502706496, optlen = 246916502706412",6050879
+''06:13:02.230992896,0.000000208,synthetic_host,syscall_entry_ioctl,0,elasticsearchm,"pid = 14323, tid = 14330","uaddr = 194557001051044, op = 128, val = 166992, utime = 0, uaddr2 = 0, val3 = 3572465704",8074258
+''06:13:02.229343232,0.000022041,synthetic_host,syscall_exit_ioctl,0,curl,"pid = 12061, tid = 12061","fd = 35, offset = 40960, nbytes = 4096, flags = 7",3267414
+''06:13:02.231149568,0.000000208,synthetic_host,syscall_exit_sync_file_range,3,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14345, tid = 14345",11077780
+''06:13:02.230004224,0.000000083,synthetic_host,syscall_exit_fadvise64_64,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070925, arg = 275115444656768",2638144
+''06:13:02.230897408,0.000003125,synthetic_host,syscall_entry_getpid,0,gnome-shell,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",2413552
+''06:13:02.230994176,0.000022000,synthetic_host,syscall_entry_close,0,lttng-consumerd,"pid = 14344, tid = 14344","fd = 35, offset = 77824, nbytes = 4096, flags = 2",3525742
+''06:13:02.231729152,0.000000792,synthetic_host,syscall_exit_futex,3,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14345, tid = 14345",11109452
+''06:13:02.228448768,0.000005000,synthetic_host,syscall_entry_write,0,lttng-consumerd,"pid = 14344, tid = 14344","ret = 0, arg = 275115444656768",16298523
+''06:13:02.231653632,0.000001334,synthetic_host,syscall_entry_write,2,node,"pid = 14324, tid = 14324","fd = 576, count = 65536",2452806
+''06:13:02.228807680,0.000001250,synthetic_host,syscall_exit_futex,2,C1 CompilerThre,"pid = 14344, tid = 14344","fd = 34, cmd = 2148070919, arg = 275115444656752",6127866
+''06:13:02.231967744,0.000000167,synthetic_host,syscall_entry_ioctl,0,curl,"pid = 14345, tid = 14345","fd = 34, cmd = 2148070920, arg = 275115444656760",6136984
+''06:13:02.231086336,0.000000125,synthetic_host,syscall_exit_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",14351552
+''06:13:02.231459840,0.000003041,synthetic_host,syscall_entry_sync_file_range,2,llvmpipe-0,"pid = 14345, tid = 14345","fd = 34, cmd = 2148070919, arg = 275115444656752",12222174
+''06:13:02.230776576,0.000000375,synthetic_host,syscall_exit_futex,3,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070925, arg = 275115444656768",2130257
+''06:13:02.232285952,0.000000167,synthetic_host,syscall_exit_futex,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 4096,15744942
+''06:13:02.231181056,0.000000250,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14344, tid = 14344",4186218
+''06:13:02.231914752,0.000000208,synthetic_host,syscall_exit_ioctl,3,curl,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 81920, len = 4096, advice = 4",11491525
+''06:13:02.232015616,0.000001041,synthetic_host,syscall_exit_futex,0,elasticsearchm,"pid = 14323, tid = 14330",ret = 517,15452325
+''06:13:02.231930368,0.000000958,synthetic_host,syscall_entry_fadvise64_64,1,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070919, arg = 275115444656752",2981083
+''06:13:02.231998464,0.000000250,synthetic_host,syscall_entry_fadvise64_64,2,lttng-consumerd,"pid = 14323, tid = 14330","fd = 576, cmd = 4, arg = 2050",13106886
+''06:13:02.232285952,0.000001750,synthetic_host,syscall_entry_sync_file_range,3,lttng-consumerd,"pid = 3154, tid = 3216","fd = 576, level = 6, optname = 1, optval = 246916502705964, optlen = 4",13707406
+''06:13:02.230088448,0.000000209,synthetic_host,syscall_entry_futex,3,lttng-consumerd,"pid = 3154, tid = 3215","ret = 0, uaddr = 194557001040348, uaddr2 = 0",14644912
+''06:13:02.229682432,0.000000208,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 24576, len = 4096, advice = 4",13468474
+''06:13:02.229942784,0.000000583,synthetic_host,syscall_entry_sync_file_range,0,lttng-consumerd,"pid = 11822, tid = 11868","uaddr = 194557001039528, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336",15594318
+''06:13:02.230817024,0.000002709,synthetic_host,syscall_exit_ioctl,0,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",1517
+''06:13:02.228346880,0.000004250,synthetic_host,syscall_exit_epoll_pwait,3,curl,"pid = 11822, tid = 11868","fd = 35, buf = 275115481837568, count = 4096",8805968
+''06:13:02.232120320,0.000000333,synthetic_host,syscall_exit_futex,1,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 62981, arg = 275115481893672",10026490
+''06:13:02.231398400,0.000000167,synthetic_host,syscall_entry_futex,0,curl,"pid = 14323, tid = 14330",ret = 0,3747798
+''06:13:02.231230464,0.000014000,synthetic_host,syscall_exit_recvfrom,3,curl,"pid = 14345, tid = 14345","POLLIN = 1, POLLPRI = 1, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",11621291
+''06:13:02.231642112,0.000001416,synthetic_host,syscall_exit_write,0,elasticsearchm,"pid = 14323, tid = 14330","epfd = 9, maxevents = 32, timeout = -1, sigmask = 0x0, sigsetsize = 8",1534424
+''06:13:02.231834368,0.000000416,synthetic_host,syscall_entry_futex,2,elasticsearchm,"pid = 14323, tid = 14330","ret = 0, arg = 219392954314048",6699796
+''06:13:02.230980608,0.000000167,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 2932, tid = 2972","ret = 0, arg = 275115481893672",6941043
+''06:13:02.232090624,0.000000209,synthetic_host,syscall_entry_ioctl,3,elasticsearchm,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656752",6787036
+''06:13:02.231820544,0.000000209,synthetic_host,syscall_entry_fadvise64_64,2,curl,"pid = 14323, tid = 14330","fd = 4, usockaddr_len = 281474913772420",13894811
+''06:13:02.229998592,0.000000459,synthetic_host,syscall_exit_futex,1,curl,"pid = 11822, tid = 11868",ret = 4096,2412181
+''06:13:02.228942592,0.000000458,synthetic_host,syscall_exit_fadvise64_64,0,lttng-consumerd,"pid = 14323, tid = 14330","epfd = 13, maxevents = 1024, timeout = 0, sigmask = 0x0, sigsetsize = 8",1612177
+''06:13:02.228609792,0.000000958,synthetic_host,syscall_entry_rt_sigaction,3,curl,"pid = 14345, tid = 14345","uaddr = 194557001040264, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572466072",15624017
+''06:13:02.231376640,0.000000499,synthetic_host,syscall_exit_futex,0,llvmpipe-3,"pid = 14323, tid = 14330",ret = 4096,11330085
+''06:13:02.230871808,0.000000125,synthetic_host,syscall_exit_brk,1,curl,"pid = 11822, tid = 11867","fd = 34, cmd = 2148070925, arg = 275115444656768",1412926
+''06:13:02.231041280,0.000000791,synthetic_host,syscall_entry_write,3,curl,"pid = 14345, tid = 14345","ret = 48, buf = 222501009261744, count = 48, flags = 0",6123796
+''06:13:02.229573888,0.000000208,synthetic_host,syscall_exit_read,3,C1 CompilerThre,"pid = 11822, tid = 11867","ret = 1, fds_length = 0, overflow = 0, fds = [ ]",4235819
+''06:13:02.231197440,0.000000958,synthetic_host,syscall_exit_ioctl,2,curl,"pid = 14323, tid = 14330",ret = 0,11196228
+''06:13:02.232091904,0.000049957,synthetic_host,syscall_entry_ioctl,0,curl,"pid = 11822, tid = 11868",ret = 0,16192359
+''06:13:02.230604800,0.000000417,synthetic_host,syscall_entry_ppoll,3,elasticsearchm,"pid = 11822, tid = 11867","ufd = 67, flags = 1, utmr = 281458146600112",10937830
+''06:13:02.230854144,0.000000375,synthetic_host,syscall_exit_futex,3,curl,"pid = 14323, tid = 14330",ret = 14345,13681018
+''06:13:02.231326208,0.000000292,synthetic_host,syscall_exit_epoll_pwait,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 4096,11460264
+''06:13:02.231567360,0.000001084,synthetic_host,syscall_entry_futex,2,curl,"pid = 14345, tid = 14345","ret = 0, arg = 275115444656768",1289739
+''06:13:02.230766848,0.000000374,synthetic_host,syscall_exit_close,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 28672, len = 4096, advice = 4",7215008
+''06:13:02.232285952,0.000002084,synthetic_host,syscall_entry_sync_file_range,2,lttng-consumerd,"pid = 11822, tid = 11868","POLLIN = 0, POLLPRI = 1, POLLOUT = 1, POLLERR = 0, POLLHUP = 0, padding = 0",2277192
+''06:13:02.230891776,0.000000417,synthetic_host,syscall_exit_fadvise64_64,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 60, count = 32",9547157
+''06:13:02.231403264,0.000002291,synthetic_host,syscall_exit_ioctl,0,C1 CompilerThre,"pid = 14345, tid = 14345","fd = 34, cmd = 62981, arg = 275115481893672",12128776
+''06:13:02.231918592,0.000008417,synthetic_host,syscall_entry_write,0,lttng-consumerd,"pid = 11822, tid = 11859","ret = 0, arg = 219392954314048",13816466
+''06:13:02.231365632,0.000000250,synthetic_host,syscall_exit_timerfd_settime,3,elasticsearchm,"pid = 14323, tid = 14330","fd = 34, cmd = 62981, arg = 275115481893672",15827694
+''06:13:02.231098112,0.000001041,synthetic_host,syscall_entry_brk,3,elasticsearchm,"pid = 3154, tid = 3154","uaddr = 194557001039528, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336",12451388
+''06:13:02.231043584,0.000000250,synthetic_host,syscall_exit_sync_file_range,2,elasticsearchm,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070920, arg = 275115444656760",10781019
+''06:13:02.231499008,0.000000333,synthetic_host,syscall_exit_fadvise64_64,3,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14345, tid = 14345",8125002
+''06:13:02.231976704,0.000000083,synthetic_host,syscall_entry_brk,0,llvmpipe-0,"pid = 14345, tid = 14345","fd = 21, cmd = 63048, arg = 221342671110144",1542636
+''06:13:02.231180288,0.000000208,synthetic_host,syscall_exit_futex,0,elasticsearchm,"pid = 14323, tid = 14330","fd = 66, cmd = 3230155043, arg = 219392954314048",10388248
+''06:13:02.231446016,0.000000083,synthetic_host,syscall_entry_getpid,0,lttng-consumerd,"pid = 11822, tid = 11867","fd = 34, cmd = 62982, arg = 275115481893672",751168
+''06:13:02.228946944,0.000000458,synthetic_host,syscall_exit_sync_file_range,0,lttng-consumerd,"pid = 14345, tid = 14345","fd = 35, offset = 8192, nbytes = 4096, flags = 7",3515591
+''06:13:02.231142144,0.000000208,synthetic_host,syscall_exit_write,0,curl,"pid = 14323, tid = 14330","fd = 35, offset = 4096, len = 4096, advice = 4",13638287
+''06:13:02.230796544,0.000002875,synthetic_host,syscall_exit_sync_file_range,3,curl,"pid = 14323, tid = 14330",ret = 0,12004423
+''06:13:02.231347456,0.000021583,synthetic_host,syscall_exit_futex,1,data-loop.0,"pid = 3154, tid = 3216","fd = 4, size = 5, flags = 0, addr_len = 0",13168827
+''06:13:02.231404288,0.000000250,synthetic_host,syscall_exit_ioctl,3,lttng-consumerd,"pid = 3154, tid = 3214","ret = 0, arg = 275115444656752",3446384
+''06:13:02.231532800,0.000000166,synthetic_host,syscall_entry_getpid,0,lttng-consumerd,"pid = 14345, tid = 14345","ret = 0, arg = 275115444656768",9627013
+''06:13:02.231123968,0.000009958,synthetic_host,syscall_entry_ioctl,1,lttng-consumerd,"pid = 11822, tid = 11867","fd = 35, offset = 65536, nbytes = 4096, flags = 2",4218000
+''06:13:02.231564800,0.000000292,synthetic_host,syscall_exit_ioctl,1,lttng-consumerd,"pid = 11822, tid = 11867","ret = 0, arg = 219392954314048",14238833
+''06:13:02.230689536,0.000001042,synthetic_host,syscall_entry_getpid,0,llvmpipe-2,"pid = 14323, tid = 14330","EPOLLIN = 1, EPOLLPRI = 0, EPOLLOUT = 0, EPOLLERR = 0, padding = 0",2415347
+''06:13:02.231572480,0.000000458,synthetic_host,syscall_entry_sync_file_range,2,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070919, arg = 275115444656752",13319372
+''06:13:02.232148224,0.000001000,synthetic_host,syscall_exit_fadvise64_64,0,C1 CompilerThre,"pid = 3154, tid = 3154","ret = 0, optval = 246916502706496, optlen = 246916502706412",14183780
+''06:13:02.228001280,0.000001042,synthetic_host,syscall_exit_write,0,elasticsearchm,"pid = 14345, tid = 14345","fd = 34, cmd = 62982, arg = 275115481893672",4753503
+''06:13:02.231824640,0.000001250,synthetic_host,syscall_entry_futex,0,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14344, tid = 14344",14463561
+''06:13:02.231258112,0.000000333,synthetic_host,syscall_entry_ioctl,3,gnome-shell,"pid = 14323, tid = 14330","fd = 4, buff = 203053665469200, len = 517, flags = 16384, addr = 0, addr_len = 0",11686780
+''06:13:02.228565760,0.000002583,synthetic_host,syscall_entry_futex,3,elasticsearchm,"pid = 11822, tid = 11868","ret = 0, arg = 275115444656768",13050336
+''06:13:02.231312640,0.000021208,synthetic_host,syscall_exit_futex,2,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 61440, nbytes = 4096, flags = 7",9394143
+''06:13:02.231748608,0.000001750,synthetic_host,syscall_exit_fcntl,0,data-loop.0,"pid = 11822, tid = 11841",ret = 3154,4324749
+''06:13:02.232107264,0.000139871,synthetic_host,syscall_exit_fadvise64_64,1,llvmpipe-3,"pid = 14323, tid = 14330",ret = 3154,3043162
+''06:13:02.232285952,0.000139871,synthetic_host,syscall_exit_read,2,curl,"pid = 14323, tid = 14330","ret = 48, buf = 222501009261744, count = 48, flags = 0",3570849
+''06:13:02.231138816,0.000000958,synthetic_host,syscall_exit_getsockopt,0,elasticsearchm,"pid = 11822, tid = 11859","fd = 35, offset = 45056, nbytes = 4096, flags = 2",9815844
+''06:13:02.231404288,0.000005000,synthetic_host,syscall_entry_futex,2,lttng-consumerd,"pid = 3154, tid = 3154","fd = 35, offset = 94208, nbytes = 4096, flags = 7",10638438
+''06:13:02.231035648,0.000000125,synthetic_host,syscall_entry_setsockopt,1,curl,"pid = 11822, tid = 11868",ret = 14345,8454442
+''06:13:02.230746624,0.000019583,synthetic_host,syscall_exit_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0,13124235
+''06:13:02.228433664,0.000000708,synthetic_host,syscall_entry_sync_file_range,0,data-loop.0,"pid = 3154, tid = 3154","fd = 34, cmd = 2148070919, arg = 275115444656752",8018189
+''06:13:02.230853632,0.000000208,synthetic_host,syscall_exit_sync_file_range,2,curl,"pid = 14323, tid = 14330","POLLIN = 1, POLLPRI = 1, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",1877497
+''06:13:02.228272384,0.000000250,synthetic_host,syscall_exit_epoll_pwait,2,curl,"pid = 3154, tid = 3216",ret = 4096,13197135
+''06:13:02.231883776,0.000032958,synthetic_host,syscall_entry_fadvise64_64,3,llvmpipe-3,"pid = 14345, tid = 14345","fd = 34, cmd = 2148070920, arg = 275115444656760",11548966
+''06:13:02.231214336,0.000001750,synthetic_host,syscall_exit_write,2,llvmpipe-1,"pid = 11822, tid = 11859","fd = 34, cmd = 2148070923, arg = 275115444656688",10167450
+''06:13:02.232070912,0.000003208,synthetic_host,syscall_exit_sync_file_range,3,lttng-consumerd,"pid = 2932, tid = 2972","epfd = 546, maxevents = 1024, timeout = 10000, sigmask = 0x0, sigsetsize = 8",2741103
+''06:13:02.231435776,0.000000209,synthetic_host,syscall_entry_sync_file_range,0,elasticsearchm,"pid = 14323, tid = 14330","ret = 0, uaddr = 194557001039976, uaddr2 = 0",11862753
+''06:13:02.229605120,0.000001250,synthetic_host,syscall_exit_ppoll,0,llvmpipe-0,"pid = 11822, tid = 11859","fd = 60, count = 32",7107448
+''06:13:02.228426752,0.000000791,synthetic_host,syscall_exit_fadvise64_64,3,lttng-consumerd,"pid = 3154, tid = 3216","fd = 4, size = 5, flags = 0, addr_len = 0",1695736
+''06:13:02.231738368,0.000000208,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0,1919325
+''06:13:02.229806336,0.000000416,synthetic_host,syscall_entry_futex,0,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14345, tid = 14345",3966610
+''06:13:02.228615936,0.000000583,synthetic_host,syscall_entry_futex,0,elasticsearchm,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656760",4289446
+''06:13:02.229619456,0.000000500,synthetic_host,syscall_entry_setsockopt,0,lttng-consumerd,"pid = 12061, tid = 12061","fd = 35, offset = 90112, len = 4096, advice = 4",13648567
+''06:13:02.231390976,0.000000125,synthetic_host,syscall_exit_fadvise64_64,0,elasticsearchm,"pid = 14344, tid = 14344","ret = 0, uaddr = 194557001040264, uaddr2 = 0",3775677
+''06:13:02.231135488,0.000000209,synthetic_host,syscall_entry_brk,2,llvmpipe-2,"pid = 11822, tid = 11859","fd = 35, offset = 139264, nbytes = 4096, flags = 7",13553748
+''06:13:02.231348224,0.000000208,synthetic_host,syscall_entry_ioctl,0,lttng-runas,"pid = 14323, tid = 14330",ret = 4096,2616522
+''06:13:02.232147968,0.000002291,synthetic_host,syscall_exit_futex,0,curl,"pid = 14323, tid = 14330","POLLIN = 0, POLLPRI = 0, POLLOUT = 1, POLLERR = 0, POLLHUP = 0, padding = 0",10085611
+''06:13:02.231249152,0.000001042,synthetic_host,syscall_exit_fadvise64_64,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 62982, arg = 275115481893672",4211879
+''06:13:02.231665152,0.000006833,synthetic_host,syscall_exit_read,2,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 20480, len = 4096, advice = 4",3371930
+''06:13:02.228584448,0.000002250,synthetic_host,syscall_entry_read,1,data-loop.0,"pid = 11822, tid = 11868","ret = 0, arg = 275115481893672",641090
+''06:13:02.230814464,0.000003333,synthetic_host,syscall_exit_getpid,3,node,"pid = 11822, tid = 11867","fd = 576, cmd = 4, arg = 2050",9688413
+''06:13:02.231496960,0.000000167,synthetic_host,syscall_exit_ioctl,3,lttng-consumerd,"pid = 3154, tid = 3216","fd = 34, cmd = 62982, arg = 275115481893672",9206691
+''06:13:02.229390592,0.000000708,synthetic_host,syscall_exit_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330","fd = 60, count = 32",12697709
+''06:13:02.228622592,0.000000333,synthetic_host,syscall_entry_sync_file_range,0,gnome-shell,"pid = 14345, tid = 14345","ret = 576, upeer_sockaddr = 246916502706648, upeer_addrlen = 246916502706640",12768299
+''06:13:02.231127552,0.000000542,synthetic_host,syscall_exit_futex,0,curl,"pid = 14345, tid = 14345","fd = 35, offset = 122880, len = 4096, advice = 4",15107708
+''06:13:02.231251968,0.000000208,synthetic_host,syscall_exit_ioctl,0,curl,"pid = 14323, tid = 14330","fd = 35, buf = 275115481837568, count = 4096",5494308
+''06:13:02.229441024,0.000000334,synthetic_host,syscall_exit_futex,3,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070919, arg = 275115444656752",12684841
+''06:13:02.231339264,0.000000333,synthetic_host,syscall_entry_getpid,2,curl,"pid = 14323, tid = 14330",ret = 0,10115754
+''06:13:02.228562432,0.000000791,synthetic_host,syscall_exit_ioctl,3,curl,"pid = 14323, tid = 14330","fd = 21, cmd = 63048, arg = 221342671110144",13735608
+''06:13:02.228067584,0.000006750,synthetic_host,syscall_entry_write,3,lttng-runas,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070920, arg = 275115444656760",1245216
+''06:13:02.231439104,0.000007125,synthetic_host,syscall_entry_sync_file_range,3,node,"pid = 14344, tid = 14344","uaddr = 194557001040264, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572466072",15838309
+''06:13:02.231413248,0.000003750,synthetic_host,syscall_exit_munmap,1,lttng-consumerd,"pid = 3154, tid = 3213",ret = 4096,10364985
+''06:13:02.231105280,0.000000458,synthetic_host,syscall_exit_getpid,3,curl,"pid = 14323, tid = 14330","POLLIN = 1, POLLPRI = 1, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",7200727
+''06:13:02.227911936,0.000000291,synthetic_host,syscall_exit_getpid,0,curl,"pid = 14323, tid = 14330",ret = 517,4040424
+''06:13:02.228841984,0.000020499,synthetic_host,syscall_entry_futex,1,C1 CompilerThre,"pid = 12061, tid = 12061","EPOLLIN = 1, EPOLLPRI = 0, EPOLLOUT = 0, EPOLLERR = 0, padding = 0",6948178
+''06:13:02.231892480,0.000000666,synthetic_host,syscall_entry_munmap,0,curl,"pid = 3154, tid = 3216",ret = 4096,244453
+''06:13:02.231069696,0.000000334,synthetic_host,syscall_exit_fadvise64_64,3,curl,"pid = 14323, tid = 14330","ret = 0, uaddr = 194557001039896, uaddr2 = 0",7610828
+''06:13:02.231269376,0.000000374,synthetic_host,syscall_exit_getpid,0,lttng-consumerd,"pid = 3154, tid = 3214","fd = 21, cmd = 63048, arg = 221342671110144",12273839
+''06:13:02.230458112,0.000000208,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656768",14831013
+''06:13:02.228822528,0.000000375,synthetic_host,syscall_entry_sync_file_range,0,lttng-consumerd,"pid = 14345, tid = 14345","fd = 4, usockaddr_len = 281474913772420",15203641
+''06:13:02.230948608,0.000000333,synthetic_host,syscall_exit_sync_file_range,0,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070919, arg = 275115444656752",6367991
+''06:13:02.230324224,0.000000250,synthetic_host,syscall_exit_futex,1,elasticsearchm,"pid = 14345, tid = 14345","POLLIN = 1, POLLPRI = 0, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",8430227
+''06:13:02.231648512,0.000000167,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 246917844007516, op = 129, val = 2147483647, utime = 0, uaddr2 = 16932, val3 = 3183418432",8601389
+''06:13:02.231895552,0.000022124,synthetic_host,syscall_entry_read,0,curl,"pid = 14344, tid = 14344","fd = 34, cmd = 2148070920, arg = 275115444656760",12502184
+''06:13:02.229566208,0.000000084,synthetic_host,syscall_exit_fadvise64_64,3,lttng-consumerd,"pid = 14323, tid = 14330","ufd = 67, flags = 1, utmr = 281458146600112",5906589
+''06:13:02.232241408,0.000000292,synthetic_host,syscall_entry_getpid,3,elasticsearchm,"pid = 14344, tid = 14344","fd = 34, cmd = 2148070920, arg = 275115444656760",5179788
+''06:13:02.231754496,0.000000042,synthetic_host,syscall_exit_epoll_pwait,2,elasticsearchm,"pid = 14344, tid = 14344","ret = 0, otmr = 0",13596554
+''06:13:02.231526400,0.000000209,synthetic_host,syscall_entry_ioctl,0,curl,"pid = 14323, tid = 14330",ret = 14345,15545827
+''06:13:02.228750336,0.000000167,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 194557001039528, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336",9818121
+''06:13:02.231582208,0.000000333,synthetic_host,syscall_exit_futex,1,lttng-consumerd,"pid = 14345, tid = 14345","epfd = 13, maxevents = 1024, timeout = 10, sigmask = 0x0, sigsetsize = 8",5343908
+''06:13:02.231600384,0.000000291,synthetic_host,syscall_entry_read,2,elasticsearchm,"pid = 3154, tid = 3213","fd = 34, cmd = 2148070923, arg = 275115444656688",3332793
+''06:13:02.231330304,0.000000958,synthetic_host,syscall_entry_recvfrom,3,curl,"pid = 14323, tid = 14330",ret = 0,11803116
+''06:13:02.231554304,0.000000417,synthetic_host,syscall_entry_fadvise64_64,3,lttng-runas,"pid = 3154, tid = 3154","fd = 34, cmd = 62981, arg = 275115481893672",15159333
+''06:13:02.231126272,0.000000833,synthetic_host,syscall_entry_setsockopt,3,elasticsearchm,"pid = 3154, tid = 3215","fd = 35, offset = 28672, nbytes = 4096, flags = 2",12466260
+''06:13:02.228317440,0.000000084,synthetic_host,syscall_exit_ioctl,2,llvmpipe-3,"pid = 11822, tid = 11841",ret = 0,998152
+''06:13:02.228670976,0.000002334,synthetic_host,syscall_entry_sync_file_range,3,curl,"pid = 14345, tid = 14345","procname = ""curl"", pid = 14345, tid = 14345",3301842
+''06:13:02.231426816,0.000000209,synthetic_host,syscall_entry_ioctl,3,elasticsearchm,"pid = 11822, tid = 11859",ret = 4096,7217566
+''06:13:02.231204864,0.000000209,synthetic_host,syscall_exit_ioctl,0,curl,"pid = 14323, tid = 14330",ret = 0,9436369
+''06:13:02.228866816,0.000000209,synthetic_host,syscall_entry_getpid,0,lttng-consumerd,"pid = 3154, tid = 3154","fd = 34, cmd = 2148070925, arg = 275115444656768",4650501
+''06:13:02.228793344,0.000004791,synthetic_host,syscall_entry_munmap,3,node,"pid = 11822, tid = 11868","ret = 0, optval = 246916502706496, optlen = 246916502706412",4229517
+''06:13:02.228065792,0.000060374,synthetic_host,syscall_entry_setsockopt,3,lttng-consumerd,"pid = 3154, tid = 3154","fd = 35, offset = 36864, len = 4096, advice = 4",11859638
+''06:13:02.231097856,0.000000334,synthetic_host,syscall_entry_brk,3,elasticsearchm,"pid = 14344, tid = 14344","procname = ""curl"", pid = 14345, tid = 14345",6870271
+''06:13:02.230839808,0.000001250,synthetic_host,syscall_exit_epoll_pwait,0,curl,"pid = 14323, tid = 14330","uaddr = 246917844007432, op = 129, val = 1, utime = 0, uaddr2 = 512, val3 = 174160408",6554230
+''06:13:02.230654720,0.000023000,synthetic_host,syscall_entry_ppoll,0,data-loop.0,"pid = 2932, tid = 2972","uaddr = 194557001039528, op = 128, val = 2, utime = 0, uaddr2 = 0, val3 = 2025773224",16239685
+''06:13:02.230810880,0.000000834,synthetic_host,syscall_exit_fadvise64_64,2,elasticsearchm,"pid = 2932, tid = 2972","uaddr = 194557001051044, op = 128, val = 166992, utime = 0, uaddr2 = 7376000, val3 = 7376",576456
+''06:13:02.228229120,0.000000792,synthetic_host,syscall_entry_ioctl,1,elasticsearchm,"pid = 3154, tid = 3213","fd = 35, offset = 12288, nbytes = 4096, flags = 2",14986655
+''06:13:02.231854592,0.000001333,synthetic_host,syscall_entry_epoll_pwait,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0,11910279
+''06:13:02.231746816,0.000000208,synthetic_host,syscall_exit_ioctl,3,data-loop.0,"pid = 11822, tid = 11859","ret = 0, fds_length = 0, overflow = 0, fds = [ ]",16537649
+''06:13:02.228541952,0.000000375,synthetic_host,syscall_exit_fadvise64_64,2,curl,"pid = 14345, tid = 14345","ret = 0, uaddr = 194557001039528, uaddr2 = 0",15662096
+''06:13:02.231513600,0.000000084,synthetic_host,syscall_exit_futex,3,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070919, arg = 275115444656752",2695292
+''06:13:02.231064320,0.000006750,synthetic_host,syscall_exit_read,0,llvmpipe-3,"pid = 14323, tid = 14330","fd = 549, count = 16",10370414
+''06:13:02.230937344,0.000000167,synthetic_host,syscall_entry_brk,0,curl,"pid = 14323, tid = 14330","uaddr = 246917844007512, op = 137, val = 16930, utime = 246917138863456, uaddr2 = 0, val3 = 4294967295",830191
+''06:13:02.232058880,0.000000209,synthetic_host,syscall_exit_sync_file_range,1,curl,"pid = 14324, tid = 14324","fd = 35, offset = 114688, len = 4096, advice = 4",5721896
+''06:13:02.228366592,0.000000542,synthetic_host,syscall_entry_ioctl,3,gnome-shell,"pid = 14323, tid = 14330",ret = 8,16431447
+''06:13:02.230912768,0.000001250,synthetic_host,syscall_entry_sync_file_range,0,curl,"pid = 14323, tid = 14330","epfd = 548, maxevents = 1024, timeout = 10000, sigmask = 0x0, sigsetsize = 8",15434214
+''06:13:02.228916480,0.000006833,synthetic_host,syscall_entry_futex,0,lttng-runas,"pid = 12061, tid = 12061","ret = 0, arg = 275115444656760",5714435
+''06:13:02.231142912,0.000541902,synthetic_host,syscall_exit_read,0,Client manageme,"pid = 14344, tid = 14344",ret = 4096,2011825
+''06:13:02.232060160,0.000007459,synthetic_host,syscall_entry_futex,3,data-loop.0,"pid = 14323, tid = 14330","fd = 35, offset = 49152, nbytes = 4096, flags = 7",814510
+''06:13:02.230358528,0.000001042,synthetic_host,syscall_exit_getpid,1,lttng-consumerd,"pid = 3154, tid = 3154","fd = 35, offset = 126976, len = 4096, advice = 4",13131043
+''06:13:02.228574464,0.000000584,synthetic_host,syscall_exit_read,0,curl,"pid = 14323, tid = 14330",ret = 4096,10548377
+''06:13:02.231711488,0.000001041,synthetic_host,syscall_entry_fadvise64_64,0,data-loop.0,"pid = 14323, tid = 14330","uaddr = 260299015463756, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 0",6390496
+''06:13:02.231260672,0.000001791,synthetic_host,syscall_exit_ioctl,2,curl,"pid = 3154, tid = 3154",ret = 203053665607680,3813309
+''06:13:02.231611136,0.000000125,synthetic_host,syscall_entry_getsockopt,2,lttng-consumerd,"pid = 11822, tid = 11841","fd = 576, level = 1, optname = 7, optlen = 246916502706412",9767424
+''06:13:02.231019520,0.000001000,synthetic_host,syscall_exit_rt_sigaction,3,lttng-consumerd,"pid = 14297, tid = 14307","fd = 573, count = 65536",6116677
+''06:13:02.229148416,0.000021958,synthetic_host,syscall_entry_futex,0,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070923, arg = 275115444656688",6911209
+''06:13:02.231148800,0.000000208,synthetic_host,syscall_entry_futex,3,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 62981, arg = 275115481893672",2549387
+''06:13:02.231342592,0.000002709,synthetic_host,syscall_exit_futex,2,curl,"pid = 3154, tid = 3216","fd = 34, cmd = 2148070923, arg = 275115444656688",3088744
+''06:13:02.228768512,0.000003875,synthetic_host,syscall_exit_sync_file_range,3,curl,"pid = 3154, tid = 3154","fd = 35, offset = 139264, len = 4096, advice = 4",10454651
+''06:13:02.228674816,0.000000209,synthetic_host,syscall_entry_write,2,data-loop.0,"pid = 2932, tid = 2972","fd = 34, cmd = 2148070920, arg = 275115444656760",5669330
+''06:13:02.228568832,0.000000250,synthetic_host,syscall_entry_sync_file_range,0,data-loop.0,"pid = 2932, tid = 2972","fd = 13, cmd = 3222299827, arg = 248272618772584",5523666
+''06:13:02.232173312,0.000009125,synthetic_host,syscall_entry_read,2,lttng-consumerd,"pid = 14344, tid = 14344","uaddr = 260299015463756, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 0",634353
+''06:13:02.231047168,0.000000250,synthetic_host,syscall_entry_recvmsg,3,lttng-consumerd,"pid = 11822, tid = 11867",fd = 4,6088097
+''06:13:02.231823104,0.000000292,synthetic_host,syscall_exit_ioctl,2,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 62982, arg = 275115481893672",14811286
+''06:13:02.232285952,0.000000166,synthetic_host,syscall_entry_getpid,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 28672, nbytes = 4096, flags = 2",15158703
+''06:13:02.231608576,0.000000417,synthetic_host,syscall_entry_read,3,lttng-consumerd,"pid = 14323, tid = 14330","ufd = 67, flags = 1, utmr = 281458146600112",4008072
+''06:13:02.231171072,0.000005000,synthetic_host,syscall_entry_getpid,0,lttng-consumerd,"pid = 14323, tid = 14330",ret = 517,9976846
+''06:13:02.229460224,0.000000292,synthetic_host,syscall_exit_rt_sigaction,0,lttng-consumerd,"pid = 3154, tid = 3213","uaddr = 194557001051044, op = 128, val = 166992, utime = 0, uaddr2 = 7376000, val3 = 7376",16156582
+''06:13:02.231186176,0.000000166,synthetic_host,syscall_entry_ioctl,2,elasticsearchm,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070919, arg = 275115444656752",15772147
+''06:13:02.232285952,0.000000375,synthetic_host,syscall_entry_epoll_pwait,0,lttng-consumerd,"pid = 11822, tid = 11859","ret = 0, arg = 275115444656752",10053427
+''06:13:02.231152384,0.000000084,synthetic_host,syscall_exit_ioctl,3,curl,"pid = 14323, tid = 14330",ret = 0,1509757
+''06:13:02.230909952,0.000000416,synthetic_host,syscall_entry_sync_file_range,1,lttng-consumerd,"pid = 14345, tid = 14345",ret = 0,6309738
+''06:13:02.231307776,0.000001000,synthetic_host,syscall_exit_ioctl,1,data-loop.0,"pid = 14345, tid = 14345","epfd = 13, maxevents = 1024, timeout = 10, sigmask = 0x0, sigsetsize = 8",5281010
+''06:13:02.232052480,0.000000958,synthetic_host,syscall_entry_ioctl,3,curl,"pid = 3154, tid = 3215","ret = 48, buf = 203053665260704, count = 48, flags = 0",4686301
+''06:13:02.230842112,0.000000000,synthetic_host,syscall_exit_futex,0,curl,"pid = 14323, tid = 14330","fd = 35, offset = 102400, len = 4096, advice = 4",15353299
+''06:13:02.231801088,0.000012708,synthetic_host,syscall_exit_getpid,3,curl,"pid = 14324, tid = 14324","fd = 34, cmd = 2148070920, arg = 275115444656760",9618071
+''06:13:02.228112640,0.000000208,synthetic_host,syscall_exit_futex,3,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 194557001039528, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336",4204138
+''06:13:02.232061440,0.000013208,synthetic_host,syscall_entry_brk,3,curl,"pid = 11822, tid = 11859","uaddr = 194557001051044, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 3572466072",1248095
+''06:13:02.228623872,0.000022041,synthetic_host,syscall_exit_getpid,3,llvmpipe-3,"pid = 11822, tid = 11859","ret = 0, arg = 275115481893672",1545823
+''06:13:02.231033088,0.000000417,synthetic_host,syscall_entry_getsockopt,3,elasticsearchm,"pid = 3154, tid = 3213","fd = 35, offset = 81920, nbytes = 4096, flags = 7",6127384
+''06:13:02.231041024,0.000000208,synthetic_host,syscall_exit_ioctl,0,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",16732445
+''06:13:02.230985728,0.000006875,synthetic_host,syscall_entry_futex,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 4096,12666182
+''06:13:02.229026304,0.000000208,synthetic_host,syscall_entry_futex,1,data-loop.0,"pid = 14345, tid = 14345","fd = 35, buf = 275115481833472, count = 4096",3406548
+''06:13:02.231490816,0.000000417,synthetic_host,syscall_exit_futex,3,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070923, arg = 275115444656688",5859044
+''06:13:02.230975488,0.000001542,synthetic_host,syscall_entry_ioctl,2,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656688",4770455
+''06:13:02.231250944,0.000000334,synthetic_host,syscall_exit_ioctl,1,lttng-consumerd,"pid = 14323, tid = 14330","fd = 576, level = 1, optname = 7, optlen = 246916502706412",9720117
+''06:13:02.231601920,0.000000583,synthetic_host,syscall_exit_fcntl,1,C1 CompilerThre,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656760",8951782
+''06:13:02.231146752,0.000009042,synthetic_host,syscall_exit_ioctl,3,elasticsearchm,"pid = 14323, tid = 14330",ret = 3154,10492890
+''06:13:02.227911936,0.000000417,synthetic_host,syscall_entry_getpid,0,lttng-consumerd,"pid = 14323, tid = 14330","EPOLLIN = 1, EPOLLPRI = 0, EPOLLOUT = 0, EPOLLERR = 0, padding = 0",7823551
+''06:13:02.228530688,0.000001042,synthetic_host,syscall_entry_timerfd_settime,2,lttng-consumerd,"pid = 14323, tid = 14330","sig = 13, act = 281474913773464, sigsetsize = 8",4414038
+''06:13:02.231620864,0.000001250,synthetic_host,syscall_entry_futex,0,curl,"pid = 14323, tid = 14330","ret = -11, ubuf = 222501009492467, addr = 0, addr_len = 0",15890513
+''06:13:02.231116800,0.000000292,synthetic_host,syscall_exit_futex,3,elasticsearchm,"pid = 14345, tid = 14345",ret = 0,16396555
+''06:13:02.231892736,0.000013208,synthetic_host,syscall_exit_sync_file_range,3,llvmpipe-3,"pid = 14345, tid = 14345",ret = 14345,9239651
+''06:13:02.232285952,0.000001292,synthetic_host,syscall_exit_read,0,llvmpipe-1,"pid = 14323, tid = 14330","fd = 35, offset = 61440, nbytes = 4096, flags = 2",14669005
+''06:13:02.231435264,0.000002583,synthetic_host,syscall_entry_ioctl,3,llvmpipe-0,"pid = 2932, tid = 2972",ret = 4096,8975647
+''06:13:02.230764288,0.000000250,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 3154, tid = 3216",ret = 0,6142105
+''06:13:02.231365632,0.000000208,synthetic_host,syscall_exit_close,3,curl,"pid = 14323, tid = 14330",ret = 14345,11136942
+''06:13:02.230810112,0.000001291,synthetic_host,syscall_exit_getsockname,3,gnome-shell,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 139264, len = 4096, advice = 4",7555691
+''06:13:02.229345536,0.000000584,synthetic_host,syscall_entry_ioctl,2,lttng-runas,"pid = 14323, tid = 14330",ret = 0,14336309
+''06:13:02.230919168,0.000000291,synthetic_host,syscall_exit_write,0,curl,"pid = 14344, tid = 14344","procname = ""curl"", pid = 14345, tid = 14345",6665999
+''06:13:02.229887488,0.000000125,synthetic_host,syscall_entry_getsockname,0,lttng-consumerd,"pid = 3154, tid = 3215","fd = 60, count = 32",1950609
+''06:13:02.230751744,0.000000208,synthetic_host,syscall_entry_fadvise64_64,2,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",16180099
+''06:13:02.231140864,0.000001750,synthetic_host,syscall_entry_getpid,2,llvmpipe-1,"pid = 14323, tid = 14330","uaddr = 194557001051044, op = 128, val = 166992, utime = 0, uaddr2 = 7376000, val3 = 7376",10855083
+''06:13:02.231850496,0.000008417,synthetic_host,syscall_exit_sync_file_range,0,llvmpipe-2,"pid = 14345, tid = 14345","ret = 0, fd = 35, offset = 28672, len = 4096, advice = 4",3959888
+''06:13:02.228403968,0.000000792,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 14345, tid = 14345",ret = 203053665472512,1073748
+''06:13:02.231269120,0.000004958,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 549, buf = 246916502706248, count = 8",5108577
+''06:13:02.229367040,0.000001458,synthetic_host,syscall_entry_timerfd_settime,3,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070920, arg = 275115444656760",14985083
+''06:13:02.231799296,0.000001208,synthetic_host,syscall_exit_sync_file_range,3,curl,"pid = 3154, tid = 3213","ret = 0, uaddr = 194557001040264, uaddr2 = 0",12914641
+''06:13:02.231703552,0.000000375,synthetic_host,syscall_entry_futex,0,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656752",13103225
+''06:13:02.228032512,0.000000375,synthetic_host,syscall_entry_timerfd_settime,2,lttng-consumerd,"pid = 11822, tid = 11867","fd = 34, cmd = 62982, arg = 275115481893672",10716422
+''06:13:02.231548160,0.000000292,synthetic_host,syscall_exit_futex,0,llvmpipe-0,"pid = 14344, tid = 14344","POLLIN = 1, POLLPRI = 0, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",7886975
+''06:13:02.229951488,0.000001208,synthetic_host,syscall_entry_futex,0,curl,"pid = 14323, tid = 14330","uaddr = 194557001040264, op = 128, val = 2, utime = 0, uaddr2 = 0, val3 = 1937692840",2242522
+''06:13:02.231421952,0.000000208,synthetic_host,syscall_entry_futex,0,Client manageme,"pid = 14324, tid = 14324","ret = 32, buf = 246916494306728",9694459
+''06:13:02.231436544,0.000000667,synthetic_host,syscall_entry_epoll_ctl,3,lttng-consumerd,"pid = 14323, tid = 14330",brk = 222501009608704,6393467
+''06:13:02.231726336,0.000000708,synthetic_host,syscall_exit_sync_file_range,3,lttng-consumerd,"pid = 3154, tid = 3216","uaddr = 194557001039896, op = 128, val = 2, utime = 0, uaddr2 = 0, val3 = 1946146984",14322534
+''06:13:02.231202048,0.000000334,synthetic_host,syscall_exit_sync_file_range,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 8,7827077
+''06:13:02.230980352,0.000000792,synthetic_host,syscall_exit_getpid,1,gnome-shell,"pid = 11822, tid = 11867","ret = 1, uaddr = 194557001039976, uaddr2 = 0",9267941
+''06:13:02.231302400,0.000000167,synthetic_host,syscall_entry_futex,2,elasticsearchm,"pid = 14345, tid = 14345","uaddr = 194557001039528, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336",7180934
+''06:13:02.231984384,0.000000292,synthetic_host,syscall_entry_write,0,curl,"pid = 11822, tid = 11868","fd = 35, offset = 81920, nbytes = 4096, flags = 7",624994
+''06:13:02.232217856,0.000000417,synthetic_host,syscall_entry_write,3,curl,"pid = 11822, tid = 11841","ret = 0, uaddr = 194557001039976, uaddr2 = 0",2320985
+''06:13:02.231036672,0.000000792,synthetic_host,syscall_exit_sync_file_range,2,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 62982, arg = 275115481893672",16623801
+''06:13:02.229361152,0.000004250,synthetic_host,syscall_entry_sync_file_range,2,lttng-consumerd,"pid = 12061, tid = 12061","fd = 67, count = 8",14396321
+''06:13:02.231405056,0.000000542,synthetic_host,syscall_exit_getsockopt,0,curl,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14345, tid = 14345",5203496
+''06:13:02.232083968,0.000003208,synthetic_host,syscall_exit_futex,0,lttng-consumerd,"pid = 11822, tid = 11841","ret = 0, uaddr = 194557001040348, uaddr2 = 0",6054782
+''06:13:02.228899840,0.000000416,synthetic_host,syscall_entry_sync_file_range,2,curl,"pid = 3154, tid = 3154","fd = 35, offset = 16384, len = 4096, advice = 4",904976
+''06:13:02.228665600,0.000000209,synthetic_host,syscall_entry_getpid,0,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14345, tid = 14345",1390404
+''06:13:02.232285952,0.000000083,synthetic_host,syscall_entry_getpid,0,curl,"pid = 14345, tid = 14345","buf = 203053665260704, count = 48, flags = 0",5386554
+''06:13:02.231340032,0.000003583,synthetic_host,syscall_exit_ioctl,3,lttng-consumerd,"pid = 3154, tid = 3215",ret = 3154,13966371
+''06:13:02.227911936,0.000000084,synthetic_host,syscall_exit_ioctl,3,lttng-consumerd,"pid = 14345, tid = 14345","fd = 67, count = 8",15218397
+''06:13:02.232271616,0.000003875,synthetic_host,syscall_exit_getpid,3,lttng-consumerd,"pid = 12061, tid = 12061","ret = 0, optval = 246916502706080, optlen = 246916502705996",9065859
+''06:13:02.229463040,0.000000083,synthetic_host,syscall_exit_futex,3,curl,"pid = 14323, tid = 14330","ret = 0, uaddr = 267960194247448, uaddr2 = 0",3459417
+''06:13:02.227911936,0.000000667,synthetic_host,syscall_entry_read,0,curl,"pid = 14323, tid = 14330","ret = 0, uaddr = 194557001051044, uaddr2 = 0",2801864
+''06:13:02.231741952,0.000003292,synthetic_host,syscall_entry_getpid,3,curl,"pid = 3154, tid = 3216","fd = 34, cmd = 2148070919, arg = 275115444656752",1938538
+''06:13:02.229345792,0.000001791,synthetic_host,syscall_entry_ioctl,2,elasticsearchm,"pid = 3154, tid = 3154","fd = 60, count = 32",11354525
+''06:13:02.227911936,0.000000333,synthetic_host,syscall_entry_read,0,gnome-shell,"pid = 3154, tid = 3154","fd = 34, cmd = 62981, arg = 275115481893672",9343186
+''06:13:02.228363008,0.000000250,synthetic_host,syscall_entry_brk,0,gnome-shell,"pid = 11822, tid = 11867","procname = ""curl"", pid = 14344, tid = 14344",1519872
+''06:13:02.231892480,0.000001208,synthetic_host,syscall_entry_sync_file_range,3,curl,"pid = 11822, tid = 11841","ret = 0, arg = 275115444656768",14590349
+''06:13:02.228788480,0.000001750,synthetic_host,syscall_exit_read,0,elasticsearchm,"pid = 3154, tid = 3216","fd = 34, cmd = 2148070919, arg = 275115444656752",8675634
+''06:13:02.230558208,0.000023791,synthetic_host,syscall_exit_getpid,2,lttng-runas,"pid = 14323, tid = 14330",ret = 4096,214452
+''06:13:02.231288064,0.000000708,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","sig = 13, act = 0, sigsetsize = 8",6637615
+''06:13:02.231383808,0.000000958,synthetic_host,syscall_exit_fadvise64_64,3,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 86016, len = 4096, advice = 4",9660956
+''06:13:02.231429376,0.000001542,synthetic_host,syscall_entry_ppoll,1,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 16384, nbytes = 4096, flags = 2",12573389
+''06:13:02.231115008,0.000002584,synthetic_host,syscall_exit_getsockopt,3,lttng-consumerd,"pid = 14345, tid = 14345",brk = 203053665202176,4815355
+''06:13:02.230785792,0.000001208,synthetic_host,syscall_entry_read,0,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 260299015465752, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 0",3595189
+''06:13:02.231008256,0.000002375,synthetic_host,syscall_exit_fadvise64_64,0,elasticsearchm,"pid = 14345, tid = 14345","ret = 0, arg = 275115444656768",1181890
+''06:13:02.231927552,0.000000084,synthetic_host,syscall_exit_ioctl,3,data-loop.0,"pid = 14345, tid = 14345","fd = 34, cmd = 62982, arg = 275115481893672",7089063
+''06:13:02.229091840,0.000000958,synthetic_host,syscall_exit_sync_file_range,3,elasticsearchm,"pid = 14323, tid = 14330","POLLIN = 1, POLLPRI = 1, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",2640442
+''06:13:02.231034368,0.000000334,synthetic_host,syscall_exit_fadvise64_64,0,lttng-consumerd,"pid = 12061, tid = 12061","fd = 35, offset = 86016, len = 4096, advice = 4",15904180
+''06:13:02.232285952,0.000000375,synthetic_host,syscall_exit_ioctl,2,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 16384, nbytes = 4096, flags = 7",5694468
+''06:13:02.231816448,0.000060374,synthetic_host,syscall_exit_futex,1,node,"pid = 11822, tid = 11841","fd = 60, count = 32",11906346
+''06:13:02.231484160,0.000000167,synthetic_host,syscall_entry_futex,2,llvmpipe-3,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",8893172
+''06:13:02.231309568,0.000000374,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14344, tid = 14344","fd = 35, offset = 118784, nbytes = 4096, flags = 7",7554207
+''06:13:02.229588224,0.000001250,synthetic_host,syscall_entry_futex,0,llvmpipe-2,"pid = 3154, tid = 3154","fd = 34, cmd = 2148070919, arg = 275115444656752",2319938
+''06:13:02.229966080,0.000000334,synthetic_host,syscall_exit_futex,0,elasticsearchm,"pid = 11822, tid = 11859","fd = 66, cmd = 3230155043, arg = 219392954314048",9552459
+''06:13:02.228726528,0.000000167,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0,11130511
+''06:13:02.232103680,0.000020249,synthetic_host,syscall_exit_futex,0,data-loop.0,"pid = 11822, tid = 11859","fd = 34, cmd = 2148070923, arg = 275115444656688",16067014
+''06:13:02.227922176,0.000000208,synthetic_host,syscall_entry_sync_file_range,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070923, arg = 275115444656688",15076132
+''06:13:02.232169472,0.000000250,synthetic_host,syscall_entry_timerfd_settime,2,curl,"pid = 14323, tid = 14330","fd = 60, count = 32",10498445
+''06:13:02.227977984,0.000004500,synthetic_host,syscall_entry_read,0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 1, uaddr = 194557001040348, uaddr2 = 0",1853245
+''06:13:02.232285952,0.000000250,synthetic_host,syscall_exit_futex,2,curl,"pid = 3154, tid = 3216","uaddr = 194557001040264, op = 128, val = 2, utime = 0, uaddr2 = 0, val3 = 1937692840",15436769
+''06:13:02.229662464,0.000000500,synthetic_host,syscall_exit_ioctl,2,lttng-consumerd,"pid = 11822, tid = 11859","ret = 1, fds_length = 0, overflow = 0, fds = [ ]",5020199
+''06:13:02.228644608,0.000028207,synthetic_host,syscall_exit_futex,3,lttng-consumerd,"pid = 14323, tid = 14330","fd = 576, cmd = 3, arg = 50",6379163
+''06:13:02.228633600,0.000000292,synthetic_host,syscall_exit_ppoll,0,lttng-consumerd,"pid = 11822, tid = 11859","uaddr = 267960195430336, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 0",6239329
+''06:13:02.228463872,0.000000583,synthetic_host,syscall_exit_write,0,curl,"pid = 14323, tid = 14330",ret = 4096,5327105
+''06:13:02.231503872,0.000000167,synthetic_host,syscall_entry_sync_file_range,0,gnome-shell,"pid = 14345, tid = 14345",ret = 14344,267480
+''06:13:02.231450112,0.000003875,synthetic_host,syscall_exit_getsockopt,2,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070919, arg = 275115444656752",16658168
+''06:13:02.231038464,0.000000208,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14344, tid = 14344",329843
+''06:13:02.230578176,0.000001750,synthetic_host,syscall_exit_futex,1,curl,"pid = 14323, tid = 14330","fd = 60, count = 32",13640867
+''06:13:02.228396288,0.000001041,synthetic_host,syscall_exit_recvfrom,0,node,"pid = 14323, tid = 14330","ret = 0, uaddr = 194557001039240, uaddr2 = 0",16579038
+''06:13:02.231497728,0.000001083,synthetic_host,syscall_exit_futex,3,C1 CompilerThre,"pid = 14323, tid = 14330","uaddr = 267960194247448, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 0",9989804
+''06:13:02.231124224,0.000000375,synthetic_host,syscall_entry_ioctl,0,elasticsearchm,"pid = 14344, tid = 14344","fd = 35, offset = 98304, len = 4096, advice = 4",9860555
+''06:13:02.232125440,0.000000166,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",6526653
+''06:13:02.229664768,0.000000625,synthetic_host,syscall_entry_futex,3,curl,"pid = 2932, tid = 2972","ret = 0, arg = 275115444656688",15035958
+''06:13:02.227911936,0.000000583,synthetic_host,syscall_exit_fadvise64_64,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 549, count = 16",11195812
+''06:13:02.229370368,0.000001333,synthetic_host,syscall_entry_futex,0,gnome-shell,"pid = 14345, tid = 14345",ret = 0,2325113
+''06:13:02.228232960,0.000022124,synthetic_host,syscall_exit_epoll_pwait,3,lttng-consumerd,"pid = 12061, tid = 12061","ret = 0, uaddr = 246917844007516, uaddr2 = 0",11001752
+''06:13:02.230742784,0.000000250,synthetic_host,syscall_entry_fadvise64_64,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0,9543489
+''06:13:02.231479040,0.000023624,synthetic_host,syscall_exit_ioctl,2,elasticsearchm,"pid = 14345, tid = 14345","fd = 35, offset = 69632, len = 4096, advice = 4",8281274
+''06:13:02.232285952,0.000000125,synthetic_host,syscall_exit_ioctl,3,gnome-shell,"pid = 14345, tid = 14345","POLLIN = 0, POLLPRI = 0, POLLOUT = 1, POLLERR = 0, POLLHUP = 0, padding = 0",5222011
+''06:13:02.230924800,0.000000208,synthetic_host,syscall_exit_getpid,2,curl,"pid = 14323, tid = 14330","fd = 35, offset = 57344, len = 4096, advice = 4",9323851
+''06:13:02.231803136,0.000003042,synthetic_host,syscall_exit_sync_file_range,1,curl,"pid = 11822, tid = 11867","procname = ""curl"", pid = 14345, tid = 14345",1901870
+''06:13:02.231092992,0.000000208,synthetic_host,syscall_entry_sync_file_range,0,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 62981, arg = 275115481893672",8421963
+''06:13:02.227911936,0.000001583,synthetic_host,syscall_entry_read,2,C1 CompilerThre,"pid = 14345, tid = 14345","fd = 35, buf = 275115481833472, count = 4096",10930967
+''06:13:02.230814208,0.000002250,synthetic_host,syscall_exit_epoll_ctl,0,C1 CompilerThre,"pid = 14344, tid = 14344","uaddr = 194557001039896, op = 128, val = 2, utime = 0, uaddr2 = 0, val3 = 1946146984",3917584
+''06:13:02.231788544,0.000002750,synthetic_host,syscall_entry_ioctl,2,lttng-consumerd,"pid = 3154, tid = 3215",ret = 8,12247896
+''06:13:02.228356096,0.000541902,synthetic_host,syscall_exit_futex,2,data-loop.0,"pid = 14323, tid = 14330","ret = 3, uaddr = 194557001051044, uaddr2 = 0",6509295
+''06:13:02.231774720,0.000002583,synthetic_host,syscall_exit_write,0,lttng-consumerd,"pid = 14345, tid = 14345","ret = 0, usockaddr = 281474913772424, usockaddr_len = 281474913772420",1771253
+''06:13:02.231263232,0.000000417,synthetic_host,syscall_exit_fadvise64_64,2,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14344, tid = 14344",9503739
+''06:13:02.228780032,0.000000584,synthetic_host,syscall_entry_ioctl,1,curl,"pid = 14323, tid = 14330","fd = 35, offset = 135168, nbytes = 4096, flags = 2",11491749
+''06:13:02.231264,0.000000500,synthetic_host,syscall_entry_futex,3,curl,"pid = 2932, tid = 2972","ret = 0, arg = 275115481893672",14032967
+''06:13:02.228586496,0.000009417,synthetic_host,syscall_exit_futex,1,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, fd = 35, offset = 0, len = 4096, advice = 4",3375112
+''06:13:02.231346176,0.000000500,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 3154, tid = 3214","ret = 0, uaddr = 194557001040264, uaddr2 = 0",271702
+''06:13:02.230769920,0.000000167,synthetic_host,syscall_exit_sync_file_range,3,gnome-shell,"pid = 14323, tid = 14330","fd = 547, count = 16",5942676
+''06:13:02.231542016,0.000000500,synthetic_host,syscall_entry_ioctl,3,curl,"pid = 14323, tid = 14330","fd = 35, offset = 40960, nbytes = 4096, flags = 2",5614181
+''06:13:02.231660288,0.000021749,synthetic_host,syscall_entry_getrandom,3,elasticsearchm,"pid = 14323, tid = 14330","fd = 35, offset = 36864, nbytes = 4096, flags = 7",13359410
+''06:13:02.231239424,0.000003042,synthetic_host,syscall_entry_getpid,0,lttng-consumerd,"pid = 14345, tid = 14345",ret = 14344,782345
+''06:13:02.230625024,0.000000375,synthetic_host,syscall_entry_brk,3,lttng-consumerd,"pid = 11822, tid = 11841","ret = 0, optval = 281474913772820, optlen = 281474913772816",14869622
+''06:13:02.230918400,0.000000292,synthetic_host,syscall_exit_sync_file_range,0,curl,"pid = 14323, tid = 14330","fd = 6, msg = 281474329849072, flags = 16384",6103402
+''06:13:02.231232768,0.000000166,synthetic_host,syscall_entry_getsockname,2,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 194557001051044, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 3572466072",16362068
+''06:13:02.232285952,0.000004541,synthetic_host,syscall_exit_fadvise64_64,0,elasticsearchm,"pid = 14323, tid = 14330","fd = 4, buff = 203053665469200, len = 517, flags = 16384, addr = 0, addr_len = 0",681411
+''06:13:02.227911936,0.000006833,synthetic_host,syscall_entry_read,1,curl,"pid = 14345, tid = 14345",ret = 203053665202176,4836278
+''06:13:02.231405312,0.000000208,synthetic_host,syscall_exit_sync_file_range,0,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0,3609030
+''06:13:02.229257472,0.000001458,synthetic_host,syscall_exit_sendto,2,lttng-runas,"pid = 14323, tid = 14330","ret = 32, buf = 246916493258680",9239825
+''06:13:02.230807552,0.000000083,synthetic_host,syscall_exit_accept,0,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14344, tid = 14344",15143078
+''06:13:02.231124224,0.000000166,synthetic_host,syscall_exit_sync_file_range,0,gnome-shell,"pid = 3154, tid = 3154","ret = 0, arg = 275115481893672",7145610
+''06:13:02.227968,0.000000458,synthetic_host,syscall_exit_sync_file_range,3,llvmpipe-2,"pid = 14345, tid = 14345","POLLIN = 1, POLLPRI = 0, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",9668953
+''06:13:02.231782144,0.000000208,synthetic_host,syscall_entry_ioctl,0,elasticsearchm,"pid = 14323, tid = 14330","uaddr = 267960194247692, op = 129, val = 2147483647, utime = 0, uaddr2 = 203053665394872, val3 = 496541864",14851840
+''06:13:02.228467968,0.000000209,synthetic_host,syscall_entry_futex,0,curl,"pid = 14323, tid = 14330","ret = 0, uaddr = 194557001040348, uaddr2 = 0",11302969
+''06:13:02.230449920,0.000000125,synthetic_host,syscall_entry_fadvise64_64,3,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656760",8102575
+''06:13:02.227911936,0.000000667,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 14324, tid = 14324","ret = 0, uaddr = 246917844007516, uaddr2 = 0",645274
+''06:13:02.231983104,0.000035499,synthetic_host,syscall_exit_futex,0,lttng-consumerd,"pid = 14323, tid = 14330",ret = 4096,11621799
+''06:13:02.231312896,0.000000667,synthetic_host,syscall_exit_read,0,llvmpipe-1,"pid = 12061, tid = 12061",ret = 0,4611357
+''06:13:02.232143360,0.000000417,synthetic_host,syscall_exit_ioctl,2,curl,"pid = 14323, tid = 14330",ret = 0,14058902
+''06:13:02.231817216,0.000000292,synthetic_host,syscall_entry_write,3,curl,"pid = 14345, tid = 14345","ret = 0, arg = 275115444656688",4543674
+''06:13:02.232023552,0.000001500,synthetic_host,syscall_exit_recvfrom,0,gnome-shell,"pid = 11822, tid = 11859","ret = 0, fd = 35, offset = 32768, len = 4096, advice = 4",11459857
+''06:13:02.228163584,0.000000208,synthetic_host,syscall_entry_sync_file_range,0,elasticsearchm,"pid = 14323, tid = 14330",ret = 0,14081371
+''06:13:02.230957824,0.000000500,synthetic_host,syscall_exit_fadvise64_64,0,curl,"pid = 11822, tid = 11868",ret = 4096,12320951
+''06:13:02.232285952,0.000010458,synthetic_host,syscall_exit_sync_file_range,2,llvmpipe-1,"pid = 11822, tid = 11859","fd = 35, offset = 73728, len = 4096, advice = 4",14617339
+''06:13:02.228164096,0.000000208,synthetic_host,syscall_exit_ioctl,3,llvmpipe-3,"pid = 2932, tid = 2972","fd = 35, offset = 53248, len = 4096, advice = 4",10257630
+''06:13:02.228517120,0.000000125,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14324, tid = 14324","ret = 0, fd = 35, offset = 49152, len = 4096, advice = 4",8404336
+''06:13:02.231748864,0.000000084,synthetic_host,syscall_exit_epoll_pwait,0,lttng-consumerd,"pid = 14323, tid = 14330",ret = 4096,10433576
+''06:13:02.231860992,0.000032958,synthetic_host,syscall_entry_ioctl,3,curl,"pid = 14323, tid = 14330","POLLIN = 1, POLLPRI = 0, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",3418616
+''06:13:02.228620032,0.000011708,synthetic_host,syscall_entry_rt_sigaction,0,elasticsearchm,"pid = 3154, tid = 3215","fd = 34, cmd = 2148070925, arg = 275115444656768",2877460
+''06:13:02.231493888,0.000000833,synthetic_host,syscall_exit_write,2,curl,"pid = 14323, tid = 14330","uaddr = 194557001040264, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572466072",8931373
+''06:13:02.230018560,0.000007334,synthetic_host,syscall_entry_getpid,3,node,"pid = 14323, tid = 14330",ret = 222501009608704,8837580
+''06:13:02.228401664,0.000000500,synthetic_host,syscall_exit_recvfrom,2,lttng-consumerd,"pid = 14323, tid = 14330","ret = 1, uaddr = 194557001039976, uaddr2 = 0",11224035
+''06:13:02.228393472,0.000001083,synthetic_host,syscall_exit_sync_file_range,0,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14345, tid = 14345",13142703
+''06:13:02.231700992,0.000000125,synthetic_host,syscall_exit_ioctl,0,curl,"pid = 3154, tid = 3154","ret = 0, uaddr = 246917844007516, uaddr2 = 0",8173253
+''06:13:02.232190208,0.000000083,synthetic_host,syscall_entry_write,1,curl,"pid = 2932, tid = 2972","procname = ""curl"", pid = 14345, tid = 14345",4396733
+''06:13:02.231391232,0.000000416,synthetic_host,syscall_entry_ioctl,1,llvmpipe-2,"pid = 11822, tid = 11859","fd = 35, offset = 106496, len = 4096, advice = 4",5480928
+''06:13:02.231690496,0.000000208,synthetic_host,syscall_exit_brk,1,lttng-consumerd,"pid = 2932, tid = 2972","ret = 32, buf = 246916494306728",11866723
+''06:13:02.228866048,0.000000166,synthetic_host,syscall_exit_brk,2,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 86016, len = 4096, advice = 4",12544353
+''06:13:02.230515200,0.000001958,synthetic_host,syscall_entry_read,2,curl,"pid = 14345, tid = 14345","ret = 0, uaddr = 194557001039896, uaddr2 = 0",16713481
+''06:13:02.231042304,0.000022207,synthetic_host,syscall_entry_ioctl,1,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656752",14641709
+''06:13:02.229417216,0.000000417,synthetic_host,syscall_entry_write,3,llvmpipe-2,"pid = 11822, tid = 11868","ret = 0, fd = 35, offset = 20480, len = 4096, advice = 4",10640344
+''06:13:02.231636224,0.000008166,synthetic_host,syscall_exit_fcntl,3,elasticsearchm,"pid = 14345, tid = 14345","fd = 35, offset = 77824, len = 4096, advice = 4",15385729
+''06:13:02.231941120,0.000000250,synthetic_host,syscall_entry_brk,3,lttng-consumerd,"pid = 11822, tid = 11868","fd = 35, offset = 49152, nbytes = 4096, flags = 2",11871743
+''06:13:02.228285440,0.000000209,synthetic_host,syscall_entry_ppoll,3,gnome-shell,"pid = 3154, tid = 3216","ret = 0, oact = 281474913773616",11382639
+''06:13:02.229131264,0.000000250,synthetic_host,syscall_exit_sync_file_range,2,elasticsearchm,"pid = 14345, tid = 14345","uaddr = 194557001039160, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572464968",13503964
+''06:13:02.231285248,0.000000083,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14345, tid = 14345","fd = 34, cmd = 62982, arg = 275115481893672",10361960
+''06:13:02.231693312,0.000000292,synthetic_host,syscall_exit_getsockopt,0,lttng-runas,"pid = 11822, tid = 11868","ret = 0, arg = 275115444656688",13410817
+''06:13:02.227932928,0.000012666,synthetic_host,syscall_entry_sync_file_range,0,curl,"pid = 14323, tid = 14330","uaddr = 194557001039612, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572464968",14793473
+''06:13:02.231500544,0.000000084,synthetic_host,syscall_entry_ioctl,1,curl,"pid = 14323, tid = 14330","ret = 517, buf = 246915589475920",11602046
+''06:13:02.231675904,0.000007334,synthetic_host,syscall_entry_futex,3,data-loop.0,"pid = 14345, tid = 14345",ret = 203053665607680,16087616
+''06:13:02.228049152,0.000045749,synthetic_host,syscall_exit_getsockname,3,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",8250263
+''06:13:02.231253760,0.000000167,synthetic_host,syscall_entry_getsockopt,0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, fds_length = 0, overflow = 0, fds = [ ]",3920475
+''06:13:02.231258368,0.000000667,synthetic_host,syscall_entry_brk,3,elasticsearchm,"pid = 12061, tid = 12061",brk = 222501009338368,5854455
+''06:13:02.231496192,0.000000125,synthetic_host,syscall_entry_ioctl,0,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656752",6254481
+''06:13:02.230791168,0.000000375,synthetic_host,syscall_exit_sync_file_range,3,elasticsearchm,"pid = 14345, tid = 14345","uaddr = 194557001039528, op = 128, val = 2, utime = 0, uaddr2 = 0, val3 = 2025773224",3930161
+''06:13:02.231503104,0.000000125,synthetic_host,syscall_exit_getpid,0,Client manageme,"pid = 14324, tid = 14324","fd = 34, cmd = 2148070920, arg = 275115444656760",14527762
+''06:13:02.229710848,0.000060081,synthetic_host,syscall_entry_ioctl,3,llvmpipe-3,"pid = 14344, tid = 14344","fd = 34, cmd = 62981, arg = 275115481893672",695587
+''06:13:02.232285952,0.000000333,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656752",13049033
+''06:13:02.230802176,0.000000667,synthetic_host,syscall_exit_futex,0,lttng-consumerd,"pid = 14344, tid = 14344","ret = 0, arg = 275115481893672",13355057
+''06:13:02.232075520,0.000000208,synthetic_host,syscall_exit_futex,2,lttng-consumerd,"pid = 3154, tid = 3154","fd = 66, cmd = 3230155043, arg = 219392954314048",10830697
+''06:13:02.231313920,0.000001542,synthetic_host,syscall_entry_getsockname,3,elasticsearchm,"pid = 14323, tid = 14330","fd = 34, cmd = 62981, arg = 275115481893672",161614
+''06:13:02.229696768,0.000000208,synthetic_host,syscall_exit_getpid,0,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070925, arg = 275115444656768",2135680
+''06:13:02.229650176,0.000024416,synthetic_host,syscall_entry_futex,3,gnome-shell,"pid = 14344, tid = 14344","ret = 0, fd = 35, offset = 32768, len = 4096, advice = 4",3858676
+''06:13:02.231227648,0.000002083,synthetic_host,syscall_exit_futex,0,data-loop.0,"pid = 14323, tid = 14330",brk = 203053665607680,3572814
+''06:13:02.230666496,0.000010458,synthetic_host,syscall_entry_futex,3,curl,"pid = 14323, tid = 14332",ret = 0,5577410
+''06:13:02.230193920,0.000006958,synthetic_host,syscall_exit_futex,2,lttng-consumerd,"pid = 14323, tid = 14330",ret = 14345,8869152
+''06:13:02.227911936,0.000000250,synthetic_host,syscall_exit_ioctl,2,lttng-consumerd,"pid = 14323, tid = 14330",ret = 4096,6862501
+''06:13:02.229588992,0.000001459,synthetic_host,syscall_entry_futex,2,curl,"pid = 14344, tid = 14344","ret = 0, arg = 275115444656688",6804464
+''06:13:02.230608128,0.000000042,synthetic_host,syscall_entry_futex,2,gnome-shell,"pid = 14344, tid = 14344","fd = 34, cmd = 2148070920, arg = 275115444656760",10574125
+''06:13:02.230998784,0.000000291,synthetic_host,syscall_exit_sync_file_range,3,lttng-consumerd,"pid = 14344, tid = 14344",ret = 4096,2628983
+''06:13:02.228663552,0.000002250,synthetic_host,syscall_exit_fadvise64_64,0,llvmpipe-2,"pid = 14344, tid = 14344","ret = 0, arg = 275115444656768",4911394
+''06:13:02.229088512,0.000000667,synthetic_host,syscall_exit_epoll_pwait,3,curl,"pid = 14323, tid = 14330","ufd = 67, flags = 1, utmr = 281458146600112",3199019
+''06:13:02.230881280,0.000021625,synthetic_host,syscall_exit_fcntl,3,elasticsearchm,"pid = 3154, tid = 3214","fd = 35, offset = 139264, nbytes = 4096, flags = 7",691667
+''06:13:02.232079616,0.000002583,synthetic_host,syscall_entry_futex,0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, usockaddr = 246916502706376, usockaddr_len = 246916502706368",14431513
+''06:13:02.230676480,0.000000083,synthetic_host,syscall_entry_futex,1,lttng-consumerd,"pid = 14344, tid = 14344","ret = 0, arg = 275115444656688",10452271
+''06:13:02.228327168,0.000008417,synthetic_host,syscall_exit_getpid,0,lttng-consumerd,"pid = 2932, tid = 2972",ret = 14345,14497347
+''06:13:02.231291392,0.000000209,synthetic_host,syscall_entry_getpid,0,curl,"pid = 14323, tid = 14330","fd = 4, size = 5, flags = 0, addr_len = 0",1862477
+''06:13:02.229207296,0.000000209,synthetic_host,syscall_entry_getrandom,3,lttng-consumerd,"pid = 11822, tid = 11868","ret = 0, uaddr = 194557001039976, uaddr2 = 0",9395541
+''06:13:02.228257024,0.000003167,synthetic_host,syscall_exit_ioctl,1,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 69632, nbytes = 4096, flags = 7",4485468
+''06:13:02.231319808,0.000000166,synthetic_host,syscall_exit_getpid,3,lttng-consumerd,"pid = 14324, tid = 14324","uaddr = 194557001039528, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336",10495735
+''06:13:02.228823808,0.000000208,synthetic_host,syscall_entry_write,0,lttng-consumerd,"pid = 14345, tid = 14345",ret = 4096,16642538
+''06:13:02.231817984,0.000000084,synthetic_host,syscall_exit_futex,3,data-loop.0,"pid = 11822, tid = 11841","ret = 0, fd = 35, offset = 106496, len = 4096, advice = 4",16472029
+''06:13:02.231102464,0.000000209,synthetic_host,syscall_exit_getsockname,0,lttng-consumerd,"pid = 14323, tid = 14332","epfd = 13, maxevents = 1024, timeout = 10, sigmask = 0x0, sigsetsize = 8",11675217
+''06:13:02.230696192,0.000001083,synthetic_host,syscall_exit_sendto,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 21, cmd = 63048, arg = 221342671110144",7720718
+''06:13:02.228929024,0.000000666,synthetic_host,syscall_exit_read,2,lttng-consumerd,"pid = 11822, tid = 11867","fd = 547, count = 16",10183376
+''06:13:02.231732736,0.000000250,synthetic_host,syscall_entry_getsockname,0,lttng-consumerd,"pid = 3154, tid = 3154","ret = 0, oact = 0",10403422
+''06:13:02.231072,0.000008416,synthetic_host,syscall_entry_ioctl,1,lttng-consumerd,"pid = 14323, tid = 14330",ret = 517,15722547
+''06:13:02.231235840,0.000000416,synthetic_host,syscall_exit_ioctl,3,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656768",3198705
+''06:13:02.228763136,0.000001542,synthetic_host,syscall_entry_epoll_pwait,0,lttng-consumerd,"pid = 14345, tid = 14345","fd = 35, offset = 135168, nbytes = 4096, flags = 2",15918416
+''06:13:02.228015872,0.000000167,synthetic_host,syscall_exit_ioctl,0,elasticsearchm,"pid = 14345, tid = 14345","fd = 60, count = 32",10823190
+''06:13:02.228084992,0.000000125,synthetic_host,syscall_exit_futex,3,curl,"pid = 11822, tid = 11859","POLLIN = 1, POLLPRI = 1, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",9041826
+''06:13:02.228607232,0.000023000,synthetic_host,syscall_exit_munmap,3,C1 CompilerThre,"pid = 3154, tid = 3216","uaddr = 246917844007432, op = 129, val = 1, utime = 0, uaddr2 = 512, val3 = 174160408",10915131
+''06:13:02.229156096,0.000000208,synthetic_host,syscall_entry_ioctl,2,llvmpipe-0,"pid = 3154, tid = 3213","ret = 0, fd = 35, offset = 49152, len = 4096, advice = 4",14764436
+''06:13:02.232285952,0.000023000,synthetic_host,syscall_entry_getpid,0,gnome-shell,"pid = 11822, tid = 11868","ret = 0, uaddr = 246917844007432, uaddr2 = 512",10530774
+''06:13:02.228126464,0.000010458,synthetic_host,syscall_exit_write,3,elasticsearchm,"pid = 14344, tid = 14344","fd = 34, cmd = 62982, arg = 275115481893672",4299819
+''06:13:02.231528704,0.000000167,synthetic_host,syscall_entry_recvfrom,3,lttng-runas,"pid = 11822, tid = 11859","uaddr = 194557001051044, op = 128, val = 166992, utime = 0, uaddr2 = 0, val3 = 3572465336",13801920
+''06:13:02.231241728,0.000000209,synthetic_host,syscall_entry_ioctl,1,data-loop.0,"pid = 11822, tid = 11868","ret = 0, otmr = 0",13783285
+''06:13:02.231298816,0.000000250,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 3154, tid = 3216",brk = 203053665202176,10525575
+''06:13:02.229373440,0.000000167,synthetic_host,syscall_exit_futex,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0,5337212
+''06:13:02.228257280,0.000021625,synthetic_host,syscall_entry_read,3,elasticsearchm,"pid = 3154, tid = 3216","fd = 35, offset = 90112, nbytes = 4096, flags = 2",2183132
+''06:13:02.227911936,0.000000250,synthetic_host,syscall_exit_sync_file_range,0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, uaddr = 194557001040264, uaddr2 = 0",3115043
+''06:13:02.230785280,0.000002416,synthetic_host,syscall_exit_epoll_ctl,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 49152, len = 4096, advice = 4",4506413
+''06:13:02.231588096,0.000000417,synthetic_host,syscall_exit_getpid,0,curl,"pid = 14323, tid = 14330","fd = 67, count = 8",6505310
+''06:13:02.231369216,0.000010292,synthetic_host,syscall_exit_getsockname,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, buf = 275115481837568, count = 4096",2025004
+''06:13:02.230882048,0.000000625,synthetic_host,syscall_entry_futex,2,lttng-consumerd,"pid = 14323, tid = 14330","epfd = 13, maxevents = 1024, timeout = 10, sigmask = 0x0, sigsetsize = 8",9026896
+''06:13:02.231315968,0.000000333,synthetic_host,syscall_entry_ioctl,3,node,"pid = 3154, tid = 3154","fd = 34, cmd = 2148070919, arg = 275115444656752",9524612
+''06:13:02.230060032,0.000001000,synthetic_host,syscall_exit_getpid,0,curl,"pid = 14323, tid = 14330",ret = 0,6444460
+''06:13:02.230823936,0.000007334,synthetic_host,syscall_entry_fcntl,3,elasticsearchm,"pid = 11822, tid = 11867","fd = 21, cmd = 63048, arg = 221342671110144",15149633
+''06:13:02.232091648,0.000002917,synthetic_host,syscall_exit_sync_file_range,0,gnome-shell,"pid = 14323, tid = 14330","uaddr = 246917844007512, op = 137, val = 16930, utime = 246917138863456, uaddr2 = 0, val3 = 4294967295",2705385
+''06:13:02.231516160,0.000002875,synthetic_host,syscall_exit_getpid,2,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",2191571
+''06:13:02.229142016,0.000003875,synthetic_host,syscall_entry_futex,3,elasticsearchm,"pid = 14344, tid = 14344","ret = 0, arg = 275115481893672",15076141
+''06:13:02.231180288,0.000000417,synthetic_host,syscall_exit_rt_sigaction,3,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 194557001051044, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 3572466072",9304415
+''06:13:02.231792128,0.000000125,synthetic_host,syscall_exit_futex,2,llvmpipe-3,"pid = 14323, tid = 14330",ret = 14345,4610631
+''06:13:02.230936576,0.000000166,synthetic_host,syscall_exit_epoll_pwait,1,llvmpipe-3,"pid = 14323, tid = 14330","fd = 35, offset = 20480, len = 4096, advice = 4",16352362
+''06:13:02.231190784,0.000000208,synthetic_host,syscall_exit_futex,0,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",6693001
+''06:13:02.227911936,0.000000208,synthetic_host,syscall_entry_sendto,1,elasticsearchm,"pid = 2932, tid = 2972","ret = 0, arg = 275115444656768",3239821
+''06:13:02.232029184,0.000011708,synthetic_host,syscall_exit_getpid,3,lttng-runas,"pid = 3154, tid = 3154","fd = 576, cmd = 3, arg = 50",7631165
+''06:13:02.231129088,0.000000583,synthetic_host,syscall_entry_fadvise64_64,0,elasticsearchm,"pid = 14323, tid = 14330","fd = 35, offset = 139264, nbytes = 4096, flags = 7",4770563
+''06:13:02.230941184,0.000000666,synthetic_host,syscall_exit_sendto,0,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",1226020
+''06:13:02.232285952,0.000011708,synthetic_host,syscall_exit_read,3,curl,"pid = 14323, tid = 14330","fd = 576, usockaddr_len = 246916502706368",5243795
+''06:13:02.231332096,0.000000250,synthetic_host,syscall_exit_read,3,lttng-consumerd,"pid = 14323, tid = 14330","ret = 32, buf = 246916493257208",8473092
+''06:13:02.231329024,0.000000917,synthetic_host,syscall_exit_setsockopt,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 36864, nbytes = 4096, flags = 2",2570818
+''06:13:02.231473152,0.000022500,synthetic_host,syscall_exit_ioctl,3,elasticsearchm,"pid = 11822, tid = 11867","fd = 34, cmd = 2148070919, arg = 275115444656752",7964311
+''06:13:02.232285952,0.000001042,synthetic_host,syscall_exit_ioctl,3,curl,"pid = 11822, tid = 11868","ret = 0, uaddr = 194557001039160, uaddr2 = 0",2472165
+''06:13:02.229009920,0.000000792,synthetic_host,syscall_entry_read,0,lttng-consumerd,"pid = 14323, tid = 14330",ret = 14344,587863
+''06:13:02.231686912,0.000000917,synthetic_host,syscall_entry_recvmsg,2,curl,"pid = 11822, tid = 11868","fd = 35, offset = 98304, nbytes = 4096, flags = 7",2003874
+''06:13:02.229043968,0.000011708,synthetic_host,syscall_exit_futex,3,curl,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070925, arg = 275115444656768",10427351
+''06:13:02.229335808,0.000000708,synthetic_host,syscall_exit_futex,3,curl,"pid = 14323, tid = 14330","ret = 0, optval = 246916502706496, optlen = 246916502706412",8898612
+''06:13:02.231897344,0.000058165,synthetic_host,syscall_entry_getpid,3,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070919, arg = 275115444656752",511796
+''06:13:02.231320064,0.000000375,synthetic_host,syscall_exit_getpid,0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656752",575102
+''06:13:02.231732480,0.000020291,synthetic_host,syscall_entry_fadvise64_64,3,lttng-consumerd,"pid = 14324, tid = 14324","fd = 35, buf = 275115481833472, count = 4096",8164310
+''06:13:02.232194816,0.000003708,synthetic_host,syscall_exit_write,3,elasticsearchm,"pid = 11822, tid = 11868","ret = 0, fd = 35, offset = 86016, len = 4096, advice = 4",12770395
+''06:13:02.231217664,0.000000083,synthetic_host,syscall_entry_epoll_pwait,0,curl,"pid = 14345, tid = 14345","ret = 0, fd = 35, offset = 126976, len = 4096, advice = 4",5024109
+''06:13:02.231864320,0.000011708,synthetic_host,syscall_exit_epoll_pwait,2,lttng-consumerd,"pid = 14344, tid = 14344","ret = 32, buf = 246916493258680",3406849
+''06:13:02.231482368,0.000011708,synthetic_host,syscall_exit_sync_file_range,0,lttng-consumerd,"pid = 3154, tid = 3214","fd = 34, cmd = 2148070920, arg = 275115444656760",8184516
+''06:13:02.231414272,0.000001208,synthetic_host,syscall_entry_futex,2,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 40960, nbytes = 4096, flags = 7",564377
+''06:13:02.230908672,0.000000708,synthetic_host,syscall_entry_fadvise64_64,0,curl,"pid = 14345, tid = 14345","fd = 60, count = 32",8980876
+''06:13:02.231539712,0.000000209,synthetic_host,syscall_exit_ioctl,2,curl,"pid = 14344, tid = 14344","ret = 0, arg = 275115481893672",7664802
+''06:13:02.231418880,0.000000458,synthetic_host,syscall_entry_close,3,lttng-consumerd,"pid = 3154, tid = 3216","procname = ""curl"", pid = 14344, tid = 14344",2486932
+''06:13:02.231865856,0.000000333,synthetic_host,syscall_exit_brk,1,elasticsearchm,"pid = 3154, tid = 3214","uaddr = 267960195430336, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 0",11768613
+''06:13:02.230672640,0.000001166,synthetic_host,syscall_exit_epoll_pwait,0,curl,"pid = 14345, tid = 14345","fd = 547, count = 16",6357924
+''06:13:02.231044864,0.000002250,synthetic_host,syscall_entry_brk,0,llvmpipe-1,"pid = 14323, tid = 14330","fd = 34, cmd = 62982, arg = 275115481893672",12092391
+''06:13:02.232285952,0.000000333,synthetic_host,syscall_entry_write,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 4096,6907397
+''06:13:02.232285952,0.000000416,synthetic_host,syscall_exit_setsockopt,3,gnome-shell,"pid = 3154, tid = 3213","uaddr = 194557001039896, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465704",1785621
+''06:13:02.232138496,0.000007334,synthetic_host,syscall_exit_fadvise64_64,3,lttng-consumerd,"pid = 14323, tid = 14330","ret = 1, fds_length = 0, overflow = 0, fds = [ ]",6328707
+''06:13:02.228765952,0.000000208,synthetic_host,syscall_exit_close,1,curl,"pid = 14323, tid = 14330","ret = 0, otmr = 0",696058
+''06:13:02.229372416,0.000000250,synthetic_host,syscall_exit_ioctl,0,elasticsearchm,"pid = 14344, tid = 14344","ret = 0, fds_length = 0, overflow = 0, fds = [ ]",10067335
+''06:13:02.228602880,0.000002375,synthetic_host,syscall_entry_ioctl,2,lttng-consumerd,"pid = 14344, tid = 14344","procname = ""curl"", pid = 14344, tid = 14344",13474784
+''06:13:02.228870912,0.000000208,synthetic_host,syscall_entry_getpid,1,lttng-runas,"pid = 14324, tid = 14324","ret = 32, buf = 246916494305784",15807133
+''06:13:02.231176448,0.000032958,synthetic_host,syscall_entry_munmap,3,curl,"pid = 14323, tid = 14330","ret = 0, optval = 246916502706496, optlen = 246916502706412",14517703
+''06:13:02.228908800,0.000000458,synthetic_host,syscall_exit_futex,3,curl,"pid = 11822, tid = 11868","ret = 0, arg = 275115444656752",3845509
+''06:13:02.230802688,0.000000084,synthetic_host,syscall_entry_getsockname,0,llvmpipe-1,"pid = 14323, tid = 14330","uaddr = 246917844007512, op = 137, val = 16930, utime = 246917138863456, uaddr2 = 0, val3 = 4294967295",15552706
+''06:13:02.231732736,0.000001125,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 11822, tid = 11859","ret = 0, oact = 0",8578490
+''06:13:02.231118848,0.000000292,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330","ret = 1, fds_length = 0, overflow = 0, fds = [ ]",13863927
+''06:13:02.231710208,0.000001291,synthetic_host,syscall_entry_setsockopt,0,elasticsearchm,"pid = 14345, tid = 14345","fd = 66, cmd = 3230155043, arg = 219392954314048",5207625
+''06:13:02.230706432,0.000000167,synthetic_host,syscall_exit_sync_file_range,2,lttng-consumerd,"pid = 2932, tid = 2972","epfd = 13, maxevents = 1024, timeout = 10, sigmask = 0x0, sigsetsize = 8",3286524
+''06:13:02.228990464,0.000000167,synthetic_host,syscall_entry_getpid,2,curl,"pid = 11822, tid = 11867","ret = 0, optval = 246916502706496, optlen = 246916502706412",2850191
+''06:13:02.228606976,0.000005000,synthetic_host,syscall_entry_read,0,curl,"pid = 14323, tid = 14330","fd = 35, offset = 24576, nbytes = 4096, flags = 7",2607746
+''06:13:02.232111872,0.000000166,synthetic_host,syscall_entry_sync_file_range,1,C1 CompilerThre,"pid = 14323, tid = 14330",ret = 0,7230277
+''06:13:02.231296768,0.000000334,synthetic_host,syscall_entry_ioctl,1,curl,"pid = 11822, tid = 11841","fd = 34, cmd = 2148070920, arg = 275115444656760",4961608
+''06:13:02.231084800,0.000001750,synthetic_host,syscall_entry_getpid,3,elasticsearchm,"pid = 11822, tid = 11859","fd = 35, offset = 0, nbytes = 4096, flags = 2",9751553
+''06:13:02.232253440,0.000003416,synthetic_host,syscall_entry_ioctl,0,elasticsearchm,"pid = 12061, tid = 12061","procname = ""curl"", pid = 14344, tid = 14344",13521229
+''06:13:02.229148928,0.000000792,synthetic_host,syscall_entry_sendto,0,elasticsearchm,"pid = 14345, tid = 14345","fd = 35, offset = 77824, nbytes = 4096, flags = 2",277892
+''06:13:02.231683840,0.000000083,synthetic_host,syscall_exit_futex,2,lttng-consumerd,"pid = 14324, tid = 14324","uaddr = 260299015465996, op = 129, val = 2147483647, utime = 0, uaddr2 = 222501009395736, val3 = 228626440",13140578
+''06:13:02.228941056,0.000002208,synthetic_host,syscall_exit_getpid,0,lttng-consumerd,"pid = 14345, tid = 14345","fd = 35, offset = 135168, len = 4096, advice = 4",6998753
+''06:13:02.229105920,0.000000417,synthetic_host,syscall_exit_ioctl,0,gnome-shell,"pid = 3154, tid = 3216","uaddr = 246917844007512, op = 137, val = 16930, utime = 246917138863456, uaddr2 = 0, val3 = 4294967295",2544349
+''06:13:02.227911936,0.000002208,synthetic_host,syscall_exit_getsockopt,3,curl,"pid = 11822, tid = 11841","fd = 35, offset = 106496, nbytes = 4096, flags = 7",5121064
+''06:13:02.230620672,0.000000666,synthetic_host,syscall_entry_sync_file_range,0,elasticsearchm,"pid = 14323, tid = 14330","ret = 0, uaddr = 246917844007432, uaddr2 = 512",8306335
+''06:13:02.232285952,0.000072498,synthetic_host,syscall_entry_ppoll,3,elasticsearchm,"pid = 3154, tid = 3215","fd = 573, count = 65536",14927007
+''06:13:02.228281344,0.000009083,synthetic_host,syscall_exit_epoll_pwait,3,llvmpipe-3,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070919, arg = 275115444656752",8736133
+''06:13:02.232285952,0.000000292,synthetic_host,syscall_exit_ioctl,0,curl,"pid = 14345, tid = 14345","ret = 0, fd = 35, offset = 8192, len = 4096, advice = 4",9816437
+''06:13:02.229254144,0.000000125,synthetic_host,syscall_entry_futex,2,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115481893672",3623402
+''06:13:02.232167936,0.000000583,synthetic_host,syscall_entry_futex,0,curl,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14345, tid = 14345",10194465
+''06:13:02.231545344,0.000000583,synthetic_host,syscall_exit_getrandom,3,elasticsearchm,"pid = 14323, tid = 14330","ret = 32, buf = 246916494305784",9108787
+''06:13:02.231152128,0.000001125,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070925, arg = 275115444656768",12169070
+''06:13:02.229612288,0.000001750,synthetic_host,syscall_exit_futex,1,lttng-consumerd,"pid = 14344, tid = 14344","epfd = 13, maxevents = 1024, timeout = 10, sigmask = 0x0, sigsetsize = 8",16512766
+''06:13:02.230840832,0.000000375,synthetic_host,syscall_entry_ioctl,1,Client manageme,"pid = 14323, tid = 14330","fd = 35, offset = 36864, len = 4096, advice = 4",11518260
+''06:13:02.231743232,0.000006333,synthetic_host,syscall_entry_futex,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070920, arg = 275115444656760",10747681
+''06:13:02.231573504,0.000000584,synthetic_host,syscall_exit_futex,1,elasticsearchm,"pid = 14323, tid = 14330","fd = 35, offset = 45056, nbytes = 4096, flags = 2",5358255
+''06:13:02.232084224,0.000012083,synthetic_host,syscall_entry_rt_sigaction,2,data-loop.0,"pid = 14323, tid = 14330","fd = 4, usockaddr_len = 281474913772420",4027814
+''06:13:02.231931904,0.000004958,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 14345, tid = 14345","fd = 35, offset = 118784, nbytes = 4096, flags = 2",13446795
+''06:13:02.228985856,0.000006875,synthetic_host,syscall_entry_read,3,lttng-consumerd,"pid = 14323, tid = 14330","ret = 32, buf = 246916493258680",7090503
+''06:13:02.229440512,0.000049957,synthetic_host,syscall_exit_futex,0,lttng-consumerd,"pid = 11822, tid = 11868","uaddr = 194557001040264, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572466072",722663
+''06:13:02.232172800,0.000005917,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 32768, nbytes = 4096, flags = 7",9117414
+''06:13:02.231456768,0.000001459,synthetic_host,syscall_exit_write,0,llvmpipe-2,"pid = 14323, tid = 14330","ret = 0, arg = 0",6727364
+''06:13:02.229388032,0.000000500,synthetic_host,syscall_entry_futex,2,curl,"pid = 3154, tid = 3154","POLLIN = 1, POLLPRI = 0, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",13681504
+''06:13:02.231763712,0.000002583,synthetic_host,syscall_exit_fadvise64_64,0,lttng-runas,"pid = 3154, tid = 3215","fd = 4, buff = 203053665469200, len = 517, flags = 16384, addr = 0, addr_len = 0",11248086
+''06:13:02.231686144,0.000001750,synthetic_host,syscall_entry_futex,3,curl,"pid = 3154, tid = 3215","ret = 32, buf = 246916494307048",5270150
+''06:13:02.231259392,0.000021749,synthetic_host,syscall_exit_futex,0,gnome-shell,"pid = 14323, tid = 14330","fd = 13, cmd = 3222299827, arg = 248272618772584",12376327
+''06:13:02.228127488,0.000012083,synthetic_host,syscall_exit_futex,2,node,"pid = 2932, tid = 2972","ret = 1, fds_length = 0, overflow = 0, fds = [ ]",12022526
+''06:13:02.231676416,0.000026416,synthetic_host,syscall_entry_fadvise64_64,1,elasticsearchm,"pid = 14345, tid = 14345","fd = 60, count = 32",12929810
+''06:13:02.231113472,0.000000083,synthetic_host,syscall_entry_fcntl,0,lttng-consumerd,"pid = 14323, tid = 14330","procname = ""curl"", pid = 14345, tid = 14345",695200
+''06:13:02.229808640,0.000000250,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14297, tid = 14307","fd = 35, offset = 94208, nbytes = 4096, flags = 2",8858706
+''06:13:02.228165888,0.000000917,synthetic_host,syscall_entry_futex,0,lttng-consumerd,"pid = 11822, tid = 11867","fd = 34, cmd = 2148070919, arg = 275115444656752",9670823
+''06:13:02.230182400,0.000000500,synthetic_host,syscall_entry_ioctl,0,data-loop.0,"pid = 14323, tid = 14330","ret = 0, arg = 219392954314048",4011079
+''06:13:02.232087808,0.000000374,synthetic_host,syscall_entry_ioctl,2,curl,"pid = 14323, tid = 14330","ret = 2, arg = 50",3872012
+''06:13:02.230944,0.000000500,synthetic_host,syscall_exit_write,2,elasticsearchm,"pid = 14344, tid = 14344","addr = 248270898528256, len = 7602176",6332086
+''06:13:02.231396608,0.000042499,synthetic_host,syscall_entry_read,3,curl,"pid = 14323, tid = 14330","fd = 576, level = 1, optname = 7, optlen = 246916502706412",2772057
+''06:13:02.228280064,0.000009042,synthetic_host,syscall_entry_getpid,1,elasticsearchm,"pid = 14323, tid = 14330","fd = 35, offset = 94208, nbytes = 4096, flags = 2",9550603
+''06:13:02.229675264,0.000000208,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 3154, tid = 3154","ret = 0, fd = 35, offset = 139264, len = 4096, advice = 4",11568032
+''06:13:02.230894848,0.000000250,synthetic_host,syscall_exit_ioctl,1,llvmpipe-3,"pid = 3154, tid = 3216","ret = 0, fd = 35, offset = 53248, len = 4096, advice = 4",2529901
+''06:13:02.231619840,0.000001125,synthetic_host,syscall_entry_fadvise64_64,2,curl,"pid = 14345, tid = 14345","fd = 35, offset = 106496, nbytes = 4096, flags = 2",3729222
+''06:13:02.231431168,0.000000125,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 143360, nbytes = 4096, flags = 7",9576885
+''06:13:02.231167488,0.000054415,synthetic_host,syscall_entry_fadvise64_64,3,curl,"pid = 2932, tid = 2972",ret = 14344,7290791
+''06:13:02.231498752,0.000000458,synthetic_host,syscall_exit_ioctl,0,lttng-consumerd,"pid = 3154, tid = 3154","ret = 0, oact = 0",8909543
+''06:13:02.232138496,0.000019583,synthetic_host,syscall_exit_epoll_pwait,1,lttng-consumerd,"pid = 14323, tid = 14330","addr = 248270898528256, len = 7602176",3387466
+''06:13:02.231105536,0.000003875,synthetic_host,syscall_entry_setsockopt,2,lttng-consumerd,"pid = 3154, tid = 3154","fd = 34, cmd = 2148070920, arg = 275115444656760",10808310
+''06:13:02.228091392,0.000001083,synthetic_host,syscall_entry_futex,2,curl,"pid = 11822, tid = 11841","ret = 0, uaddr = 194557001039240, uaddr2 = 0",5288789
+''06:13:02.230316544,0.000000291,synthetic_host,syscall_entry_sync_file_range,2,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070920, arg = 275115444656760",14628561
+''06:13:02.232161792,0.000000958,synthetic_host,syscall_entry_epoll_pwait,3,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 194557001039896, op = 128, val = 2, utime = 0, uaddr2 = 0, val3 = 1946146984",13209750
+''06:13:02.231683584,0.000000333,synthetic_host,syscall_entry_fadvise64_64,3,elasticsearchm,"pid = 2932, tid = 2972","epfd = 548, maxevents = 1024, timeout = 10000, sigmask = 0x0, sigsetsize = 8",7366755
+''06:13:02.231742720,0.000020499,synthetic_host,syscall_entry_sync_file_range,3,Client manageme,"pid = 14345, tid = 14345","ret = 0, fd = 35, offset = 122880, len = 4096, advice = 4",9887873
+''06:13:02.231065344,0.000000083,synthetic_host,syscall_exit_brk,0,llvmpipe-3,"pid = 3154, tid = 3213","ret = 32, buf = 246916494307048",5267882
+''06:13:02.232055040,0.000000292,synthetic_host,syscall_entry_rt_sigaction,1,lttng-consumerd,"pid = 3154, tid = 3216","ret = 0, arg = 275115481893672",12062042
+''06:13:02.231146496,0.000002125,synthetic_host,syscall_entry_futex,3,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 194557001039896, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465704",4229331
+''06:13:02.231275520,0.000002958,synthetic_host,syscall_entry_sync_file_range,0,curl,"pid = 14345, tid = 14345","uaddr = 260299015465996, op = 129, val = 2147483647, utime = 0, uaddr2 = 222501009395736, val3 = 228626440",3866860
+''06:13:02.228461056,0.000000167,synthetic_host,syscall_entry_fadvise64_64,0,curl,"pid = 11822, tid = 11867","uaddr = 194557001039896, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465704",1480202
+''06:13:02.230656,0.000003375,synthetic_host,syscall_entry_sync_file_range,3,llvmpipe-1,"pid = 14344, tid = 14344",ret = 3154,7252558
+''06:13:02.231977216,0.000042499,synthetic_host,syscall_entry_ioctl,2,curl,"pid = 14323, tid = 14330","POLLIN = 1, POLLPRI = 1, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0",1829045
+''06:13:02.228824320,0.000023000,synthetic_host,syscall_entry_sync_file_range,0,curl,"pid = 14344, tid = 14344","fd = 35, offset = 24576, nbytes = 4096, flags = 7",11644039
+''06:13:02.231035136,0.000000167,synthetic_host,syscall_entry_fadvise64_64,3,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 2148070925, arg = 275115444656768",4222947
+''06:13:02.228881408,0.000000666,synthetic_host,syscall_entry_fadvise64_64,3,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, buf = 275115481833472, count = 4096",6467349
+''06:13:02.231704576,0.000000416,synthetic_host,syscall_exit_getpid,0,lttng-consumerd,"pid = 14323, tid = 14330","fd = 34, cmd = 62981, arg = 275115481893672",14216724
+''06:13:02.229219840,0.000001333,synthetic_host,syscall_exit_ioctl,3,curl,"pid = 2932, tid = 2972",ret = 0,984491
+''06:13:02.228293120,0.000002500,synthetic_host,syscall_entry_fadvise64_64,1,llvmpipe-1,"pid = 2932, tid = 2972","ret = 0, arg = 219392954314048",16209444
+''06:13:02.231238912,0.000000625,synthetic_host,syscall_entry_epoll_pwait,1,lttng-consumerd,"pid = 14345, tid = 14345","ret = 0, uaddr = 194557001039528, uaddr2 = 0",9360622
+''06:13:02.230997504,0.000003333,synthetic_host,syscall_exit_recvfrom,0,curl,"pid = 14344, tid = 14344","fd = 34, cmd = 2148070919, arg = 275115444656752",12887872
+''06:13:02.228321536,0.000000542,synthetic_host,syscall_exit_read,2,curl,"pid = 14345, tid = 14345","fd = 576, level = 6, optname = 1, optval = 246916502705964, optlen = 4",5264818
+''06:13:02.231979008,0.000000250,synthetic_host,syscall_exit_futex,2,lttng-consumerd,"pid = 14344, tid = 14344","procname = ""curl"", pid = 14345, tid = 14345",8284181
+''06:13:02.231755776,0.000000166,synthetic_host,syscall_exit_ioctl,2,llvmpipe-2,"pid = 14345, tid = 14345","ret = 0, uaddr = 194557001039896, uaddr2 = 0",3573958
+''06:13:02.227911936,0.000000333,synthetic_host,syscall_exit_futex,3,lttng-consumerd,"pid = 14345, tid = 14345","fd = 35, offset = 8192, nbytes = 4096, flags = 2",15205628
+''06:13:02.231158784,0.000000417,synthetic_host,syscall_entry_getpid,2,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656688",6470618
+''06:13:02.231526912,0.000000916,synthetic_host,syscall_entry_epoll_ctl,1,lttng-consumerd,"pid = 11822, tid = 11859","fd = 35, offset = 49152, len = 4096, advice = 4",16465793
+''06:13:02.231350784,0.000000166,synthetic_host,syscall_entry_futex,0,C1 CompilerThre,"pid = 3154, tid = 3216","ret = 0, arg = 275115481893672",14314702
+''06:13:02.231892480,0.000000709,synthetic_host,syscall_exit_write,3,curl,"pid = 3154, tid = 3214","ret = 0, fd = 35, offset = 20480, len = 4096, advice = 4",887299
+''06:13:02.231456512,0.000017749,synthetic_host,syscall_entry_ioctl,3,elasticsearchm,"pid = 14323, tid = 14330","fd = 35, offset = 139264, nbytes = 4096, flags = 2",7378852
+''06:13:02.229822464,0.000000125,synthetic_host,syscall_exit_write,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 4096,14503790
+''06:13:02.230483968,0.000000667,synthetic_host,syscall_entry_ioctl,0,gnome-shell,"pid = 14323, tid = 14330",brk = 203053665472512,1226307
+''06:13:02.231062528,0.000000250,synthetic_host,syscall_exit_epoll_pwait,2,curl,"pid = 14345, tid = 14345","ret = 0, arg = 275115481893672",2972806
+''06:13:02.229870080,0.000000417,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 81920, len = 4096, advice = 4",12338245
+''06:13:02.228238080,0.000000375,synthetic_host,syscall_entry_fadvise64_64,0,llvmpipe-2,"pid = 3154, tid = 3216",ret = -115,13064795
+''06:13:02.231636224,0.000000083,synthetic_host,syscall_entry_sync_file_range,3,lttng-consumerd,"pid = 14323, tid = 14330",ret = 517,11592373
+''06:13:02.231320832,0.000000083,synthetic_host,syscall_entry_fadvise64_64,1,lttng-consumerd,"pid = 11822, tid = 11859","fd = 34, cmd = 2148070923, arg = 275115444656688",4861117
+''06:13:02.232148736,0.000000417,synthetic_host,syscall_entry_read,2,curl,"pid = 3154, tid = 3214","ret = 0, uaddr = 194557001039160, uaddr2 = 0",7407849
+''06:13:02.231499264,0.000000334,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14345, tid = 14345","ret = 1, uaddr = 194557001040348, uaddr2 = 0",13534224
+''06:13:02.231706624,0.000000084,synthetic_host,syscall_entry_futex,2,data-loop.0,"pid = 14323, tid = 14330","ret = 0, uaddr = 194557001039976, uaddr2 = 0",3026871
+''06:13:02.232285952,0.000000292,synthetic_host,syscall_exit_futex,3,lttng-consumerd,"pid = 14323, tid = 14330","fd = 35, offset = 94208, len = 4096, advice = 4",7925607
+''06:13:02.231983104,0.000008334,synthetic_host,syscall_entry_getpid,3,lttng-consumerd,"pid = 11822, tid = 11859","ret = 0, fd = 35, offset = 102400, len = 4096, advice = 4",16076442
+''06:13:02.232269056,0.000060374,synthetic_host,syscall_entry_ioctl,0,lttng-consumerd,"pid = 14323, tid = 14330",ret = 0,14767411
+''06:13:02.230798336,0.000000458,synthetic_host,syscall_entry_fadvise64_64,0,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 194557001039612, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572464968",4732740
+''06:13:02.229092096,0.000000792,synthetic_host,syscall_entry_ioctl,0,curl,"pid = 14323, tid = 14330","ret = 0, arg = 275115444656768",14454375
+''06:13:02.228316160,0.000000458,synthetic_host,syscall_entry_sync_file_range,1,gnome-shell,"pid = 14323, tid = 14330",ret = 14345,10035590
+''06:13:02.229264384,0.000000375,synthetic_host,syscall_exit_futex,0,curl,"pid = 3154, tid = 3213",ret = 14344,730764
+''06:13:02.232285952,0.000000500,synthetic_host,syscall_entry_ioctl,3,lttng-consumerd,"pid = 14323, tid = 14330","uaddr = 194557001039896, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465704",15853229
+''06:13:02.229542400,0.000000208,synthetic_host,syscall_exit_getsockopt,2,lttng-consumerd,"pid = 3154, tid = 3215","procname = ""curl"", pid = 14344, tid = 14344",12834398
+''06:13:02.228410368,0.000003584,synthetic_host,syscall_entry_write,2,gnome-shell,"pid = 11822, tid = 11859","fd = 35, offset = 102400, nbytes = 4096, flags = 7",15320502
+''06:13:02.230874880,0.000000542,synthetic_host,syscall_entry_timerfd_settime,0,curl,"pid = 11822, tid = 11868","ret = 0, fd = 35, offset = 40960, len = 4096, advice = 4",14774722
+''06:13:02.228894720,0.000000250,synthetic_host,syscall_exit_write,1,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, uaddr = 194557001051044, uaddr2 = 0",13260357
+''06:13:02.229538816,0.000000208,synthetic_host,syscall_entry_getpid,0,lttng-consumerd,"pid = 14323, tid = 14330","ret = 0, arg = 2050",16526194
+''06:13:02.231380480,0.000001791,synthetic_host,syscall_exit_read,3,elasticsearchm,"pid = 3154, tid = 3214",brk = 203053665202176,7992844
+''06:13:02.231683840,0.000000167,synthetic_host,syscall_exit_getpid,3,curl,"pid = 11822, tid = 11868","ret = 48, buf = 222501009261744, count = 48, flags = 0",6447911

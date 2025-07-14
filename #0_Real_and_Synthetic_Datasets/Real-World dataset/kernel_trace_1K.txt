@@ -1,0 +1,1000 @@
+[06:13:02.227908688] (+?.?????????) mendax syscall_entry_accept: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { fd = 553, upeer_addrlen = 246916502706640 }
+[06:13:02.227912438] (+0.000003750) mendax syscall_exit_accept: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { ret = 576, upeer_sockaddr = 246916502706648, upeer_addrlen = 246916502706640 }
+[06:13:02.227914646] (+0.000002208) mendax syscall_entry_fcntl: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { fd = 576, cmd = 3, arg = 50 }
+[06:13:02.227914980] (+0.000000334) mendax syscall_exit_fcntl: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { ret = 2, arg = 50 }
+[06:13:02.227916313] (+0.000001333) mendax syscall_entry_getsockname: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { fd = 576, usockaddr_len = 246916502706368 }
+[06:13:02.227916771] (+0.000000458) mendax syscall_exit_getsockname: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { ret = 0, usockaddr = 246916502706376, usockaddr_len = 246916502706368 }
+[06:13:02.227917438] (+0.000000667) mendax syscall_entry_getsockname: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { fd = 576, usockaddr_len = 246916502706372 }
+[06:13:02.227917855] (+0.000000417) mendax syscall_exit_getsockname: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { ret = 0, usockaddr = 246916502706376, usockaddr_len = 246916502706372 }
+[06:13:02.227923813] (+0.000005958) mendax syscall_entry_fcntl: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { fd = 576, cmd = 3, arg = 50 }
+[06:13:02.227923979] (+0.000000166) mendax syscall_exit_fcntl: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { ret = 2, arg = 50 }
+[06:13:02.227924188] (+0.000000209) mendax syscall_entry_fcntl: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { fd = 576, cmd = 4, arg = 2050 }
+[06:13:02.227924354] (+0.000000166) mendax syscall_exit_fcntl: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { ret = 0, arg = 2050 }
+[06:13:02.227927646] (+0.000003292) mendax syscall_entry_setsockopt: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { fd = 576, level = 6, optname = 1, optval = 246916502705868, optlen = 4 }
+[06:13:02.227928063] (+0.000000417) mendax syscall_exit_setsockopt: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { ret = 0 }
+[06:13:02.227928771] (+0.000000708) mendax syscall_entry_getsockopt: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { fd = 576, level = 1, optname = 7, optlen = 246916502705996 }
+[06:13:02.227929146] (+0.000000375) mendax syscall_exit_getsockopt: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { ret = 0, optval = 246916502706080, optlen = 246916502705996 }
+[06:13:02.227930021] (+0.000000875) mendax syscall_entry_getsockopt: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { fd = 576, level = 1, optname = 7, optlen = 246916502706412 }
+[06:13:02.227930188] (+0.000000167) mendax syscall_exit_getsockopt: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { ret = 0, optval = 246916502706496, optlen = 246916502706412 }
+[06:13:02.227930562] (+0.000000374) mendax syscall_entry_getsockopt: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { fd = 576, level = 1, optname = 7, optlen = 246916502706412 }
+[06:13:02.227930729] (+0.000000167) mendax syscall_exit_getsockopt: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { ret = 0, optval = 246916502706496, optlen = 246916502706412 }
+[06:13:02.227933937] (+0.000003208) mendax syscall_entry_setsockopt: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { fd = 576, level = 6, optname = 1, optval = 246916502705964, optlen = 4 }
+[06:13:02.227934187] (+0.000000250) mendax syscall_exit_setsockopt: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { ret = 0 }
+[06:13:02.227934646] (+0.000000459) mendax syscall_entry_setsockopt: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { fd = 576, level = 1, optname = 9, optval = 246916502705836, optlen = 4 }
+[06:13:02.227935021] (+0.000000375) mendax syscall_exit_setsockopt: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { ret = 0 }
+[06:13:02.227935562] (+0.000000541) mendax syscall_entry_setsockopt: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { fd = 576, level = 1, optname = 2, optval = 246916502705836, optlen = 4 }
+[06:13:02.227935729] (+0.000000167) mendax syscall_exit_setsockopt: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { ret = 0 }
+[06:13:02.227938146] (+0.000002417) mendax syscall_entry_write: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { fd = 549, buf = 246916502706248, count = 8 }
+[06:13:02.227940521] (+0.000002375) mendax syscall_exit_write: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { ret = 8 }
+[06:13:02.227944020] (+0.000003499) mendax syscall_entry_epoll_pwait: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11859 }, { epfd = 542, maxevents = 1024, timeout = -1, sigmask = 0x0, sigsetsize = 8 }
+[06:13:02.227946729] (+0.000002709) mendax syscall_exit_connect: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = -115 }
+[06:13:02.227947687] (+0.000000958) mendax syscall_entry_getsockname: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { fd = 4, usockaddr_len = 281474913772420 }
+[06:13:02.227948062] (+0.000000375) mendax syscall_exit_getsockname: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 0, usockaddr = 281474913772424, usockaddr_len = 281474913772420 }
+[06:13:02.227949604] (+0.000001542) mendax syscall_entry_rt_sigaction: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { sig = 13, act = 281474913773656, sigsetsize = 8 }
+[06:13:02.227949979] (+0.000000375) mendax syscall_exit_rt_sigaction: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 0, oact = 0 }
+[06:13:02.227951854] (+0.000001875) mendax syscall_entry_ppoll: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { tsp = 281474913773856, sigmask = 0, sigsetsize = 0, nfds = 2, fds_length = 2, overflow = 0, fds = [ [0] = { fd = 4, raw_events = 0x4, events = { POLLIN = 0, POLLPRI = 0, POLLOUT = 1, POLLERR = 0, POLLHUP = 0, padding = 0 } }, [1] = { fd = 3, raw_events = 0x1, events = { POLLIN = 1, POLLPRI = 0, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0 } } ] }
+[06:13:02.227953062] (+0.000001208) mendax syscall_exit_ppoll: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 1, nfds = 2, fds_length = 1, overflow = 0, fds = [ [0] = { fd = 4, raw_events = 0x4, events = { POLLIN = 0, POLLPRI = 0, POLLOUT = 1, POLLERR = 0, POLLHUP = 0, padding = 0 } } ] }
+[06:13:02.227953437] (+0.000000375) mendax syscall_entry_rt_sigaction: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { sig = 13, act = 0, sigsetsize = 8 }
+[06:13:02.227953604] (+0.000000167) mendax syscall_exit_rt_sigaction: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 0, oact = 281474913773616 }
+[06:13:02.227953770] (+0.000000166) mendax syscall_entry_rt_sigaction: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { sig = 13, act = 281474913773464, sigsetsize = 8 }
+[06:13:02.227953895] (+0.000000125) mendax syscall_exit_rt_sigaction: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 0, oact = 0 }
+[06:13:02.227954562] (+0.000000667) mendax syscall_entry_ppoll: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { tsp = 281474913772720, sigmask = 0, sigsetsize = 0, nfds = 1, fds_length = 1, overflow = 0, fds = [ [0] = { fd = 4, raw_events = 0x106, events = { POLLIN = 0, POLLPRI = 1, POLLOUT = 1, POLLERR = 0, POLLHUP = 0, padding = 0 } } ] }
+[06:13:02.227955020] (+0.000000458) mendax syscall_exit_ppoll: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 1, nfds = 1, fds_length = 1, overflow = 0, fds = [ [0] = { fd = 4, raw_events = 0x104, events = { POLLIN = 0, POLLPRI = 0, POLLOUT = 1, POLLERR = 0, POLLHUP = 0, padding = 0 } } ] }
+[06:13:02.227955353] (+0.000000333) mendax syscall_entry_getsockopt: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { fd = 4, level = 1, optname = 4, optlen = 281474913772816 }
+[06:13:02.227955645] (+0.000000292) mendax syscall_exit_getsockopt: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 0, optval = 281474913772820, optlen = 281474913772816 }
+[06:13:02.227955853] (+0.000000208) mendax syscall_entry_getsockname: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { fd = 4, usockaddr_len = 281474913772420 }
+[06:13:02.227956020] (+0.000000167) mendax syscall_exit_getsockname: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 0, usockaddr = 281474913772424, usockaddr_len = 281474913772420 }
+[06:13:02.227959145] (+0.000003125) mendax syscall_entry_futex: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { uaddr = 267960194247760, op = 129, val = 2147483647, utime = 0, uaddr2 = 203053665022808, val3 = 496169800 }
+[06:13:02.227961395] (+0.000002250) mendax syscall_exit_futex: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 0, uaddr = 267960194247760, uaddr2 = 203053665022808 }
+[06:13:02.228003894] (+0.000042499) mendax syscall_entry_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { }
+[06:13:02.228005269] (+0.000001375) mendax syscall_exit_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 14344 }
+[06:13:02.228012394] (+0.000007125) mendax syscall_entry_brk: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { brk = 203053665202176 }
+[06:13:02.228013435] (+0.000001041) mendax syscall_exit_brk: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 203053665202176 }
+[06:13:02.228113141] (+0.000099706) mendax syscall_entry_brk: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { brk = 222501009338368 }
+[06:13:02.228113849] (+0.000000708) mendax syscall_exit_brk: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 222501009338368 }
+[06:13:02.228174223] (+0.000060374) mendax syscall_entry_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { }
+[06:13:02.228174556] (+0.000000333) mendax syscall_exit_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 14345 }
+[06:13:02.228181389] (+0.000006833) mendax syscall_entry_getrandom: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { buf = 222501009261744, count = 48, flags = 0 }
+[06:13:02.228182306] (+0.000000917) mendax syscall_exit_getrandom: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 48, buf = 222501009261744, count = 48, flags = 0 }
+[06:13:02.228206097] (+0.000023791) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { uaddr = 260299015465752, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 0 }
+[06:13:02.228206513] (+0.000000416) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 0, uaddr = 260299015465752, uaddr2 = 0 }
+[06:13:02.228207305] (+0.000000792) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { uaddr = 260299016648640, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 0 }
+[06:13:02.228207472] (+0.000000167) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 0, uaddr = 260299016648640, uaddr2 = 0 }
+[06:13:02.228279970] (+0.000072498) mendax syscall_entry_brk: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { brk = 203053665337344 }
+[06:13:02.228280511] (+0.000000541) mendax syscall_exit_brk: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 203053665337344 }
+[06:13:02.228303511] (+0.000023000) mendax syscall_entry_brk: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { brk = 222501009473536 }
+[06:13:02.228304094] (+0.000000583) mendax syscall_exit_brk: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 222501009473536 }
+[06:13:02.228349843] (+0.000045749) mendax syscall_entry_getrandom: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { buf = 203053665260704, count = 48, flags = 0 }
+[06:13:02.228350635] (+0.000000792) mendax syscall_exit_getrandom: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 48, buf = 203053665260704, count = 48, flags = 0 }
+[06:13:02.228373676] (+0.000023041) mendax syscall_entry_futex: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { uaddr = 267960194247448, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 0 }
+[06:13:02.228374009] (+0.000000333) mendax syscall_exit_futex: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 0, uaddr = 267960194247448, uaddr2 = 0 }
+[06:13:02.228374592] (+0.000000583) mendax syscall_entry_futex: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { uaddr = 267960195430336, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 0 }
+[06:13:02.228374967] (+0.000000375) mendax syscall_exit_futex: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 0, uaddr = 267960195430336, uaddr2 = 0 }
+[06:13:02.228375759] (+0.000000792) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { uaddr = 260299015465996, op = 129, val = 2147483647, utime = 0, uaddr2 = 222501009395736, val3 = 228626440 }
+[06:13:02.228376009] (+0.000000250) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 0, uaddr = 260299015465996, uaddr2 = 222501009395736 }
+[06:13:02.228438549] (+0.000062540) mendax syscall_entry_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { }
+[06:13:02.228438841] (+0.000000292) mendax syscall_exit_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 14344 }
+[06:13:02.228441091] (+0.000002250) mendax syscall_entry_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { }
+[06:13:02.228441174] (+0.000000083) mendax syscall_exit_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 14344 }
+[06:13:02.228443799] (+0.000002625) mendax syscall_entry_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { }
+[06:13:02.228443882] (+0.000000083) mendax syscall_exit_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 14344 }
+[06:13:02.228444340] (+0.000000458) mendax syscall_entry_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { }
+[06:13:02.228444382] (+0.000000042) mendax syscall_exit_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 14344 }
+[06:13:02.228446215] (+0.000001833) mendax syscall_entry_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { }
+[06:13:02.228446257] (+0.000000042) mendax syscall_exit_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 14344 }
+[06:13:02.228447465] (+0.000001208) mendax syscall_entry_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { }
+[06:13:02.228447549] (+0.000000084) mendax syscall_exit_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 14344 }
+[06:13:02.228448674] (+0.000001125) mendax syscall_entry_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { }
+[06:13:02.228448757] (+0.000000083) mendax syscall_exit_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 14344 }
+[06:13:02.228449132] (+0.000000375) mendax syscall_entry_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { }
+[06:13:02.228449174] (+0.000000042) mendax syscall_exit_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 14344 }
+[06:13:02.228450382] (+0.000001208) mendax syscall_entry_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { }
+[06:13:02.228450465] (+0.000000083) mendax syscall_exit_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 14344 }
+[06:13:02.228450799] (+0.000000334) mendax syscall_entry_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { }
+[06:13:02.228450882] (+0.000000083) mendax syscall_exit_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 14344 }
+[06:13:02.228469173] (+0.000018291) mendax syscall_entry_brk: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { brk = 203053665472512 }
+[06:13:02.228469673] (+0.000000500) mendax syscall_exit_brk: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 203053665472512 }
+[06:13:02.228476548] (+0.000006875) mendax syscall_exit_ppoll: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { ret = 1, nfds = 16, fds_length = 1, overflow = 0, fds = [ [0] = { fd = 29, raw_events = 0x1, events = { POLLIN = 1, POLLPRI = 0, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0 } } ] }
+[06:13:02.228493797] (+0.000017249) mendax syscall_entry_write: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { fd = 3, buf = 281474090967200, count = 8 }
+[06:13:02.228494214] (+0.000000417) mendax syscall_exit_write: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { ret = 8 }
+[06:13:02.228552379] (+0.000058165) mendax syscall_entry_getpid: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { }
+[06:13:02.228552629] (+0.000000250) mendax syscall_exit_getpid: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { ret = 3154 }
+[06:13:02.228564212] (+0.000011583) mendax syscall_entry_futex: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { uaddr = 267960194247692, op = 129, val = 2147483647, utime = 0, uaddr2 = 203053665394872, val3 = 496541864 }
+[06:13:02.228564421] (+0.000000209) mendax syscall_exit_futex: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 0, uaddr = 267960194247692, uaddr2 = 203053665394872 }
+[06:13:02.228624502] (+0.000060081) mendax syscall_entry_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { }
+[06:13:02.228624711] (+0.000000209) mendax syscall_exit_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 14345 }
+[06:13:02.228626752] (+0.000002041) mendax syscall_entry_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { }
+[06:13:02.228626836] (+0.000000084) mendax syscall_exit_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 14345 }
+[06:13:02.228629252] (+0.000002416) mendax syscall_entry_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { }
+[06:13:02.228629335] (+0.000000083) mendax syscall_exit_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 14345 }
+[06:13:02.228629752] (+0.000000417) mendax syscall_entry_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { }
+[06:13:02.228629835] (+0.000000083) mendax syscall_exit_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 14345 }
+[06:13:02.228631585] (+0.000001750) mendax syscall_entry_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { }
+[06:13:02.228631669] (+0.000000084) mendax syscall_exit_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 14345 }
+[06:13:02.228632835] (+0.000001166) mendax syscall_entry_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { }
+[06:13:02.228632919] (+0.000000084) mendax syscall_exit_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 14345 }
+[06:13:02.228634127] (+0.000001208) mendax syscall_entry_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { }
+[06:13:02.228634210] (+0.000000083) mendax syscall_exit_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 14345 }
+[06:13:02.228634585] (+0.000000375) mendax syscall_entry_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { }
+[06:13:02.228634669] (+0.000000084) mendax syscall_exit_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 14345 }
+[06:13:02.228635877] (+0.000001208) mendax syscall_entry_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { }
+[06:13:02.228635960] (+0.000000083) mendax syscall_exit_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 14345 }
+[06:13:02.228636335] (+0.000000375) mendax syscall_entry_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { }
+[06:13:02.228636419] (+0.000000084) mendax syscall_exit_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 14345 }
+[06:13:02.228637002] (+0.000000583) mendax syscall_entry_futex: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { uaddr = 267960194245452, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 0 }
+[06:13:02.228637252] (+0.000000250) mendax syscall_exit_futex: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 0, uaddr = 267960194245452, uaddr2 = 0 }
+[06:13:02.228656835] (+0.000019583) mendax syscall_entry_brk: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { brk = 203053665607680 }
+[06:13:02.228657335] (+0.000000500) mendax syscall_exit_brk: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 203053665607680 }
+[06:13:02.228660543] (+0.000003208) mendax syscall_entry_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { }
+[06:13:02.228660626] (+0.000000083) mendax syscall_exit_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 14345 }
+[06:13:02.228661418] (+0.000000792) mendax syscall_entry_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { }
+[06:13:02.228661501] (+0.000000083) mendax syscall_exit_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 14345 }
+[06:13:02.228674709] (+0.000013208) mendax syscall_entry_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { }
+[06:13:02.228674834] (+0.000000125) mendax syscall_exit_getpid: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 14345 }
+[06:13:02.228694417] (+0.000019583) mendax syscall_entry_munmap: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { addr = 248270898528256, len = 7602176 }
+[06:13:02.228704875] (+0.000010458) mendax syscall_exit_munmap: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { ret = 0 }
+[06:13:02.228708583] (+0.000003708) mendax syscall_entry_sendto: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { fd = 4, buff = 203053665469200, len = 517, flags = 16384, addr = 0, addr_len = 0 }
+[06:13:02.228715167] (+0.000006584) mendax syscall_exit_sendto: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 517 }
+[06:13:02.228717458] (+0.000002291) mendax syscall_entry_recvfrom: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { fd = 4, size = 5, flags = 0, addr_len = 0 }
+[06:13:02.228718250] (+0.000000792) mendax syscall_exit_recvfrom: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = -11, ubuf = 203053665491603, addr = 0, addr_len = 0 }
+[06:13:02.228719833] (+0.000001583) mendax syscall_entry_rt_sigaction: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { sig = 13, act = 281474913773656, sigsetsize = 8 }
+[06:13:02.228720041] (+0.000000208) mendax syscall_exit_rt_sigaction: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { ret = 0, oact = 0 }
+[06:13:02.228721041] (+0.000001000) mendax syscall_entry_ppoll: { cpu_id = 2 }, { procname = "curl", pid = 14345, tid = 14345 }, { tsp = 281474913773856, sigmask = 0, sigsetsize = 0, nfds = 2, fds_length = 2, overflow = 0, fds = [ [0] = { fd = 4, raw_events = 0x1, events = { POLLIN = 1, POLLPRI = 0, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0 } }, [1] = { fd = 3, raw_events = 0x1, events = { POLLIN = 1, POLLPRI = 0, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0 } } ] }
+[06:13:02.228726958] (+0.000005917) mendax syscall_exit_epoll_pwait: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11867 }, { ret = 1, fds_length = 0, overflow = 0, fds = [ ] }
+[06:13:02.228729249] (+0.000002291) mendax syscall_entry_read: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11867 }, { fd = 547, count = 16 }
+[06:13:02.228730083] (+0.000000834) mendax syscall_exit_read: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11867 }, { ret = 8, buf = 246916494319000 }
+[06:13:02.228780040] (+0.000049957) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { uaddr = 194557001039240, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3570750768 }
+[06:13:02.228782831] (+0.000002791) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { ret = 1, uaddr = 194557001039240, uaddr2 = 0 }
+[06:13:02.228783040] (+0.000000209) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { uaddr = 194557001039612, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572464968 }
+[06:13:02.228784331] (+0.000001291) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { ret = 1, uaddr = 194557001039612, uaddr2 = 0 }
+[06:13:02.228804622] (+0.000020291) mendax syscall_exit_epoll_pwait: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { ret = 1, fds_length = 0, overflow = 0, fds = [ ] }
+[06:13:02.228807664] (+0.000003042) mendax syscall_entry_read: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { fd = 549, count = 16 }
+[06:13:02.228808664] (+0.000001000) mendax syscall_exit_read: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { ret = 8, buf = 246916493270424 }
+[06:13:02.228828913] (+0.000020249) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { uaddr = 260299015463756, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 0 }
+[06:13:02.228829622] (+0.000000709) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 0, uaddr = 260299015463756, uaddr2 = 0 }
+[06:13:02.228850121] (+0.000020499) mendax syscall_entry_brk: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { brk = 222501009608704 }
+[06:13:02.228851038] (+0.000000917) mendax syscall_exit_brk: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 222501009608704 }
+[06:13:02.228853871] (+0.000002833) mendax syscall_entry_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { }
+[06:13:02.228854163] (+0.000000292) mendax syscall_exit_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 14344 }
+[06:13:02.228855538] (+0.000001375) mendax syscall_entry_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { }
+[06:13:02.228855621] (+0.000000083) mendax syscall_exit_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 14344 }
+[06:13:02.228867912] (+0.000012291) mendax syscall_entry_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { }
+[06:13:02.228868037] (+0.000000125) mendax syscall_exit_getpid: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 14344 }
+[06:13:02.228900995] (+0.000032958) mendax syscall_entry_sendto: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { fd = 4, buff = 222501009470064, len = 517, flags = 16384, addr = 0, addr_len = 0 }
+[06:13:02.228907953] (+0.000006958) mendax syscall_exit_sendto: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 517 }
+[06:13:02.228909911] (+0.000001958) mendax syscall_entry_recvfrom: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { fd = 4, size = 5, flags = 0, addr_len = 0 }
+[06:13:02.228910453] (+0.000000542) mendax syscall_exit_recvfrom: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = -11, ubuf = 222501009492467, addr = 0, addr_len = 0 }
+[06:13:02.228911745] (+0.000001292) mendax syscall_entry_epoll_ctl: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11867 }, { epfd = 546, op_enum = ( "EPOLL_CTL_ADD" : container = 1 ), fd = 573, event = { data_union = { u64 = 0x70000023D, fd = 573 }, raw_events = 0x1, events = { EPOLLIN = 1, EPOLLPRI = 0, EPOLLOUT = 0, EPOLLERR = 0, padding = 0 } } }
+[06:13:02.228912286] (+0.000000541) mendax syscall_entry_rt_sigaction: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { sig = 13, act = 281474642530040, sigsetsize = 8 }
+[06:13:02.228912620] (+0.000000334) mendax syscall_exit_rt_sigaction: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { ret = 0, oact = 0 }
+[06:13:02.228913536] (+0.000000916) mendax syscall_exit_epoll_ctl: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11867 }, { ret = 0 }
+[06:13:02.228913911] (+0.000000375) mendax syscall_entry_ppoll: { cpu_id = 3 }, { procname = "curl", pid = 14344, tid = 14344 }, { tsp = 281474642530240, sigmask = 0, sigsetsize = 0, nfds = 2, fds_length = 2, overflow = 0, fds = [ [0] = { fd = 4, raw_events = 0x1, events = { POLLIN = 1, POLLPRI = 0, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0 } }, [1] = { fd = 3, raw_events = 0x1, events = { POLLIN = 1, POLLPRI = 0, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0 } } ] }
+[06:13:02.228914245] (+0.000000334) mendax syscall_entry_epoll_pwait: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11867 }, { epfd = 546, maxevents = 1024, timeout = 10000, sigmask = 0x0, sigsetsize = 8 }
+[06:13:02.228915328] (+0.000001083) mendax syscall_exit_epoll_pwait: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11867 }, { ret = 1, fds_length = 0, overflow = 0, fds = [ ] }
+[06:13:02.228917119] (+0.000001791) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "llvmpipe-1", pid = 3154, tid = 3214 }, { ret = 0, uaddr = 194557001039612, uaddr2 = 0 }
+[06:13:02.228918161] (+0.000001042) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "llvmpipe-1", pid = 3154, tid = 3214 }, { uaddr = 194557001039528, op = 128, val = 2, utime = 0, uaddr2 = 0, val3 = 2025773224 }
+[06:13:02.228919703] (+0.000001542) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "llvmpipe-0", pid = 3154, tid = 3213 }, { ret = 0, uaddr = 194557001039240, uaddr2 = 0 }
+[06:13:02.228920494] (+0.000000791) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "llvmpipe-0", pid = 3154, tid = 3213 }, { uaddr = 194557001039160, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572464968 }
+[06:13:02.228920661] (+0.000000167) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "llvmpipe-0", pid = 3154, tid = 3213 }, { ret = 0, uaddr = 194557001039160, uaddr2 = 0 }
+[06:13:02.228921703] (+0.000001042) mendax syscall_entry_epoll_ctl: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { epfd = 548, op_enum = ( "EPOLL_CTL_ADD" : container = 1 ), fd = 576, event = { data_union = { u64 = 0x700000240, fd = 576 }, raw_events = 0x1, events = { EPOLLIN = 1, EPOLLPRI = 0, EPOLLOUT = 0, EPOLLERR = 0, padding = 0 } } }
+[06:13:02.228922411] (+0.000000708) mendax syscall_entry_ioctl: { cpu_id = 3 }, { procname = "llvmpipe-0", pid = 3154, tid = 3213 }, { fd = 13, cmd = 3222299827, arg = 248272618772584 }
+[06:13:02.228923369] (+0.000000958) mendax syscall_entry_read: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11867 }, { fd = 573, count = 65536 }
+[06:13:02.228924703] (+0.000001334) mendax syscall_exit_read: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11867 }, { ret = 517, buf = 246915589475920 }
+[06:13:02.228925369] (+0.000000666) mendax syscall_exit_epoll_ctl: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { ret = 0 }
+[06:13:02.228925369] (+0.000000000) mendax syscall_exit_ioctl: { cpu_id = 3 }, { procname = "llvmpipe-0", pid = 3154, tid = 3213 }, { ret = 0, arg = 248272618772584 }
+[06:13:02.228925953] (+0.000000584) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "llvmpipe-0", pid = 3154, tid = 3213 }, { uaddr = 194557001051044, op = 128, val = 166992, utime = 0, uaddr2 = 7376000, val3 = 7376 }
+[06:13:02.228926369] (+0.000000416) mendax syscall_entry_epoll_pwait: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { epfd = 548, maxevents = 1024, timeout = 10000, sigmask = 0x0, sigsetsize = 8 }
+[06:13:02.228927203] (+0.000000834) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { uaddr = 194557001039528, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336 }
+[06:13:02.228927786] (+0.000000583) mendax syscall_exit_epoll_pwait: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { ret = 1, fds_length = 0, overflow = 0, fds = [ ] }
+[06:13:02.228928203] (+0.000000417) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { ret = 1, uaddr = 194557001039528, uaddr2 = 0 }
+[06:13:02.228928702] (+0.000000499) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "llvmpipe-1", pid = 3154, tid = 3214 }, { ret = 0, uaddr = 194557001039528, uaddr2 = 0 }
+[06:13:02.228928994] (+0.000000292) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "llvmpipe-1", pid = 3154, tid = 3214 }, { uaddr = 194557001039528, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336 }
+[06:13:02.228929327] (+0.000000333) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "llvmpipe-1", pid = 3154, tid = 3214 }, { ret = 0, uaddr = 194557001039528, uaddr2 = 0 }
+[06:13:02.228929536] (+0.000000209) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "llvmpipe-1", pid = 3154, tid = 3214 }, { uaddr = 194557001051044, op = 128, val = 166992, utime = 0, uaddr2 = 0, val3 = 3572465336 }
+[06:13:02.228930536] (+0.000001000) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { uaddr = 194557001039976, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465336 }
+[06:13:02.228931827] (+0.000001291) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { ret = 1, uaddr = 194557001039976, uaddr2 = 0 }
+[06:13:02.228932619] (+0.000000792) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "llvmpipe-2", pid = 3154, tid = 3215 }, { ret = 0, uaddr = 194557001039976, uaddr2 = 0 }
+[06:13:02.228933119] (+0.000000500) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "llvmpipe-2", pid = 3154, tid = 3215 }, { uaddr = 194557001039896, op = 128, val = 2, utime = 0, uaddr2 = 0, val3 = 1946146984 }
+[06:13:02.228937369] (+0.000004250) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { uaddr = 194557001039896, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465704 }
+[06:13:02.228937911] (+0.000000542) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { ret = 1, uaddr = 194557001039896, uaddr2 = 0 }
+[06:13:02.228937994] (+0.000000083) mendax syscall_entry_read: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { fd = 576, count = 65536 }
+[06:13:02.228938202] (+0.000000208) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "llvmpipe-2", pid = 3154, tid = 3215 }, { ret = 0, uaddr = 194557001039896, uaddr2 = 0 }
+[06:13:02.228938577] (+0.000000375) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "llvmpipe-2", pid = 3154, tid = 3215 }, { uaddr = 194557001039896, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465704 }
+[06:13:02.228938702] (+0.000000125) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "llvmpipe-2", pid = 3154, tid = 3215 }, { ret = 0, uaddr = 194557001039896, uaddr2 = 0 }
+[06:13:02.228939036] (+0.000000334) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "llvmpipe-2", pid = 3154, tid = 3215 }, { uaddr = 194557001051044, op = 128, val = 166992, utime = 0, uaddr2 = 0, val3 = 3572465704 }
+[06:13:02.228939452] (+0.000000416) mendax syscall_exit_read: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { ret = 517, buf = 246915522452080 }
+[06:13:02.228939911] (+0.000000459) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { uaddr = 194557001040348, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572465704 }
+[06:13:02.228940952] (+0.000001041) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { ret = 1, uaddr = 194557001040348, uaddr2 = 0 }
+[06:13:02.228941535] (+0.000000583) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "llvmpipe-3", pid = 3154, tid = 3216 }, { ret = 0, uaddr = 194557001040348, uaddr2 = 0 }
+[06:13:02.228942035] (+0.000000500) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "llvmpipe-3", pid = 3154, tid = 3216 }, { uaddr = 194557001040264, op = 128, val = 2, utime = 0, uaddr2 = 0, val3 = 1937692840 }
+[06:13:02.228943119] (+0.000001084) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { uaddr = 194557001040264, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572466072 }
+[06:13:02.228943744] (+0.000000625) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { ret = 1, uaddr = 194557001040264, uaddr2 = 0 }
+[06:13:02.228944035] (+0.000000291) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "llvmpipe-3", pid = 3154, tid = 3216 }, { ret = 0, uaddr = 194557001040264, uaddr2 = 0 }
+[06:13:02.228944327] (+0.000000292) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "llvmpipe-3", pid = 3154, tid = 3216 }, { uaddr = 194557001040264, op = 129, val = 1, utime = 0, uaddr2 = 0, val3 = 3572466072 }
+[06:13:02.228944452] (+0.000000125) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "llvmpipe-3", pid = 3154, tid = 3216 }, { ret = 0, uaddr = 194557001040264, uaddr2 = 0 }
+[06:13:02.228944619] (+0.000000167) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "llvmpipe-3", pid = 3154, tid = 3216 }, { uaddr = 194557001051044, op = 129, val = 2147483647, utime = 0, uaddr2 = 0, val3 = 3572466072 }
+[06:13:02.228946369] (+0.000001750) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "llvmpipe-3", pid = 3154, tid = 3216 }, { ret = 3, uaddr = 194557001051044, uaddr2 = 0 }
+[06:13:02.228946744] (+0.000000375) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "llvmpipe-2", pid = 3154, tid = 3215 }, { ret = 0, uaddr = 194557001051044, uaddr2 = 0 }
+[06:13:02.229086615] (+0.000139871) mendax syscall_entry_read: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11867 }, { fd = 60, count = 32 }
+[06:13:02.229087698] (+0.000001083) mendax syscall_exit_read: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11867 }, { ret = 32, buf = 246916494307048 }
+[06:13:02.229090032] (+0.000002334) mendax syscall_entry_read: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { fd = 60, count = 32 }
+[06:13:02.229091073] (+0.000001041) mendax syscall_exit_read: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { ret = 32, buf = 246916493258472 }
+[06:13:02.229137905] (+0.000046832) mendax syscall_entry_read: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11867 }, { fd = 60, count = 32 }
+[06:13:02.229138405] (+0.000000500) mendax syscall_exit_read: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11867 }, { ret = 32, buf = 246916494307256 }
+[06:13:02.229139405] (+0.000001000) mendax syscall_entry_read: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { fd = 60, count = 32 }
+[06:13:02.229139864] (+0.000000459) mendax syscall_exit_read: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { ret = 32, buf = 246916493258680 }
+[06:13:02.229161905] (+0.000022041) mendax syscall_entry_read: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { fd = 60, count = 32 }
+[06:13:02.229162363] (+0.000000458) mendax syscall_exit_read: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { ret = 32, buf = 246916493257208 }
+[06:13:02.229164113] (+0.000001750) mendax syscall_entry_read: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11867 }, { fd = 60, count = 32 }
+[06:13:02.229164571] (+0.000000458) mendax syscall_exit_read: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11867 }, { ret = 32, buf = 246916494305784 }
+[06:13:02.229356066] (+0.000191495) mendax syscall_entry_close: { cpu_id = 0 }, { procname = "lttng-runas", pid = 14324, tid = 14324 }, { fd = 4 }
+[06:13:02.229357316] (+0.000001250) mendax syscall_exit_close: { cpu_id = 0 }, { procname = "lttng-runas", pid = 14324, tid = 14324 }, { ret = 0 }
+[06:13:02.229359066] (+0.000001750) mendax syscall_entry_recvmsg: { cpu_id = 0 }, { procname = "lttng-runas", pid = 14324, tid = 14324 }, { fd = 6, msg = 281474329849072, flags = 16384 }
+[06:13:02.229362399] (+0.000003333) mendax syscall_entry_ppoll: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14332 }, { tsp = 0, sigmask = 0, sigsetsize = 0, nfds = 2, fds_length = 2, overflow = 0, fds = [ [0] = { fd = 10, raw_events = 0x3, events = { POLLIN = 1, POLLPRI = 1, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0 } }, [1] = { fd = 31, raw_events = 0x3, events = { POLLIN = 1, POLLPRI = 1, POLLOUT = 0, POLLERR = 0, POLLHUP = 0, padding = 0 } } ] }
+[06:13:02.229365149] (+0.000002750) mendax syscall_exit_epoll_pwait: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 1, fds_length = 1, overflow = 0, fds = [ [0] = { data_union = { u64 = 0x22, fd = 34 }, raw_events = 0x1, events = { EPOLLIN = 1, EPOLLPRI = 0, EPOLLOUT = 0, EPOLLERR = 0, padding = 0 } } ] }
+[06:13:02.229367732] (+0.000002583) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.229381732] (+0.000014000) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.229382107] (+0.000000375) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.229382315] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.229382482] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.229382649] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.229382815] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.229382940] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.229383107] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.229383232] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.229384274] (+0.000001042) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.229392690] (+0.000008416) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.229393523] (+0.000000833) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 0, nbytes = 4096, flags = 2 }
+[06:13:02.229429022] (+0.000035499) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.229430231] (+0.000001209) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.229430731] (+0.000000500) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.229431397] (+0.000000666) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.229443980] (+0.000012583) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.229444189] (+0.000000209) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.229444355] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.229444522] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.229444647] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.229444772] (+0.000000125) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.229444897] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.229445064] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.229445189] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.229445439] (+0.000000250) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.229449730] (+0.000004291) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.229450064] (+0.000000334) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 4096, nbytes = 4096, flags = 2 }
+[06:13:02.229478271] (+0.000028207) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.229478688] (+0.000000417) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 0, nbytes = 4096, flags = 7 }
+[06:13:02.229864094] (+0.000385406) mendax syscall_exit_sync_file_range: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.229865552] (+0.000001458) mendax syscall_entry_fadvise64_64: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 0, len = 4096, advice = 4 }
+[06:13:02.229868636] (+0.000003084) mendax syscall_exit_fadvise64_64: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 0, len = 4096, advice = 4 }
+[06:13:02.229869344] (+0.000000708) mendax syscall_entry_ioctl: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.229869969] (+0.000000625) mendax syscall_exit_ioctl: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.229870844] (+0.000000875) mendax syscall_entry_ioctl: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.229884260] (+0.000013416) mendax syscall_exit_ioctl: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.229884469] (+0.000000209) mendax syscall_entry_ioctl: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.229884677] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.229884844] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.229885010] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.229885177] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.229885302] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.229885469] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.229885594] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.229886177] (+0.000000583) mendax syscall_entry_write: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.229890718] (+0.000004541) mendax syscall_exit_epoll_pwait: { cpu_id = 1 }, { procname = "data-loop.0", pid = 2932, tid = 2972 }, { ret = 1, fds_length = 1, overflow = 0, fds = [ [0] = { data_union = { u64 = 0xC7896705FDD0, fd = 1728445904 }, raw_events = 0x1, events = { EPOLLIN = 1, EPOLLPRI = 0, EPOLLOUT = 0, EPOLLERR = 0, padding = 0 } } ] }
+[06:13:02.229892093] (+0.000001375) mendax syscall_exit_write: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.229892635] (+0.000000542) mendax syscall_entry_sync_file_range: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 8192, nbytes = 4096, flags = 2 }
+[06:13:02.229895010] (+0.000002375) mendax syscall_entry_read: { cpu_id = 1 }, { procname = "data-loop.0", pid = 2932, tid = 2972 }, { fd = 67, count = 8 }
+[06:13:02.229895718] (+0.000000708) mendax syscall_exit_read: { cpu_id = 1 }, { procname = "data-loop.0", pid = 2932, tid = 2972 }, { ret = 8, buf = 281458146600240 }
+[06:13:02.229898885] (+0.000003167) mendax syscall_entry_ioctl: { cpu_id = 1 }, { procname = "data-loop.0", pid = 2932, tid = 2972 }, { fd = 66, cmd = 3230155043, arg = 219392954314048 }
+[06:13:02.229902010] (+0.000003125) mendax syscall_exit_ioctl: { cpu_id = 1 }, { procname = "data-loop.0", pid = 2932, tid = 2972 }, { ret = 0, arg = 219392954314048 }
+[06:13:02.229902968] (+0.000000958) mendax syscall_entry_ioctl: { cpu_id = 1 }, { procname = "data-loop.0", pid = 2932, tid = 2972 }, { fd = 66, cmd = 3230155043, arg = 219392954314048 }
+[06:13:02.229903260] (+0.000000292) mendax syscall_exit_ioctl: { cpu_id = 1 }, { procname = "data-loop.0", pid = 2932, tid = 2972 }, { ret = 0, arg = 219392954314048 }
+[06:13:02.229904385] (+0.000001125) mendax syscall_entry_timerfd_settime: { cpu_id = 1 }, { procname = "data-loop.0", pid = 2932, tid = 2972 }, { ufd = 67, flags = 1, utmr = 281458146600112 }
+[06:13:02.229905385] (+0.000001000) mendax syscall_exit_timerfd_settime: { cpu_id = 1 }, { procname = "data-loop.0", pid = 2932, tid = 2972 }, { ret = 0, otmr = 0 }
+[06:13:02.229906301] (+0.000000916) mendax syscall_entry_epoll_pwait: { cpu_id = 1 }, { procname = "data-loop.0", pid = 2932, tid = 2972 }, { epfd = 9, maxevents = 32, timeout = -1, sigmask = 0x0, sigsetsize = 8 }
+[06:13:02.229915843] (+0.000009542) mendax syscall_exit_sync_file_range: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.229916426] (+0.000000583) mendax syscall_entry_sync_file_range: { cpu_id = 3 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 4096, nbytes = 4096, flags = 7 }
+[06:13:02.229918676] (+0.000002250) mendax syscall_exit_futex: { cpu_id = 3 }, { procname = "llvmpipe-1", pid = 3154, tid = 3214 }, { ret = 0, uaddr = 194557001051044, uaddr2 = 0 }
+[06:13:02.230029631] (+0.000110955) mendax syscall_entry_read: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11867 }, { fd = 60, count = 32 }
+[06:13:02.230030465] (+0.000000834) mendax syscall_exit_read: { cpu_id = 2 }, { procname = "elasticsearch[m", pid = 11822, tid = 11867 }, { ret = 32, buf = 246916494306728 }
+[06:13:02.230572367] (+0.000541902) mendax syscall_exit_epoll_pwait: { cpu_id = 3 }, { procname = "node", pid = 12061, tid = 12061 }, { ret = 0, fds_length = 0, overflow = 0, fds = [ ] }
+[06:13:02.230584075] (+0.000011708) mendax syscall_entry_epoll_pwait: { cpu_id = 3 }, { procname = "node", pid = 12061, tid = 12061 }, { epfd = 13, maxevents = 1024, timeout = 0, sigmask = 0x0, sigsetsize = 8 }
+[06:13:02.230584492] (+0.000000417) mendax syscall_exit_epoll_pwait: { cpu_id = 3 }, { procname = "node", pid = 12061, tid = 12061 }, { ret = 0, fds_length = 0, overflow = 0, fds = [ ] }
+[06:13:02.230584783] (+0.000000291) mendax syscall_entry_epoll_pwait: { cpu_id = 3 }, { procname = "node", pid = 12061, tid = 12061 }, { epfd = 13, maxevents = 1024, timeout = 10, sigmask = 0x0, sigsetsize = 8 }
+[06:13:02.230781361] (+0.000196578) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.230782653] (+0.000001292) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 4096, len = 4096, advice = 4 }
+[06:13:02.230784861] (+0.000002208) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 4096, len = 4096, advice = 4 }
+[06:13:02.230796403] (+0.000011542) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.230796903] (+0.000000500) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.230797444] (+0.000000541) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.230810152] (+0.000012708) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.230810361] (+0.000000209) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.230810486] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.230810652] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.230810777] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.230810902] (+0.000000125) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.230811111] (+0.000000209) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.230811236] (+0.000000125) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.230811361] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.230811777] (+0.000000416) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.230814694] (+0.000002917) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.230815110] (+0.000000416) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 12288, nbytes = 4096, flags = 2 }
+[06:13:02.230819610] (+0.000004500) mendax syscall_entry_getpid: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { }
+[06:13:02.230820027] (+0.000000417) mendax syscall_exit_getpid: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { ret = 3154 }
+[06:13:02.230824985] (+0.000004958) mendax syscall_entry_futex: { cpu_id = 3 }, { procname = "gnome-shell", pid = 3154, tid = 3154 }, { uaddr = 194556998095648, op = 393, val = 0, utime = 0, uaddr2 = 0, val3 = 4294967295 }
+[06:13:02.230825527] (+0.000000542) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.230826068] (+0.000000541) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 8192, nbytes = 4096, flags = 7 }
+[06:13:02.230826402] (+0.000000334) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.230826652] (+0.000000250) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 8192, len = 4096, advice = 4 }
+[06:13:02.230828110] (+0.000001458) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 8192, len = 4096, advice = 4 }
+[06:13:02.230828443] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.230828693] (+0.000000250) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.230829110] (+0.000000417) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.230852734] (+0.000023624) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.230856609] (+0.000003875) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "Client manageme", pid = 14297, tid = 14307 }, { ret = 0, arg = 0 }
+[06:13:02.230859484] (+0.000002875) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "Client manageme", pid = 14297, tid = 14307 }, { fd = 21, cmd = 63048, arg = 221342671110144 }
+[06:13:02.230862068] (+0.000002584) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.230862193] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.230862359] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.230862442] (+0.000000083) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.230862609] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.230862734] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.230862901] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.230862984] (+0.000000083) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.230863317] (+0.000000333) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.230864901] (+0.000001584) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.230865151] (+0.000000250) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 16384, nbytes = 4096, flags = 2 }
+[06:13:02.230873276] (+0.000008125) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.230873734] (+0.000000458) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 12288, nbytes = 4096, flags = 7 }
+[06:13:02.230874026] (+0.000000292) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.230874276] (+0.000000250) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 12288, len = 4096, advice = 4 }
+[06:13:02.230875359] (+0.000001083) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 12288, len = 4096, advice = 4 }
+[06:13:02.230875692] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.230875942] (+0.000000250) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.230876317] (+0.000000375) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.230897900] (+0.000021583) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.230900816] (+0.000002916) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.230901233] (+0.000000417) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.230901400] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.230901483] (+0.000000083) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.230901650] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.230901775] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.230901941] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.230902025] (+0.000000084) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.230902275] (+0.000000250) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.230903566] (+0.000001291) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.230903816] (+0.000000250) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 20480, nbytes = 4096, flags = 2 }
+[06:13:02.230911275] (+0.000007459) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.230911733] (+0.000000458) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 16384, nbytes = 4096, flags = 7 }
+[06:13:02.230912025] (+0.000000292) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.230912275] (+0.000000250) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 16384, len = 4096, advice = 4 }
+[06:13:02.230913191] (+0.000000916) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 16384, len = 4096, advice = 4 }
+[06:13:02.230913483] (+0.000000292) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.230913733] (+0.000000250) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.230914024] (+0.000000291) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.230936524] (+0.000022500) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.230939565] (+0.000003041) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.230939815] (+0.000000250) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.230939982] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.230940149] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.230940315] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.230940482] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.230940649] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.230940774] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.230941107] (+0.000000333) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.230942607] (+0.000001500) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.230942815] (+0.000000208) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 24576, nbytes = 4096, flags = 2 }
+[06:13:02.230950065] (+0.000007250) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.230950482] (+0.000000417) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 20480, nbytes = 4096, flags = 7 }
+[06:13:02.230951023] (+0.000000541) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.230951232] (+0.000000209) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 20480, len = 4096, advice = 4 }
+[06:13:02.230952023] (+0.000000791) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 20480, len = 4096, advice = 4 }
+[06:13:02.230952398] (+0.000000375) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.230952607] (+0.000000209) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.230952940] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.230975106] (+0.000022166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.230977981] (+0.000002875) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.230978189] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.230978398] (+0.000000209) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.230978523] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.230978689] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.230978856] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.230979023] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.230979148] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.230979439] (+0.000000291) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.230980898] (+0.000001459) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.230981106] (+0.000000208) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 28672, nbytes = 4096, flags = 2 }
+[06:13:02.230982148] (+0.000001042) mendax syscall_entry_read: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { fd = 60, count = 32 }
+[06:13:02.230983231] (+0.000001083) mendax syscall_exit_read: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { ret = 32, buf = 246916493258152 }
+[06:13:02.230988022] (+0.000004791) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.230988439] (+0.000000417) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 24576, nbytes = 4096, flags = 7 }
+[06:13:02.230988647] (+0.000000208) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.230988897] (+0.000000250) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 24576, len = 4096, advice = 4 }
+[06:13:02.230989647] (+0.000000750) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 24576, len = 4096, advice = 4 }
+[06:13:02.230989981] (+0.000000334) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.230990189] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.230990522] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231012522] (+0.000022000) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231015272] (+0.000002750) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231015480] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231015647] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231015813] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231015980] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231016147] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231016313] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231016438] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231016730] (+0.000000292) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.231018230] (+0.000001500) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231018480] (+0.000000250) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 32768, nbytes = 4096, flags = 2 }
+[06:13:02.231026646] (+0.000008166) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231027063] (+0.000000417) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 28672, nbytes = 4096, flags = 7 }
+[06:13:02.231027313] (+0.000000250) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231027521] (+0.000000208) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 28672, len = 4096, advice = 4 }
+[06:13:02.231028313] (+0.000000792) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 28672, len = 4096, advice = 4 }
+[06:13:02.231028605] (+0.000000292) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231028813] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231029146] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231048896] (+0.000019750) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231051021] (+0.000002125) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231051187] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231051354] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231051479] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231051604] (+0.000000125) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231051729] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231051896] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231051979] (+0.000000083) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231052354] (+0.000000375) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.231053562] (+0.000001208) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231053771] (+0.000000209) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 36864, nbytes = 4096, flags = 2 }
+[06:13:02.231060812] (+0.000007041) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231061229] (+0.000000417) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 32768, nbytes = 4096, flags = 7 }
+[06:13:02.231061479] (+0.000000250) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231061687] (+0.000000208) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 32768, len = 4096, advice = 4 }
+[06:13:02.231062354] (+0.000000667) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 32768, len = 4096, advice = 4 }
+[06:13:02.231062687] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231062895] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231063270] (+0.000000375) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231084478] (+0.000021208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231086562] (+0.000002084) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231086728] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231086895] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231087020] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231087186] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231087270] (+0.000000084) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231087436] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231087520] (+0.000000084) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231087770] (+0.000000250) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.231088936] (+0.000001166) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231089145] (+0.000000209) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 40960, nbytes = 4096, flags = 2 }
+[06:13:02.231095978] (+0.000006833) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231096395] (+0.000000417) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 36864, nbytes = 4096, flags = 7 }
+[06:13:02.231096603] (+0.000000208) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231096811] (+0.000000208) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 36864, len = 4096, advice = 4 }
+[06:13:02.231097520] (+0.000000709) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 36864, len = 4096, advice = 4 }
+[06:13:02.231097853] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231098061] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231098395] (+0.000000334) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231118686] (+0.000020291) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231120727] (+0.000002041) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231120894] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231121061] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231121186] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231121311] (+0.000000125) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231121436] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231121602] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231121686] (+0.000000084) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231121936] (+0.000000250) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.231123269] (+0.000001333) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231123477] (+0.000000208) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 45056, nbytes = 4096, flags = 2 }
+[06:13:02.231130352] (+0.000006875) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231130810] (+0.000000458) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 40960, nbytes = 4096, flags = 7 }
+[06:13:02.231131019] (+0.000000209) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231131227] (+0.000000208) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 40960, len = 4096, advice = 4 }
+[06:13:02.231131894] (+0.000000667) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 40960, len = 4096, advice = 4 }
+[06:13:02.231132269] (+0.000000375) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231132477] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231132769] (+0.000000292) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231154976] (+0.000022207) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231157518] (+0.000002542) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231157726] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231157935] (+0.000000209) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231158101] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231158268] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231158435] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231158601] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231158726] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231159060] (+0.000000334) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.231160393] (+0.000001333) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231160601] (+0.000000208) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 49152, nbytes = 4096, flags = 2 }
+[06:13:02.231167434] (+0.000006833) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231167851] (+0.000000417) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 45056, nbytes = 4096, flags = 7 }
+[06:13:02.231168101] (+0.000000250) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231168309] (+0.000000208) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 45056, len = 4096, advice = 4 }
+[06:13:02.231168934] (+0.000000625) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 45056, len = 4096, advice = 4 }
+[06:13:02.231169268] (+0.000000334) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231169476] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231169768] (+0.000000292) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231191767] (+0.000021999) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231194267] (+0.000002500) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231194475] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231194642] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231194809] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231194975] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231195142] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231195309] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231195475] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231195767] (+0.000000292) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.231197142] (+0.000001375) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231197392] (+0.000000250) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 53248, nbytes = 4096, flags = 2 }
+[06:13:02.231204350] (+0.000006958) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231204725] (+0.000000375) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 49152, nbytes = 4096, flags = 7 }
+[06:13:02.231204975] (+0.000000250) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231205183] (+0.000000208) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 49152, len = 4096, advice = 4 }
+[06:13:02.231206017] (+0.000000834) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 49152, len = 4096, advice = 4 }
+[06:13:02.231206350] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231206558] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231206892] (+0.000000334) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231228933] (+0.000022041) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231231433] (+0.000002500) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231231641] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231231808] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231231974] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231232141] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231232266] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231232474] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231232599] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231232891] (+0.000000292) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.231234224] (+0.000001333) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231234516] (+0.000000292) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 57344, nbytes = 4096, flags = 2 }
+[06:13:02.231241266] (+0.000006750) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231241682] (+0.000000416) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 53248, nbytes = 4096, flags = 7 }
+[06:13:02.231241932] (+0.000000250) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231242141] (+0.000000209) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 53248, len = 4096, advice = 4 }
+[06:13:02.231242766] (+0.000000625) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 53248, len = 4096, advice = 4 }
+[06:13:02.231243099] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231243307] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231243641] (+0.000000334) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231265473] (+0.000021832) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231267932] (+0.000002459) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231268098] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231268307] (+0.000000209) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231268432] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231268640] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231268765] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231268973] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231269098] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231269515] (+0.000000417) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.231270932] (+0.000001417) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231271182] (+0.000000250) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 61440, nbytes = 4096, flags = 2 }
+[06:13:02.231278265] (+0.000007083) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231278723] (+0.000000458) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 57344, nbytes = 4096, flags = 7 }
+[06:13:02.231278931] (+0.000000208) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231279140] (+0.000000209) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 57344, len = 4096, advice = 4 }
+[06:13:02.231279806] (+0.000000666) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 57344, len = 4096, advice = 4 }
+[06:13:02.231280140] (+0.000000334) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231280348] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231280681] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231302306] (+0.000021625) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231304681] (+0.000002375) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231304889] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231305056] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231305222] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231305389] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231305806] (+0.000000417) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231306014] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231306139] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231306431] (+0.000000292) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.231307764] (+0.000001333) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231308014] (+0.000000250) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 65536, nbytes = 4096, flags = 2 }
+[06:13:02.231314680] (+0.000006666) mendax syscall_entry_futex: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { uaddr = 246917844007516, op = 129, val = 2147483647, utime = 0, uaddr2 = 16932, val3 = 3183418432 }
+[06:13:02.231317597] (+0.000002917) mendax syscall_exit_futex: { cpu_id = 1 }, { procname = "elasticsearch[m", pid = 11822, tid = 11868 }, { ret = 1, uaddr = 246917844007516, uaddr2 = 16932 }
+[06:13:02.231318972] (+0.000001375) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231319430] (+0.000000458) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 61440, nbytes = 4096, flags = 7 }
+[06:13:02.231319639] (+0.000000209) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231319889] (+0.000000250) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 61440, len = 4096, advice = 4 }
+[06:13:02.231320555] (+0.000000666) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 61440, len = 4096, advice = 4 }
+[06:13:02.231320889] (+0.000000334) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231321097] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231321389] (+0.000000292) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231343138] (+0.000021749) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231345805] (+0.000002667) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231345971] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231346180] (+0.000000209) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231346346] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231346513] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231346680] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231346846] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231346971] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231347263] (+0.000000292) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.231348763] (+0.000001500) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231349013] (+0.000000250) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 69632, nbytes = 4096, flags = 2 }
+[06:13:02.231362304] (+0.000013291) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231362762] (+0.000000458) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 65536, nbytes = 4096, flags = 7 }
+[06:13:02.231362971] (+0.000000209) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231363221] (+0.000000250) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 65536, len = 4096, advice = 4 }
+[06:13:02.231363846] (+0.000000625) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 65536, len = 4096, advice = 4 }
+[06:13:02.231364221] (+0.000000375) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231364387] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231364762] (+0.000000375) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231387595] (+0.000022833) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231393262] (+0.000005667) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231393470] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231393928] (+0.000000458) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231394053] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231394262] (+0.000000209) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231394387] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231394595] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231394720] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231395012] (+0.000000292) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.231396428] (+0.000001416) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231396678] (+0.000000250) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 73728, nbytes = 4096, flags = 2 }
+[06:13:02.231406970] (+0.000010292) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231407470] (+0.000000500) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 69632, nbytes = 4096, flags = 7 }
+[06:13:02.231407678] (+0.000000208) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231407886] (+0.000000208) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 69632, len = 4096, advice = 4 }
+[06:13:02.231408553] (+0.000000667) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 69632, len = 4096, advice = 4 }
+[06:13:02.231408886] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231409095] (+0.000000209) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231409386] (+0.000000291) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231431886] (+0.000022500) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231436052] (+0.000004166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231436302] (+0.000000250) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231436510] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231436635] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231436844] (+0.000000209) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231437010] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231437177] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231437302] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231437594] (+0.000000292) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.231438635] (+0.000001041) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231438844] (+0.000000209) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 77824, nbytes = 4096, flags = 2 }
+[06:13:02.231447969] (+0.000009125) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231448427] (+0.000000458) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 73728, nbytes = 4096, flags = 7 }
+[06:13:02.231448635] (+0.000000208) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231448885] (+0.000000250) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 73728, len = 4096, advice = 4 }
+[06:13:02.231449510] (+0.000000625) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 73728, len = 4096, advice = 4 }
+[06:13:02.231449843] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231450052] (+0.000000209) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231450343] (+0.000000291) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231471926] (+0.000021583) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231475801] (+0.000003875) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231476051] (+0.000000250) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231476259] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231476384] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231476593] (+0.000000209) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231476718] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231476926] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231477051] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231477343] (+0.000000292) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.231478676] (+0.000001333) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231478926] (+0.000000250) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 81920, nbytes = 4096, flags = 2 }
+[06:13:02.231489759] (+0.000010833) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231490259] (+0.000000500) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 77824, nbytes = 4096, flags = 7 }
+[06:13:02.231490551] (+0.000000292) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231490759] (+0.000000208) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 77824, len = 4096, advice = 4 }
+[06:13:02.231491509] (+0.000000750) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 77824, len = 4096, advice = 4 }
+[06:13:02.231491884] (+0.000000375) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231492051] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231492426] (+0.000000375) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231510175] (+0.000017749) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231513133] (+0.000002958) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231513508] (+0.000000375) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231513675] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231513800] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231513925] (+0.000000125) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231514050] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231514217] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231514300] (+0.000000083) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231514550] (+0.000000250) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.231515633] (+0.000001083) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231515842] (+0.000000209) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 86016, nbytes = 4096, flags = 2 }
+[06:13:02.231524925] (+0.000009083) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231525341] (+0.000000416) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 81920, nbytes = 4096, flags = 7 }
+[06:13:02.231525591] (+0.000000250) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231525800] (+0.000000209) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 81920, len = 4096, advice = 4 }
+[06:13:02.231526425] (+0.000000625) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 81920, len = 4096, advice = 4 }
+[06:13:02.231526758] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231526966] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231527300] (+0.000000334) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231549174] (+0.000021874) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231552841] (+0.000003667) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231553049] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231553257] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231553382] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231553591] (+0.000000209) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231553716] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231553924] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231554049] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231554341] (+0.000000292) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.231555757] (+0.000001416) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231556007] (+0.000000250) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 90112, nbytes = 4096, flags = 2 }
+[06:13:02.231565049] (+0.000009042) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231565507] (+0.000000458) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 86016, nbytes = 4096, flags = 7 }
+[06:13:02.231565715] (+0.000000208) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231565924] (+0.000000209) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 86016, len = 4096, advice = 4 }
+[06:13:02.231566549] (+0.000000625) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 86016, len = 4096, advice = 4 }
+[06:13:02.231566882] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231567132] (+0.000000250) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231567424] (+0.000000292) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231589548] (+0.000022124) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231593131] (+0.000003583) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231593340] (+0.000000209) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231593548] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231593673] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231593881] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231594006] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231594173] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231594340] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231594590] (+0.000000250) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.231595840] (+0.000001250) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231596048] (+0.000000208) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 94208, nbytes = 4096, flags = 2 }
+[06:13:02.231605089] (+0.000009041) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231605506] (+0.000000417) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 90112, nbytes = 4096, flags = 7 }
+[06:13:02.231605714] (+0.000000208) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231605923] (+0.000000209) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 90112, len = 4096, advice = 4 }
+[06:13:02.231606589] (+0.000000666) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 90112, len = 4096, advice = 4 }
+[06:13:02.231606881] (+0.000000292) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231607089] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231607464] (+0.000000375) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231629505] (+0.000022041) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231633089] (+0.000003584) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231633297] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231633505] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231633630] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231633839] (+0.000000209) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231633964] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231634172] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231634297] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231634589] (+0.000000292) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.231635922] (+0.000001333) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231636130] (+0.000000208) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 98304, nbytes = 4096, flags = 2 }
+[06:13:02.231646922] (+0.000010792) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231647380] (+0.000000458) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 94208, nbytes = 4096, flags = 7 }
+[06:13:02.231647630] (+0.000000250) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231647838] (+0.000000208) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 94208, len = 4096, advice = 4 }
+[06:13:02.231648505] (+0.000000667) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 94208, len = 4096, advice = 4 }
+[06:13:02.231648796] (+0.000000291) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231649005] (+0.000000209) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231649338] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231671296] (+0.000021958) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231674712] (+0.000003416) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231674962] (+0.000000250) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231675129] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231675296] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231675462] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231675629] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231675796] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231675921] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231676212] (+0.000000291) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.231677546] (+0.000001334) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231677796] (+0.000000250) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 102400, nbytes = 4096, flags = 2 }
+[06:13:02.231687754] (+0.000009958) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231688170] (+0.000000416) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 98304, nbytes = 4096, flags = 7 }
+[06:13:02.231688420] (+0.000000250) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231688629] (+0.000000209) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 98304, len = 4096, advice = 4 }
+[06:13:02.231689295] (+0.000000666) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 98304, len = 4096, advice = 4 }
+[06:13:02.231689629] (+0.000000334) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231690129] (+0.000000500) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231690462] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231711795] (+0.000021333) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231715295] (+0.000003500) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231715503] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231715711] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231715836] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231716003] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231716170] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231716378] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231716503] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231716795] (+0.000000292) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.231718086] (+0.000001291) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231718336] (+0.000000250) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 106496, nbytes = 4096, flags = 2 }
+[06:13:02.231727669] (+0.000009333) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231728086] (+0.000000417) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 102400, nbytes = 4096, flags = 7 }
+[06:13:02.231728294] (+0.000000208) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231728544] (+0.000000250) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 102400, len = 4096, advice = 4 }
+[06:13:02.231729169] (+0.000000625) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 102400, len = 4096, advice = 4 }
+[06:13:02.231729711] (+0.000000542) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231729919] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231730253] (+0.000000334) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231751460] (+0.000021207) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231754835] (+0.000003375) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231755085] (+0.000000250) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231755252] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231755419] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231755585] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231755710] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231755919] (+0.000000209) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231756044] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231756335] (+0.000000291) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.231757627] (+0.000001292) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231757877] (+0.000000250) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 110592, nbytes = 4096, flags = 2 }
+[06:13:02.231770543] (+0.000012666) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231770960] (+0.000000417) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 106496, nbytes = 4096, flags = 7 }
+[06:13:02.231771210] (+0.000000250) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231771418] (+0.000000208) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 106496, len = 4096, advice = 4 }
+[06:13:02.231772085] (+0.000000667) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 106496, len = 4096, advice = 4 }
+[06:13:02.231772418] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231772627] (+0.000000209) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231772960] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231839250] (+0.000066290) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231840041] (+0.000000791) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231840333] (+0.000000292) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231840500] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231840625] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231840791] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231840875] (+0.000000084) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231841041] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231841166] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231841583] (+0.000000417) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.231844625] (+0.000003042) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231844958] (+0.000000333) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 114688, nbytes = 4096, flags = 2 }
+[06:13:02.231857041] (+0.000012083) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231857541] (+0.000000500) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 110592, nbytes = 4096, flags = 7 }
+[06:13:02.231857791] (+0.000000250) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231858208] (+0.000000417) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 110592, len = 4096, advice = 4 }
+[06:13:02.231859291] (+0.000001083) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 110592, len = 4096, advice = 4 }
+[06:13:02.231859666] (+0.000000375) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231859916] (+0.000000250) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231860416] (+0.000000500) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231886832] (+0.000026416) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231887123] (+0.000000291) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231887290] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231887498] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231887623] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231887790] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231887915] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231888082] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231888207] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231888415] (+0.000000208) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.231889665] (+0.000001250) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231889873] (+0.000000208) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 118784, nbytes = 4096, flags = 2 }
+[06:13:02.231897207] (+0.000007334) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231897707] (+0.000000500) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 114688, nbytes = 4096, flags = 7 }
+[06:13:02.231897957] (+0.000000250) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231898165] (+0.000000208) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 114688, len = 4096, advice = 4 }
+[06:13:02.231898831] (+0.000000666) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 114688, len = 4096, advice = 4 }
+[06:13:02.231899123] (+0.000000292) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231899373] (+0.000000250) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231899665] (+0.000000292) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231926414] (+0.000026749) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231926706] (+0.000000292) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231926914] (+0.000000208) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231927081] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231927247] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231927414] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231927539] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231927747] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231927872] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231928122] (+0.000000250) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.231929247] (+0.000001125) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.231929456] (+0.000000209) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 122880, nbytes = 4096, flags = 2 }
+[06:13:02.231937330] (+0.000007874) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231937705] (+0.000000375) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 118784, nbytes = 4096, flags = 7 }
+[06:13:02.231938247] (+0.000000542) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.231938455] (+0.000000208) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 118784, len = 4096, advice = 4 }
+[06:13:02.231939122] (+0.000000667) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 118784, len = 4096, advice = 4 }
+[06:13:02.231939414] (+0.000000292) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.231939580] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231939914] (+0.000000334) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.231994954] (+0.000055040) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.231996121] (+0.000001167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.231996537] (+0.000000416) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.231996746] (+0.000000209) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.231996871] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.231997329] (+0.000000458) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.231997454] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.231997662] (+0.000000208) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.231997829] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.231998620] (+0.000000791) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.232006954] (+0.000008334) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.232007329] (+0.000000375) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 126976, nbytes = 4096, flags = 2 }
+[06:13:02.232023036] (+0.000015707) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.232023745] (+0.000000709) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 122880, nbytes = 4096, flags = 7 }
+[06:13:02.232024120] (+0.000000375) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.232024661] (+0.000000541) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 122880, len = 4096, advice = 4 }
+[06:13:02.232026328] (+0.000001667) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 122880, len = 4096, advice = 4 }
+[06:13:02.232026703] (+0.000000375) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.232026995] (+0.000000292) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.232027578] (+0.000000583) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.232081993] (+0.000054415) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.232083327] (+0.000001334) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.232083868] (+0.000000541) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.232084077] (+0.000000209) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.232084243] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.232084452] (+0.000000209) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.232084618] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.232084827] (+0.000000209) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.232084952] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.232085910] (+0.000000958) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.232092243] (+0.000006333) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.232092826] (+0.000000583) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 131072, nbytes = 4096, flags = 2 }
+[06:13:02.232113451] (+0.000020625) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.232114326] (+0.000000875) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 126976, nbytes = 4096, flags = 7 }
+[06:13:02.232114742] (+0.000000416) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.232115284] (+0.000000542) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 126976, len = 4096, advice = 4 }
+[06:13:02.232117826] (+0.000002542) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 126976, len = 4096, advice = 4 }
+[06:13:02.232118409] (+0.000000583) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.232118784] (+0.000000375) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.232119701] (+0.000000917) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.232146700] (+0.000026999) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.232146950] (+0.000000250) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.232147117] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.232147242] (+0.000000125) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.232147367] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.232147533] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.232147658] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.232147783] (+0.000000125) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.232147908] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.232148200] (+0.000000292) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.232150283] (+0.000002083) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.232150533] (+0.000000250) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 135168, nbytes = 4096, flags = 2 }
+[06:13:02.232155533] (+0.000005000) mendax syscall_exit_futex: { cpu_id = 1 }, { procname = "C1 CompilerThre", pid = 11822, tid = 11841 }, { ret = 0, uaddr = 246917844007516, uaddr2 = 0 }
+[06:13:02.232158116] (+0.000002583) mendax syscall_entry_futex: { cpu_id = 1 }, { procname = "C1 CompilerThre", pid = 11822, tid = 11841 }, { uaddr = 246917844007432, op = 129, val = 1, utime = 0, uaddr2 = 512, val3 = 174160408 }
+[06:13:02.232158783] (+0.000000667) mendax syscall_exit_futex: { cpu_id = 1 }, { procname = "C1 CompilerThre", pid = 11822, tid = 11841 }, { ret = 0, uaddr = 246917844007432, uaddr2 = 512 }
+[06:13:02.232158991] (+0.000000208) mendax syscall_entry_futex: { cpu_id = 1 }, { procname = "C1 CompilerThre", pid = 11822, tid = 11841 }, { uaddr = 246917844007512, op = 137, val = 16930, utime = 246917138863456, uaddr2 = 0, val3 = 4294967295 }
+[06:13:02.232164824] (+0.000005833) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.232165491] (+0.000000667) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 131072, nbytes = 4096, flags = 7 }
+[06:13:02.232165824] (+0.000000333) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.232166116] (+0.000000292) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 131072, len = 4096, advice = 4 }
+[06:13:02.232167408] (+0.000001292) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 131072, len = 4096, advice = 4 }
+[06:13:02.232167783] (+0.000000375) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.232168033] (+0.000000250) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.232168408] (+0.000000375) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.232192824] (+0.000024416) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.232193074] (+0.000000250) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.232193199] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.232193365] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.232193490] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.232193657] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.232193740] (+0.000000083) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.232193907] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.232194032] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.232194282] (+0.000000250) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.232195740] (+0.000001458) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.232195990] (+0.000000250) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 139264, nbytes = 4096, flags = 2 }
+[06:13:02.232205407] (+0.000009417) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.232205907] (+0.000000500) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 135168, nbytes = 4096, flags = 7 }
+[06:13:02.232206198] (+0.000000291) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.232206448] (+0.000000250) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 135168, len = 4096, advice = 4 }
+[06:13:02.232207407] (+0.000000959) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 135168, len = 4096, advice = 4 }
+[06:13:02.232207740] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.232207990] (+0.000000250) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.232208323] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.232233031] (+0.000024708) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.232233281] (+0.000000250) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.232233406] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.232233573] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.232233698] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.232233823] (+0.000000125) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.232233948] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.232234114] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.232234239] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.232234489] (+0.000000250) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481837568, count = 4096 }
+[06:13:02.232236239] (+0.000001750) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.232236447] (+0.000000208) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 143360, nbytes = 4096, flags = 2 }
+[06:13:02.232244864] (+0.000008417) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.232245322] (+0.000000458) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 139264, nbytes = 4096, flags = 7 }
+[06:13:02.232245572] (+0.000000250) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.232245822] (+0.000000250) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 139264, len = 4096, advice = 4 }
+[06:13:02.232246697] (+0.000000875) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 139264, len = 4096, advice = 4 }
+[06:13:02.232247031] (+0.000000334) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.232247281] (+0.000000250) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.232247655] (+0.000000374) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62981, arg = 275115481893672 }
+[06:13:02.232273030] (+0.000025375) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
+[06:13:02.232273321] (+0.000000291) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070919, arg = 275115444656752 }
+[06:13:02.232273488] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656752 }
+[06:13:02.232273655] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070920, arg = 275115444656760 }
+[06:13:02.232273821] (+0.000000166) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656760 }
+[06:13:02.232273988] (+0.000000167) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070925, arg = 275115444656768 }
+[06:13:02.232274155] (+0.000000167) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656768 }
+[06:13:02.232274321] (+0.000000166) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 2148070923, arg = 275115444656688 }
+[06:13:02.232274446] (+0.000000125) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115444656688 }
+[06:13:02.232274738] (+0.000000292) mendax syscall_entry_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, buf = 275115481833472, count = 4096 }
+[06:13:02.232276238] (+0.000001500) mendax syscall_exit_write: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 4096 }
+[06:13:02.232276488] (+0.000000250) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 147456, nbytes = 4096, flags = 2 }
+[06:13:02.232284738] (+0.000008250) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.232285154] (+0.000000416) mendax syscall_entry_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 143360, nbytes = 4096, flags = 7 }
+[06:13:02.232285404] (+0.000000250) mendax syscall_exit_sync_file_range: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0 }
+[06:13:02.232285613] (+0.000000209) mendax syscall_entry_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 35, offset = 143360, len = 4096, advice = 4 }
+[06:13:02.232286446] (+0.000000833) mendax syscall_exit_fadvise64_64: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, fd = 35, offset = 143360, len = 4096, advice = 4 }
+[06:13:02.232286779] (+0.000000333) mendax syscall_entry_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { fd = 34, cmd = 62982, arg = 275115481893672 }
+[06:13:02.232286988] (+0.000000209) mendax syscall_exit_ioctl: { cpu_id = 0 }, { procname = "lttng-consumerd", pid = 14323, tid = 14330 }, { ret = 0, arg = 275115481893672 }
